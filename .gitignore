@@ -1,5 +1,6 @@
-# python cache
+# python
 __pycache__/
+venv/
 
 # build output
 build/
