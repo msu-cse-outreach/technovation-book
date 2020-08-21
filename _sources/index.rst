@@ -21,13 +21,10 @@ Congratulations!   If you can see this file you have probably successfully run t
 This is just a sample of what you can do.  The index.rst file is the table of contents for your entire project.  You can put all of your writing in the index, or  you can include additional rst files.  Those files may even be in subdirectories that you can reference using a relative path.
 
 
-::
+.. toctree::
+   :maxdepth: 2
 
-
-   .. toctree::
-      :maxdepth: 2
-
-      some/path/myfile.rst
+   Demos/toctree.rst
 
 
 Section 2: Links
@@ -86,7 +83,8 @@ Section 4: Theme
 
 You can override the style rules in the default theme by adding css rules to a file named **theme-overrides.css** (the filename is important - this will replace an existing file). Make sure the file's directory is part of the ``html_static_path``. You can do so by placing it in a folder **_static**, then modifying ``html_static_path`` in conf.py to include that folder:
 
-.. code:: 
+.. code::
+
     html_static_path =  runestone_static_dirs() + ['_static']
 
 
