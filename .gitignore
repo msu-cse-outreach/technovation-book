@@ -1,0 +1,10 @@
+# python cache
+__pycache__/
+
+# build output
+build/
+build_info
+
+# sphinx output
+sphinx_settings.json
+sphinx-enki-info.txt
