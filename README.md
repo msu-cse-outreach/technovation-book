@@ -18,11 +18,12 @@ these steps:
 
 1. Clone this repository with `git clone https://github.com/andrewmcdonald27/technovation-book.git`.
 
-1. Establish a Python virtual environment by opening a command prompt inside of the `technovation-book`
-folder and running `python -m venv venv`.
+1. Navigate to the newly-created `technovation-book` folder with `cd technovation-book`
+and run `python -m venv venv` (Windows) or `python3 -m venv venv` (Mac)
+to establish a clean Python virtual environment.
 
 1. Activate the Python virtual environment by running `venv/Scripts/activate.bat` (Windows) or
-`source venv\Scripts\activate` (Mac/Linux) in the same command prompt.
+`source venv\bin\activate` (Mac/Linux) in the same command prompt.
 Note that you will need to do this *every time* you
 open a new command prompt, as Python will try to use your global (non-virtual) environment
 by default.

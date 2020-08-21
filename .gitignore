@@ -6,6 +6,3 @@ venv/
 build/
 build_info
 
-# sphinx output
-sphinx_settings.json
-sphinx-enki-info.txt
