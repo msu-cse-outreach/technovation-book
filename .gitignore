@@ -1,4 +1,5 @@
 # python
+.idea/
 __pycache__/
 venv/
 
