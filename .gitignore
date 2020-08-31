@@ -1,10 +1,12 @@
 # python
 .idea/
+.vscode/
 __pycache__/
 venv/
 
 # build output
 build/
+_build/
 build_info
 
 # other
