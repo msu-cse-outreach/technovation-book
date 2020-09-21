@@ -1,11 +1,13 @@
-Session 1 - Introduction
+Week 1 - Introduction
 ==========================
 
 .. toctree::
-   :caption: Section 1 Table of Contents
+   :caption: Week 1 Table of Contents
    :maxdepth: 3
 
+   attendance.rst
    icebreaker.rst
+   icebreaker2.rst
    spotlight.rst
    code-along.rst
    exercises.rst

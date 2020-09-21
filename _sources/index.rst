@@ -1,4 +1,4 @@
-.. image:: ../_static/technovation_logo.png
+.. image:: ../_static/Technovation-yellow-gradient-background.png
     :width: 500
     :align: center
     
@@ -6,11 +6,10 @@
 Technovation
 ==========================================
 
-Welcome to the inaugural Virtual Technovation! 
+Welcome to the inaugural *Virtual Technovation*! 
 
-Although we'd much rather be working with you in person this fall,
-we're thankful to have the opportunity to offer any sort of Technovation at all. Transitioning things from an
-in-person to a virtual format will certainly be an adventure, but we look forward to the ride!
+Transitioning from an in-person to a virtual club will be an adventure.
+Hang tight and enjoy the ride!
 
 
 Table of Contents

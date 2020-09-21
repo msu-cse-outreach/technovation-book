@@ -1,31 +1,36 @@
-Spotlight
+Spotlight: Katie Sydlik-Badgerow
 :::::::::::::::::::::::::::::::::::::::::::
 
-Each week, we'll feature a computer scientist working on real-world problems to highlight the wide
-variety of careers possible in computer science. Our goal is for you to see yourself doing what they do!
 
-Katie Sydlik-Badgerow
-------------------------------------------
+Some Quick Facts
 
-This week, we'd like to introduce Katie Sydlik-Badgerow, a software engineer at Target!
-She'll be joining our Zoom shortly to discuss
+* Graduated from Michigan State University in 2019 with her B.S. in Computer Science and Engineering. 
+* Was the lead mentor of the very first Technovation Club in Fall 2018.
+* Helped lead Spartan Girls Who Code in Spring 2019.
+* Now works at Target.
 
-* why she decided to study computer science
-* what a day in her life as a software engineer looks like
-* what she enjoys about her job, and
-* what she wishes she knew about computer science when she was in your shoes
 
-Katie graduated from Michigan State University in 2019 with her B.S. in Computer Science and Engineering,
-and led the very first session of Technovation in Fall 2018! She also helped lead Spartan Girls Who Code
-during her time on campus, which some of you may have attended.
 
 .. image:: ../../_static/katie.jpg
-    :width: 400px
+    :width: 300px
     :align: center
     :alt: Katie Sydlik-Badgerow's profile picture
 
-Following Katie's introduction, she'll open things up for Q&A---be sure to send your questions in the Zoom chat!
-What are you curious about in the world of computer science? What are you concerned or confused about?
-What do you want to hear more about?
 
-Next, we'll be kicking off today's *code-along*---stay on this page until a mentor lets you know it's time to move on!
+Katie joins us today via Zoom to tell you a little bit about
+
+* Why she chose to study computer science
+* What she enjoys about her job
+* What she wishes she knew when she was in your shoes
+
+
+**Type questions for Katie into the Zoom chat for a short Q&A after her intro.**
+
+
+* What are you curious about in the world of computer science? 
+* What are you concerned or confused about?
+* What do you want to hear more about?
+
+Next, we'll be kicking off today's *code-along*.
+
+**Stay on this page until a mentor says it's time to move on!**
