@@ -1,3 +1,6 @@
+.. image:: ../../_static/Technovation-yellow-gradient-background.png
+    :width: 500
+    :align: center
 
 Attendance
 :::::::::::::::::::::::::::::::::::::::::::

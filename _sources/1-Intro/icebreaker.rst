@@ -1,3 +1,6 @@
+.. image:: ../../_static/Technovation-yellow-gradient-background.png
+    :width: 500
+    :align: center
 
 
 Icebreaker 
@@ -26,11 +29,11 @@ For example, do you . .
 
 * Love music? Find a picture of your favorite album cover or artist.
 
-You can search for images at |googleimages|, if you want. Or use some that are already saved on your computer or in an online album.
+You can search for images at |googleimages|, if you want; or use some that are already saved on your computer or in an online album.
 
 .. |googleimages| raw:: html
 
-   <a href="https://images.google.com" target=_blank>``https://images.google.com``</a>
+   <a href="https://images.google.com" target=_blank>https://images.google.com</a>
 
 
 When we put you into your Zoom breakout room, a Spartan mentor will explain what to do with them.

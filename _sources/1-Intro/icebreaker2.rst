@@ -1,10 +1,14 @@
 
-**Icebreaker (cont.)**
+.. image:: ../../_static/Technovation-yellow-gradient-background.png
+    :width: 500
+    :align: center
 
-.. image:: ../../_static/free-clipart-ice-breaking.png
-     :align: center
-     :width: 150
-     :alt: Image of a broken ice cube (from http://clipart-library.com)
+
+**Icebreaker (cont.)** |brokenice|
+
+.. |brokenice| image:: ../../_static/free-clipart-ice-breaking.png
+                 :width: 150
+                 :alt: Image of a broken ice cube (from http://clipart-library.com)
 
 
 ..
@@ -26,8 +30,8 @@ Other things you might add (time permitting):
 
 When time is up (Julie is done singing), your mentor will give you a few more minutes to browse the pages of others from your breakout room.
 
-Be ready to ask a question or two about some other pages and to respone to 
-questions about yours.
+Be ready to ask a question or two about some other pages and to respond to 
+questions others may ask about yours.
 
 
 .. |jamboard1| raw:: html

@@ -1,31 +1,77 @@
-Code Along
+.. image:: ../../_static/Technovation-yellow-gradient-background.png
+    :width: 500
+    :align: center
+    :alt: Technovation logo
+
+
+Learning to Code
 :::::::::::::::::::::::::::::::::::::::::::
 
-We know how boring online classes are when the teacher shares their screen and walks through a PowerPoint---after all,
-we're students ourselves! Rather than bore you with a formal lecture, we're going to make
-Virtual Technovation interactive. This page *is* today's lesson---we'll work through the definitions, explanations,
-examples and exercises together!
-
-What is Programming?
+Why learn Coding?
 ---------------------
 
-**Programming** is the process of writing computer **programs**, which are nothing more than
-*a set of instructions which tell a computer how to accomplish a task.* In this sense,
-programming isn't all that different from dog training---just as you would show your dog a set
-of gestures to teach it a new trick, you can write a program to teach a computer a new trick!
+.. image:: ../../_static/computerScienceClipartKeyDOTcom_3061179.png
+    :width: 400
+    :align: center
+    :alt: image of children and benefits of learning to code (ClipartKey.com 3061179)
 
-A programming **language** is nothing more than the words and phrases you use to write a computer
-program. Just as we can say "Hola, me llamo Andrew" in Spanish to mean the same thing as "Hello, my name is Andrew"
-in English, we can give computers instructions in different languages. In Technovation, we'll be
-learning the programming language Python.
+* Develop critical thinking skills
 
-To recap:
+* Learn how to *create* --- not just use --- technology
 
-    **Programming**: the process of writing computer programs
+* Fuel innovation and discovery in *all* disciplines 
 
-    **Program**: a set of instructions which tell a computer how to accomplish a task
+Terminology
+---------------------
 
-    **Programming Language**: the specific words and phrases used to write a program
+*Code* refers to a list of intructions which a computer can follow to complete some job.
+
+Code is commonly also called a *program*. 
+
+*Coding* is the process of writing a program (code).
+
+A computer *executes* a program to complete the job described by the program.
+
+A *programming language* gives the words and the rules to use for writing a program.
+
+
+
+The distinctions between these terms can be illustrated by analogy. What do you think?
+
+.. image:: ../../_static/cooking-clipart-libraryDOTcomClipart26transparent.png
+    :width: 300
+    :align: center
+    :alt: image of teens following a recipe (clipart-library.com/clipart/26)
+
+.. dragndrop:: dnd-terminology-recipe
+    :match_1: Rules for writing down recipes|||Programming language
+    :match_2: A pizza recipe|||A program (code)
+    :match_3: Cooking a cheese pizza|||Executing the program
+    :match_4: Writing down the recipe for your favorite pizza|||Programming (coding)
+
+    Drag the phrase on the left to the coding concept it is most analogous to.
+
+
+.. image:: ../../_static/teachingDogTricksCoolCLIPS_vc016297.png
+    :width: 300
+    :align: center
+    :alt: clipart of dog pondering an equation involving bones (CoolCLIPS_vc016297)
+
+
+.. dragndrop:: dnd-terminology-pet-tricks
+    :match_1: The gestures and sounds that your dog understands the meaning of|||Programming language
+    :match_2: A series of gestures and sounds that you can give your dog to get it to perform a stupid pet trick|||A program (code)
+    :match_3: Commanding your dog to perform a stupid pet trick|||Executing the program
+    :match_4: Writing an email message telling a friend how to get your dog to perform a stupid pet trick|||Programming (coding)
+
+    Drag the phrase on the left to the coding concept it is most analogous to.
+
+
+.. image:: ../../_static/teachingDogTricksClipartsDOTzoneClipart675010.png
+    :width: 300
+    :align: center
+    :alt: image of a trainer trying to get a dog to jump through a hoop (Cliparts.zone/clipart/675010)
+
 
 
 Tracy the Turtle

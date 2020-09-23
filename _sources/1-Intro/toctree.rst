@@ -1,3 +1,7 @@
+.. image:: ../../_static/Technovation-yellow-gradient-background.png
+    :width: 500
+    :align: center
+
 Week 1 - Introduction
 ==========================
 
