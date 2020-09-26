@@ -95,6 +95,8 @@ For example, the code in the box below instructs the ``turtle`` to draw a square
     To run the code, press the green "Run" button. The result will be shown below this *Active Code* window. So you may need
     to scroll the browser window up to see it.
     ~~~~
+    # a square with side-length 100 pixels
+
     import turtle
 
     turtle.forward(100)
@@ -113,6 +115,11 @@ For example, the code in the box below instructs the ``turtle`` to draw a square
     :showtitle: Show a line-by-line explanation of this code
     :hidetitle: Hide the line-by-line explanation
 
+    ``# a square with side-length 100 pixels``
+
+        Lines that start with ``#`` are *comments*. The ``turtle`` ignores all comments.
+        Comments help someone reading the code understand what the code does.
+
     ``import turtle``
 
         *Import* the code from the ``turtle`` module, 
@@ -121,17 +128,31 @@ For example, the code in the box below instructs the ``turtle`` to draw a square
 
     ``turtle.forward(100)``
 
-        Move the ``turtle`` forward (i.e., in the direction of the arrow) by 100 pixels
+        Move the ``turtle`` forward (i.e., in the direction of the arrow) by 100 pixels.
+
+        The number in the parenthesis is called an *argument* or, more informally, an *input* to the command.
 
     ``turtle.left(90)``
 
-        Rotate the ``turtle`` towards the left (i.e., counter-clockwise) by 90 degrees
+        Rotate the ``turtle`` towards the left (i.e., counter-clockwise) by 90 degrees.
+
+        The number in the parenthesis is called an *argument* or, more informally, an *input* to the command.
     
     Repeat last two instructions three more times.   
 
 
-What happens when you modify these instructions by changing the numbers in the 
-parenthesis? Give it a shot!
+.. shortanswer:: sa-turtle-forward
+   :optional:
+
+   What happens if you change the inputs to the ``forward`` commands 
+   (i.e. the numbers in the parentheses after the command names)?
+
+.. shortanswer:: sa-turtle-lef
+   :optional:
+
+   What happens if you change the inputs to the ``left`` commands
+   (i.e. the numbers in the parentheses after the command names)?
+
 
 Code-Along
 -------------------
@@ -186,6 +207,7 @@ Following are some that will be useful in the remaining exercises for this week.
 
 See if you can guess what each command does before revealing our explanation.
 
+
 ``turtle.up()``
 
 .. reveal:: re-turtle-up
@@ -196,8 +218,8 @@ See if you can guess what each command does before revealing our explanation.
 
     Why the name ``up``? 
     Think of attaching a felt-tip marker or a paint brush to the tail of the ``turtle`` so that,
-    when its tail is up, it moves without making any mark and, when its tail is down, it makes a solid line
-    as it moves. 
+    when its tail is up, it moves without making any mark and, when its tail is down, 
+    it makes a solid line as it moves. 
 
     By convention, the ``turtle`` starts out with its tail down.
 
@@ -298,12 +320,12 @@ including all of the commands that the ``turtle`` understands, |here|.
 
 
 
-With these small number of commands, we can command the ``turtle``
-to draw a lot more interesting diagrams than just shapes.
+With these commands, we can command the ``turtle``
+to draw more interesting diagrams.
 
-For example, here's a program that starts drawing a snowman. 
+For example, here's a program that draws a six-pointed star in blue and green. 
 
-.. activecode:: turtle_snowman_start
+.. activecode:: turtle_6_point_star
     :language: python
     :nocodelens:
 
@@ -311,22 +333,34 @@ For example, here's a program that starts drawing a snowman.
     ~~~~
     import turtle
 
-    # draw the bottom snowball
-    turtle.up()
-    turtle.goto(0, -175)
-    turtle.down()
-    turtle.circle(75)
+    import turtle
 
-    # draw the middle snowball
+    # draw the base triangle in green
     turtle.up()
-    turtle.goto(0,-25)
+    turtle.goto(-100, -50)
+    turtle.color("green")
     turtle.down()
-    turtle.circle(50)
+    turtle.forward(200)
+    turtle.left(120)
+    turtle.forward(200)
+    turtle.left(120)
+    turtle.forward(200)
+    turtle.left(120)
 
-    #draw the top snowball
+    # draw a rotated triangle in blue
     turtle.up()
-    turtle.goto(0,75)
+    # eye ball how far down to go 
+    turtle.goto(0, -110)
+    turtle.left(60)
+    turtle.color("blue")
     turtle.down()
-    turtle.circle(35)
+    turtle.forward(200)
+    turtle.left(120)
+    turtle.forward(200)
+    turtle.left(120)
+    turtle.forward(200)
+    turtle.left(120)
 
-Now try your hand at adding a hat and some features to the snowman. 
+
+
+
