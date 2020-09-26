@@ -144,14 +144,14 @@ For example, the code in the box below instructs the ``turtle`` to draw a square
 .. shortanswer:: sa-turtle-forward
    :optional:
 
-   What happens if you change the inputs to the ``forward`` commands 
-   (i.e. the numbers in the parentheses after the command names)?
+   What happens if you change the inputs to the ``turtle.forward(100)`` commands 
+   (i.e. the numbers in the parentheses after the command names)? (Hint: Try it!)
 
 .. shortanswer:: sa-turtle-lef
    :optional:
 
-   What happens if you change the inputs to the ``left`` commands
-   (i.e. the numbers in the parentheses after the command names)?
+   What happens if you change the inputs to the ``turtle.left(120)`` commands
+   (i.e. the numbers in the parentheses after the command names)? (Hint: Try it!)
 
 
 Code-Along
@@ -333,8 +333,6 @@ For example, here's a program that draws a six-pointed star in blue and green.
     ~~~~
     import turtle
 
-    import turtle
-
     # draw the base triangle in green
     turtle.up()
     turtle.goto(-100, -50)
@@ -362,5 +360,59 @@ For example, here's a program that draws a six-pointed star in blue and green.
     turtle.left(120)
 
 
+The ``turtle`` runs the commands in your code exactly as you have
+written them and in the exact order (maybe not true of your dog).
 
+Sometimes the order doesn't matter and sometimes it is crucial. 
 
+.. shortanswer:: sa-turtle-order1
+   :optional:
+
+   What happens if you reverse the order of the ``turtle.up()`` and the 
+   ``turtle.goto(-100, -50)`` commands?
+
+.. shortanswer:: sa-turtle-order2
+   :optional:
+
+   What happens if you reverse the order of the ``turtle.down()`` and the 
+   ``turtle.forward(200)`` commands?
+
+.. image:: ../../_static/circles.png
+   :width: 250
+   :align: center
+
+.. parsonsprob:: pa-turtle-circles
+   :adaptive:
+   
+   Arrange the commands below into a program that draws a diagram
+   like that shown above. (Drop them into the yellow rectangular region.)
+   -----
+   import turtle
+
+   =====
+   turtle.up()
+   =====
+   turtle.goto(0, -75)   
+   turtle.color("purple")
+   =====
+   turtle.down()
+   =====
+   turtle.circle(75)
+   =====
+   turtle.up()
+   =====
+   turtle.goto(0, -50)
+   turtle.color("red")
+   =====
+   turtle.down()
+   =====
+   turtle.circle(50)
+   =====
+   turtle.up()
+   =====
+   turtle.goto(0, -25)
+   turtle.color("blue")
+   =====
+   turtle.down()
+   =====
+   turtle.circle(25)
