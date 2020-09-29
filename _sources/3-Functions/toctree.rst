@@ -1,12 +1,13 @@
 .. image:: ../../_static/Technovation-yellow-gradient-background.png
     :width: 500
     :align: center
+    :alt: Technovation logo
 
-Week 2 - Loops
+Week 3 - Functions
 ==========================
 
 .. toctree::
-   :caption: Week 2 Table of Contents
+   :caption: Week 3 Table of Contents
    :maxdepth: 3
 
    attendance.rst

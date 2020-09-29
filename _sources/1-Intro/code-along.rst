@@ -144,14 +144,14 @@ For example, the code in the box below instructs the ``turtle`` to draw a square
 .. shortanswer:: sa-turtle-forward
    :optional:
 
-   What happens if you change the inputs to the ``turtle.forward(100)`` commands 
-   (i.e. the numbers in the parentheses after the command names)? (Hint: Try it!)
+   What happens if you change the input to one or more of the ``turtle.forward(100)`` commands 
+   (i.e. you replace the ``100``  with a different number)? (Hint: Try it!)
 
-.. shortanswer:: sa-turtle-lef
+.. shortanswer:: sa-turtle-left
    :optional:
 
-   What happens if you change the inputs to the ``turtle.left(120)`` commands
-   (i.e. the numbers in the parentheses after the command names)? (Hint: Try it!)
+   What happens if you change the input to one or more of the ``turtle.left(120)`` commands
+   (i.e. you replace the ``90`` with a different number)? (Hint: Try it!)
 
 
 Code-Along
@@ -176,13 +176,13 @@ instruct the ``turtle`` to draw an equilateral triangle instead of a square:
     :language: python
     :nocodelens:
 
-    Write a program to instruct the ``turtle`` to draw a triangle.
+    Write a program to instruct the ``turtle`` to draw an equilateral triangle like the one shown above.
     ~~~~
-    # instruct turtle to draw an equilateral triangle like that shown above
+    # instruct turtle to draw an equilateral triangle 
    
     # your code here
 
-That wasn't so bad, was it?
+It's logical, right?
 
 Now try your hand at writing a program to draw a hexagon:
 
@@ -287,7 +287,7 @@ See if you can guess what each command does before revealing our explanation.
     
     (For simplcity, we use ``X`` and ``Y`` in these explanations to represent decimal numbers.)
 
-``turtle.color(S)``
+``turtle.color(C)``
 
 .. reveal:: re-turtle-color
     :showtitle: Show our explanation
@@ -297,7 +297,7 @@ See if you can guess what each command does before revealing our explanation.
 
     (For simplicity, we use ``C`` in these explanations to represent a color name.
     You can find the color names that ``turtle`` knows at |trinket|.
-    They must be enclosed in either single or double quotes, i.e., ``"red"`` or ``'green'``.)
+    The names must be enclosed in either single or double quotes, e.g., ``"red"`` or ``'green'``.
 
 .. |trinket| raw:: html
 
@@ -317,11 +317,45 @@ including all of the commands that the ``turtle`` understands, |here|.
 
      <a href="https://docs.python.org/3.7/library/turtle.html#module-turtle" target="_blank">here</a>
 
+.. reveal:: re-turtle-state
+    :showtitle: Show Pro tip
+    :hidetitle: Hide Pro tip
 
+    A Python Graphics ``turtle`` is an example of what computer scientists call a *data object*.
+    A data object is a computer representation of an *abstraction*---something 
+    tangible in the problem domain---such as a turtle that understands drawing commands |greensmile|.
 
+    .. |greensmile| image:: ../../_static/green-smiley-face-clip-art-emotions-green-smiley-face-md.png
+       :width: 15
 
-With these commands, we can command the ``turtle``
-to draw more interesting diagrams.
+    An important property of a data object is that it has a *state*, which affects what it does when
+    you give it a command. 
+    For example, the state of a ``turtle`` determines whether it will draw a
+    line when it moves or not. 
+    Before any ``turtle.up()`` commands, a ``turtle.forward(100)`` command both draws a line
+    and changes the position of the ``turtle``;
+    but after a ``turtle.up()`` command, a ``turtle.forward(100)`` command only changes the ``turtle``'s
+    position (where it will start from on the next command).
+
+    Computer scientists refer to commands, like ``turtle.up()`` and ``turtle.down()``, that change
+    the state of the data object they are applied to (in the examples, the ``turtle``) as
+    having *side effects*. 
+
+    .. clickablearea:: cli-state
+       :question: Click on the commands that you think may have a side-effect on ``turtle``
+       :table:
+       :correct: 1,1;1,2;2,1;2,2;3,1
+       :incorrect: 3,2
+
+       +-----------------------+---------------------+
+       |   turtle.forward(45)  | turtle.backward(90) | 
+       +-----------------------+---------------------+
+       |    turtle.left(30)    |   turtle.right(90)  |
+       +-----------------------+---------------------+
+       |  turtle.color("red")  |  turtle.circle(75)  |
+       +-----------------------+---------------------+
+
+With these commands, we can instruct the ``turtle`` to draw more interesting diagrams.
 
 For example, here's a program that draws a six-pointed star in blue and green. 
 
@@ -361,7 +395,7 @@ For example, here's a program that draws a six-pointed star in blue and green.
 
 
 The ``turtle`` runs the commands in your code exactly as you have
-written them and in the exact order (maybe not true of your dog).
+written them and in the exact order (maybe your dog is not as obedient).
 
 Sometimes the order doesn't matter and sometimes it is crucial. 
 
@@ -369,13 +403,13 @@ Sometimes the order doesn't matter and sometimes it is crucial.
    :optional:
 
    What happens if you reverse the order of the ``turtle.up()`` and the 
-   ``turtle.goto(-100, -50)`` commands?
+   ``turtle.goto(-100, -50)`` commands? (Hint: Try it.)
 
 .. shortanswer:: sa-turtle-order2
    :optional:
 
    What happens if you reverse the order of the ``turtle.down()`` and the 
-   ``turtle.forward(200)`` commands?
+   ``turtle.forward(200)`` commands?  (Hint: Try it.)
 
 .. image:: ../../_static/circles.png
    :width: 250
@@ -416,3 +450,5 @@ Sometimes the order doesn't matter and sometimes it is crucial.
    turtle.down()
    =====
    turtle.circle(25)
+
+

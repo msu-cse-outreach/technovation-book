@@ -1,11 +1,10 @@
 .. image:: ../../_static/Technovation-yellow-gradient-background.png
     :width: 500
     :align: center
-    :alt: Technovation logo
 
-
-Reflection
+Attendance
 :::::::::::::::::::::::::::::::::::::::::::
 
-We'll add a standup activity here shortly!
--The Technovation Team
+We will add an attendance sheet here soon.
+
+To proceed to the next Runestone page, click on the arrow (``>``) on right.
