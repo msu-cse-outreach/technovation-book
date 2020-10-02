@@ -92,8 +92,8 @@ For example, the code in the box below instructs the ``turtle`` to draw a square
     :language: python
     :nocodelens:
 
-    To run the code, press the green "Run" button. The result will be shown below this *Active Code* window. So you may need
-    to scroll the browser window up to see it.
+    To run the code, press the green ``Run`` button. The result will be shown below this *Active Code* box. So you may need
+    to scroll the browser view up to see it.
     ~~~~
     # a square with side-length 100 pixels
 
@@ -145,13 +145,21 @@ For example, the code in the box below instructs the ``turtle`` to draw a square
    :optional:
 
    What happens if you change the input to one or more of the ``turtle.forward(100)`` commands 
-   (i.e. you replace the ``100``  with a different number)? (Hint: Try it!)
+   (i.e. you replace the ``100``  with a different number)? (Hint: Try it -- replace one or more of them
+   and then run the program again!)
 
 .. shortanswer:: sa-turtle-left
    :optional:
 
-   What happens if you change the input to one or more of the ``turtle.left(120)`` commands
+   What happens if you change the input to one or more of the ``turtle.left(90)`` commands
    (i.e. you replace the ``90`` with a different number)? (Hint: Try it!)
+
+.. shortanswer:: sa-history
+   :optional:
+
+   If you haven't changed the inputs and run the program several times, do that now.
+   After changing and running the code in an Active Code box, what does the
+   *slider* next to the ``Run`` button let you do?
 
 
 Code-Along
@@ -161,8 +169,9 @@ A *code-along* is when an instructor thinks out-loud in order to illustrate how 
 create code to solve some problem. 
 But instead of just listening and watching, 
 you copy what they are writing into an Active Code window in your own book, so you
-can experiment with running the code and your will have a copy of the working program when
-it's done. 
+can experiment with running the code and you will have a copy of the working program 
+in your own book when
+it's completed. 
 
 The challenge for our first code-along is to
 instruct the ``turtle`` to draw an equilateral triangle instead of a square: 
@@ -214,7 +223,7 @@ See if you can guess what each command does before revealing our explanation.
     :showtitle: Show our explanation
     :hidetitle: Hide the explanation
 
-    Commands ``turtle`` to stop drawing as it moves.
+    Commands the ``turtle`` to stop drawing as it moves.
 
     Why the name ``up``? 
     Think of attaching a felt-tip marker or a paint brush to the tail of the ``turtle`` so that,
@@ -280,7 +289,7 @@ See if you can guess what each command does before revealing our explanation.
     :showtitle: Show our explanation
     :hidetitle: Hide the explanation
 
-    Commands the ``turtle`` go straight to the position with *coordinates* ``(X, Y)`` on the screen.
+    Commands the ``turtle`` to go straight to the position with *coordinates* ``(X, Y)`` on the screen.
 
     By convention, positions are indicated using a Cartesian coordinate system with the center
     of the screen at the origin (i.e., position ``(0, 0)``) and units measured in pixels.
@@ -296,7 +305,7 @@ See if you can guess what each command does before revealing our explanation.
     Commands the ``turtle`` to use the color ``C`` for drawing lines. 
 
     (For simplicity, we use ``C`` in these explanations to represent a color name.
-    You can find the color names that ``turtle`` knows at |trinket|.
+    You can find some of the color names that ``turtle`` knows at |trinket|.
     The names must be enclosed in either single or double quotes, e.g., ``"red"`` or ``'green'``.
 
 .. |trinket| raw:: html
@@ -338,11 +347,12 @@ including all of the commands that the ``turtle`` understands, |here|.
     position (where it will start from on the next command).
 
     Computer scientists refer to commands, like ``turtle.up()`` and ``turtle.down()``, that change
-    the state of the data object they are applied to (in the examples, the ``turtle``) as
+    the state of the data object they are applied to (in the examples, the commands are 
+    applied to the ``turtle``) as
     having *side effects*. 
 
     .. clickablearea:: cli-state
-       :question: Click on the commands that you think may have a side-effect on ``turtle``
+       :question: Click on the commands that you think may have a side-effect (change the state of the turtle).
        :table:
        :correct: 1,1;1,2;2,1;2,2;3,1
        :incorrect: 3,2
@@ -395,7 +405,7 @@ For example, here's a program that draws a six-pointed star in blue and green.
 
 
 The ``turtle`` runs the commands in your code exactly as you have
-written them and in the exact order (maybe your dog is not as obedient).
+written them and in the exact order (your dog probably is not as obedient!).
 
 Sometimes the order doesn't matter and sometimes it is crucial. 
 

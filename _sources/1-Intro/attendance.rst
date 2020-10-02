@@ -12,4 +12,10 @@ Attendance
     </div>
 
 
+Virtual Technovation Pre-Survey
+::::::::::::::::::::::::::::::::::::::::::::::
+
+WE NEED TO CREATE AND ADD THE PRE-SURVEY HERE
+
+
 To proceed to the next Runestone page, click on the arrow (``>``) on right.

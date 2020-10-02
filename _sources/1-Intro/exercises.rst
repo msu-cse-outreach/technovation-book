@@ -32,10 +32,10 @@ Square Spiral
 
 .. image:: ../../_static/square-spiral.png
     :width:300
-    :alt: Image of a spiralling square drawn using Python Tutor
+    :alt: Image of a spiralling square drawn using Python Turtle
 
 
-.. activecode:: turtle_square-spiral
+.. activecode:: turtle_square_spiral
     :language: python
     :nocodelens:
 
@@ -52,7 +52,7 @@ Five-pointed Star
 
 .. image:: ../../_static/five-pointed-star.png
     :width:300
-    :alt: Image of a 5-pointed star drawn using Python Tutor
+    :alt: Image of a 5-pointed star drawn using Python Turtle
 
 
 .. activecode:: turtle_five_pointed_star
@@ -71,7 +71,7 @@ Nested Squares
 
 .. image:: ../../_static/nested-squares.png
     :width:300
-    :alt: Image of nested squares drawn using Python Tutor, vertices bisect the edges of the enclosing square
+    :alt: Image of nested squares drawn using Python Turtle--vertices bisect the edges of the enclosing square
 
 .. activecode:: turtle_nested_squares
     :language: python
