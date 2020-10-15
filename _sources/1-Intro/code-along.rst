@@ -21,6 +21,16 @@ Why learn Coding?
 
 * Fuel innovation and discovery in *all* disciplines 
 
+
+.. raw:: html
+	 
+    <div align="middle">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/L-TffdDY1RY"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+	picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+  
 Terminology
 ---------------------
 
@@ -28,7 +38,7 @@ Terminology
 
 Code is commonly also called a *program*. 
 
-*Coding* is the process of writing a program (code).
+*Coding* is the process of writing a program.
 
 A computer *runs* a program to complete the job described by the program.
 
