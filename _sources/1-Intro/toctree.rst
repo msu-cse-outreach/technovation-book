@@ -1,4 +1,4 @@
-.. image:: ../../_static/Technovation-yellow-gradient-background.png
+.. image:: ../img/Technovation-yellow-gradient-background.png
     :width: 500
     :align: center
 

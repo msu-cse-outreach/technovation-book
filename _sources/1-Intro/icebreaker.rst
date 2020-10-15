@@ -1,4 +1,4 @@
-.. image:: ../../_static/Technovation-yellow-gradient-background.png
+.. image:: ../img/Technovation-yellow-gradient-background.png
     :width: 500
     :align: center
 
@@ -8,7 +8,7 @@ Icebreaker
 
 Broken ice is much better than solid ice --- just ask the captain of the Titanic!
 
-.. image:: ../../_static/titanic-clipart-library-118580.gif
+.. image:: img/titanic-clipart-library-118580.gif
      :align: center
      :width: 200
      :alt: Image of the Titanic (http://clipart-library.com/clipart/118580.htm)

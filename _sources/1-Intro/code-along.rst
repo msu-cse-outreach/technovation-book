@@ -1,4 +1,4 @@
-.. image:: ../../_static/Technovation-yellow-gradient-background.png
+.. image:: ../img/Technovation-yellow-gradient-background.png
     :width: 500
     :align: center
     :alt: Technovation logo
@@ -10,7 +10,7 @@ Learning to Code
 Why learn Coding?
 ---------------------
 
-.. image:: ../../_static/computerScienceClipartKeyDOTcom_3061179.png
+.. image:: img/computerScienceClipartKeyDOTcom_3061179.png
     :width: 400
     :align: center
     :alt: image of children and benefits of learning to code (ClipartKey.com 3061179)
@@ -48,7 +48,7 @@ A *programming language* gives the words and the rules to use for writing a prog
 
 The distinctions between these terms can be illustrated by analogy. What do you think?
 
-.. image:: ../../_static/cooking-clipart-libraryDOTcomClipart26transparent.png
+.. image:: img/cooking-clipart-libraryDOTcomClipart26transparent.png
     :width: 300
     :align: center
     :alt: image of teens following a recipe (clipart-library.com/clipart/26)
@@ -62,7 +62,7 @@ The distinctions between these terms can be illustrated by analogy. What do you 
     Drag the phrase on the left to the coding concept it is most analogous to.
 
 
-.. image:: ../../_static/teachingDogTricksCoolCLIPS_vc016297.png
+.. image:: img/teachingDogTricksCoolCLIPS_vc016297.png
     :width: 300
     :align: center
     :alt: clipart of dog pondering an equation involving bones (CoolCLIPS_vc016297)
@@ -77,7 +77,7 @@ The distinctions between these terms can be illustrated by analogy. What do you 
     Drag the phrase on the left to the coding concept it is most analogous to.
 
 
-.. image:: ../../_static/teachingDogTricksClipartsDOTzoneClipart675010.png
+.. image:: img/teachingDogTricksClipartsDOTzoneClipart675010.png
     :width: 300
     :align: center
     :alt: image of a trainer trying to get a dog to jump through a hoop (Cliparts.zone/clipart/675010)
@@ -186,7 +186,7 @@ it's completed.
 The challenge for our first code-along is to
 instruct the ``turtle`` to draw an equilateral triangle instead of a square: 
 
-.. image:: ../../_static/equilateral_triangle.png
+.. image:: img/equilateral_triangle.png
     :align: center
     :width: 200
     :alt: Image of an equilateral triangle drawn using Python turtle
@@ -205,7 +205,7 @@ It's logical, right?
 
 Now try your hand at writing a program to draw a hexagon:
 
-.. image:: ../../_static/hexagon100.png
+.. image:: img/hexagon100.png
     :align: center
     :width: 200
     :alt: Image of a hexagon drawn using Python turtle
@@ -344,7 +344,7 @@ including all of the commands that the ``turtle`` understands, |here|.
     A data object is a computer representation of an *abstraction*---something 
     tangible in the problem domain---such as a turtle that understands drawing commands |greensmile|.
 
-    .. |greensmile| image:: ../../_static/green-smiley-face-clip-art-emotions-green-smiley-face-md.png
+    .. |greensmile| image:: img/green-smiley-face-clip-art-emotions-green-smiley-face-md.png
        :width: 15
 
     An important property of a data object is that it has a *state*, which affects what it does when

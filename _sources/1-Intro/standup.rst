@@ -1,4 +1,4 @@
-.. image:: ../../_static/Technovation-yellow-gradient-background.png
+.. image:: ../img/Technovation-yellow-gradient-background.png
     :width: 500
     :align: center
 
@@ -7,7 +7,7 @@ Reflection
 
 Time flies when you're having fun! |time-flies|
 
-.. |time-flies| image:: ../../_static/time-flies-clipart-libraryDOTcom-clipart-1994879.gif
+.. |time-flies| image:: ../img/time-flies-clipart-libraryDOTcom-clipart-1994879.gif
     :width: 100
     :alt: clipart of a clock with wings
 

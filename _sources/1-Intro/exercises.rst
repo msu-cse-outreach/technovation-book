@@ -1,4 +1,4 @@
-.. image:: ../../_static/Technovation-yellow-gradient-background.png
+.. image:: ../img/Technovation-yellow-gradient-background.png
     :width: 500
     :align: center
 
@@ -31,7 +31,7 @@ Pentagon
 Square Spiral
 --------------
 
-.. image:: spiralling-square.png
+.. image:: img/spiralling-square.png
     :width:300
     :alt: Image of a spiralling square drawn using Python Turtle
 
@@ -51,7 +51,7 @@ Square Spiral
 Five-pointed Star
 -------------------
 
-.. image:: ../../_static/five-pointed-star.png
+.. image:: img/five-pointed-star.png
     :width:300
     :alt: Image of a 5-pointed star drawn using Python Turtle
 
@@ -70,9 +70,9 @@ Five-pointed Star
 Nested Squares
 ---------------
 
-.. image:: nested-squares.png
+.. image:: img/nested-squares.png
     :width:300
-    :alt: Image of nested squares drawn using Python Turtle--vertices bisect the edges of the enclosing square
+    :alt: Image of nested squares drawn using Python Turtle--the vertices of each nested square bisect the edges of the immediately enclosing square
 
 .. activecode:: turtle_nested_squares
     :language: python
@@ -94,7 +94,7 @@ Decide the colors for the lines.
 Count off lengths, calculate angles (or measure with a protractor) and coordinates.
 Then begin coding! (Keep it simple or it *will* get tedious. 
 But don't dispair, we'll soon learn
-standard coding "tricks" to simplify drawing of even complex drawings.)
+standard "coding tricks" to simplify drawing of even complex drawings.)
 
 .. activecode:: turtle_create_own
     :language: python

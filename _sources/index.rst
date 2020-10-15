@@ -1,4 +1,4 @@
-.. image:: ../_static/Technovation-yellow-gradient-background.png
+.. image:: img/Technovation-yellow-gradient-background.png
     :width: 500
     :align: center
     
@@ -11,7 +11,7 @@ Welcome to the inaugural *Virtual Technovation*!
 Transitioning from an in-person to a virtual club will be an adventure.
 Hang tight and enjoy the ride! |sledding|
 
-.. |sledding| image:: ../_static/sleddingClipart-libraryDOTcomClipart196301.png
+.. |sledding| image:: img/sleddingClipart-libraryDOTcomClipart196301.png
      :width: 125
 
 
