@@ -22,7 +22,8 @@ Pentagon
     :language: python
     :nocodelens:
 
-    Write a program to instruct the ``turtle`` to draw a regular pentagon. (A regula pentagon has 5 equal-length sides.)
+    Write a program to instruct the ``turtle`` to draw a regular pentagon.
+    (A regular pentagon has 5 equal-length sides.)
     ~~~~
 
     # your code here
@@ -30,7 +31,7 @@ Pentagon
 Square Spiral
 --------------
 
-.. image:: ../../_static/square-spiral.png
+.. image:: spiralling-square.png
     :width:300
     :alt: Image of a spiralling square drawn using Python Tutor
 
@@ -69,7 +70,7 @@ Five-pointed Star
 Nested Squares
 ---------------
 
-.. image:: ../../_static/nested-squares.png
+.. image:: nested-squares.png
     :width:300
     :alt: Image of nested squares drawn using Python Tutor, vertices bisect the edges of the enclosing square
 
