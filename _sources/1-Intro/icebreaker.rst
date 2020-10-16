@@ -16,7 +16,7 @@ Broken ice is much better than solid ice --- just ask the captain of the Titanic
 
 Locate up to 3 images that represent something about you. 
 
-They can be anyting, really.
+They can be anything, really.
 For example, do you . . 
 
 * Like sports? Find an image of you or someone else playing one of your favorites.
