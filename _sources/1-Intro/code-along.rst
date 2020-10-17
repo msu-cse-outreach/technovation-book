@@ -431,7 +431,7 @@ Sometimes the order doesn't matter and sometimes it is crucial.
    What happens if you reverse the order of the ``turtle.down()`` and the 
    ``turtle.forward(200)`` commands?  (Hint: Try it.)
 
-.. image:: ../../_static/circles.png
+.. image:: img/circles.png
    :width: 250
    :align: center
 

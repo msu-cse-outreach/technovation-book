@@ -10,6 +10,7 @@ Week 1 - Introduction
    :maxdepth: 3
 
    attendance.rst
+   presurvey.rst
    icebreaker.rst
    icebreaker2.rst
    spotlight.rst
