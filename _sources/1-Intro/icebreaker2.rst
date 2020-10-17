@@ -14,7 +14,7 @@
 ..
 
 
-A Spartan mentor will show you how to find and add things to your page on |jamboard1|. 
+A mentor in your breakout room will assign you a page on our |gettoknowyou|. 
 
 They will then give you 5 minutes to upload your images
 and add at least the following information to your page.
@@ -34,13 +34,12 @@ Be ready to ask a question or two about some other pages and to respond to
 questions others may ask about yours.
 
 
-.. |jamboard1| raw:: html
+.. |gettoknowyou| raw:: html
 
-   <a href="https://jamboard.google.com/d/1cr0mW3ut6Cy_MyHir1sGkzbgwklWmNMnzJ6Z-ymwgks/edit?usp=sharing" target="_blank">Today's Jamboard</a>
+   <a href="https://docs.google.com/presentation/d/1WXLw4eFMFGSFvPCMxidBZLtd-t-x-oCDwNADeeI4m-8/edit?usp=sharing" target="_blank">Getting To Know You Presentation</a>
 
 
 ..
-
 
 **Stay on this Runstone page until you are invited to return to the main Zoom room.**
 
