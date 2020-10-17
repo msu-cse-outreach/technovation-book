@@ -6,7 +6,7 @@
 
 **Icebreaker (cont.)** |brokenice|
 
-.. |brokenice| image:: img/_static/free-clipart-ice-breaking.png
+.. |brokenice| image:: img/free-clipart-ice-breaking.png
                  :width: 150
                  :alt: Image of a broken ice cube (from http://clipart-library.com)
 
