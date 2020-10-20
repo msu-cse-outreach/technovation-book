@@ -1,18 +1,18 @@
-.. image:: ../../_static/Technovation-yellow-gradient-background.png
+.. image:: ../img/Technovation-yellow-gradient-background.png
     :width: 500
     :align: center
 
 
-Spotlight: Katie Sydlik-Badgerow
+Spotlight: Devan Sayles
 :::::::::::::::::::::::::::::::::::::::::::
 
 
-Some Quick Facts About Katie:
+Some Quick Facts About Devan:
 
-* Received her B.S. in |computerscience| from |michiganstateuniversity| in 2019. 
+* Received her B.S. in |computerscience| from |michiganstateuniversity| in ?. 
 * Was the lead mentor of the very first Technovation Club in Fall 2018.
-* Helped lead |spartangwc| in Spring 2019.
-* Now works at |target|.
+* ?
+* Now works at |gmills|.
 
 
 .. |computerscience| raw:: html
@@ -24,9 +24,9 @@ Some Quick Facts About Katie:
     <a href="https://www.msu.edu" target="_blank">Michigan State University</a>
 
 
-.. |target| raw:: html
+.. |gmills| raw:: html
 
-    <a href="https://www.target.com/" target="_blank">Target</a>
+    <a href="https://www.generalmills.com/" target="_blank">General Mills</a>
 
 
 .. |spartangwc| raw:: html
@@ -34,20 +34,20 @@ Some Quick Facts About Katie:
     <a href="http://www.spartangwc.org/" target="_blank">Spartan Girls Who Code</a>
 
 
-.. image:: ../../_static/katie.jpg
+.. image:: img/devan.jpg
     :width: 300px
     :align: center
-    :alt: Katie Sydlik-Badgerow's profile picture
+    :alt: Devan Sayle's profile picture
 
 
-Katie joins us today via Zoom to tell you a little bit about
+Devan joins us today via Zoom to tell you a little bit about
 
 * Why she chose to study computer science
 * What she enjoys about her job
 * What she wishes she knew when she was in your shoes
 
 
-**Type your questions for Katie into the Zoom chat for a short Q&A after her intro.**
+**Type your questions for Devan into the Zoom chat for a short Q&A after her intro.**
 
 
 * What are you curious about in the world of computer science? 
