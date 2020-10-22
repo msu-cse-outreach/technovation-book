@@ -3,7 +3,7 @@
     :align: center
     :alt: Technovation logo
 
-Week 4 - Variables and User Input
+User Input
 ==================================
 
 .. toctree::

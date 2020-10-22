@@ -1,9 +1,13 @@
 .. image:: ../img/Technovation-yellow-gradient-background.png
-    :width: 500
+    :width: 600
     :align: center
 
-Week 2 - Loops
-==========================
+Variables, Assignment & Loops
+========================================
+
+.. image:: img/dancin-skeletons-clipart-libraryDOTcomClipart-8i6oLk4KT.jpg
+    :width: 400
+    :align: center
 
 .. toctree::
    :caption: Week 2 Table of Contents

@@ -2,7 +2,7 @@
     :width: 500
     :align: center
 
-Week 1 - Introduction
+Introduction
 ==========================
 
 .. toctree::

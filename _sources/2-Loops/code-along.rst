@@ -67,8 +67,7 @@ you how the values of variables change.
 
 
 .. codelens:: circle_calculations
-   :question: Press ``next`` to step through the program. Go slowly, and notice the  
-
+   
    # Calculate the diameter, circumference and area of
    # a circle of radius 50
    
@@ -81,7 +80,7 @@ you how the values of variables change.
 
 
 There is a lot more to learn about variables and assignment to become expert
-in Python programmer.
+in programming.
 Mike's "Data Types and Variables" rap touches on the very important notion of
 the *data type* of an object.
 
@@ -106,7 +105,31 @@ Loops
 Do you ever get tired of repeating the same instructions over and over and over and over and over and ... over again? Or, after too many repetitions, do you start making mistakes?
 
 One good thing about computers is that they don't! 
-*Loops* are instructions that tell 
+*Loops* are instructions that tell the interpreter to repeat a
+section of code as many times as needed.
+Python has two kinds of loop instructions--``for`` loops and ``while`` loops.
+
+``for`` **loop** --
+
+Recall the example program from last week to draw a square?
+A skeleton versed in Python will think to itself...
+
+.. image:: img/talkingSkeleton.png
+   :alt: A skeleton saying "By golly… must be a new coder… somebody's got to teach ‘em about LOOPS!"
+   :align: center
+   :width: 300
+
+Why? 
+Because the code we wrote repeats the same two instructions four
+times in a row.
+A ``for`` loop is meant for such situations.
+
+
+
+If you can figure out the number of times the interpreter
+should repeat some code before starting a loop.
+
+
 
 
 

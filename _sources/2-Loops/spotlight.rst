@@ -1,11 +1,13 @@
 .. image:: ../img/Technovation-yellow-gradient-background.png
-    :width: 600
+    :width: 500
     :align: center
 
 
-Spotlight: Devan Sayles
+Spotlight: Devan Sayles |greenmask|
 :::::::::::::::::::::::::::::::::::::::::::
 
+.. |greenmask| image:: img/green-maskClipartLibraryDOTcomClipart-yTkaAqnTE.png
+    :width: 75
 
 Some Quick Facts About Devan:
 
@@ -34,7 +36,7 @@ Some Quick Facts About Devan:
 
 
 .. image:: img/devan.png
-    :width: 400px
+    :width: 600px
     :align: center
     :alt: Devan Sayle's profile picture
 
