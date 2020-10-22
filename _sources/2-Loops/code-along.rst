@@ -109,10 +109,10 @@ One good thing about computers is that they don't!
 section of code as many times as needed.
 Python has two kinds of loop instructions--``for`` loops and ``while`` loops.
 
-``for`` **loop** --
+**The** ``for`` **loop**:
 
 Recall the example program from last week to draw a square?
-A skeleton versed in Python will think to itself...
+A skeleton versed in Python will mutter to itself...
 
 .. image:: img/talkingSkeleton.png
    :alt: A skeleton saying "By golly… must be a new coder… somebody's got to teach ‘em about LOOPS!"
@@ -122,12 +122,137 @@ A skeleton versed in Python will think to itself...
 Why? 
 Because the code we wrote repeats the same two instructions four
 times in a row.
-A ``for`` loop is meant for such situations.
+A ``for`` loop is meant exactly for such situations.
+
+Our skeleton would write this program as shown below.
+Run this code to see that it draws a square.
+
+.. activecode:: ac-for-loop-square
+    :language: python
+    :nocodelens:
+    
+    # draw a square of a given side length
+    import turtle
+    
+    side_len = 100
+    
+    for i in range(4):
+        turtle.forward(side_len)
+        turtle.left(90)
+
+The moral: If you can figure out the number of times the interpreter
+should repeat some code, then use a ``for`` loop!
+
+The simplest kind of ``for`` loop has the general form:
+
+| ``for var in range(int_exp):``
+|       ``loop_body_code``
+
+where ``var`` stands for a variable, ``int_exp`` stands for an *integer
+expression* (an expression that produces an integer when evaluated), 
+and ``loop_body_code`` stands
+for code that should be executed ``int_exp`` number of times.
+
+Some important terminology and rules:
+
+* The words ``for`` and ``in`` are called *keywords*.
+  We'll learn lots more keywords in the meetings ahead.
+  Never use a keyword for the name of a variable because the interpreter 
+  uses keywords to figure out what kind of instruction you want it to execute.
+  
+* The code ``loop_body_code`` is called the *body* of the loop.
+  It consists of one or more Python instructions.
+  Each instruction in the body *must* be indented and the indentation
+  must be consistent (the same number of spaces) throughout the entire program.
+  The interpreter tells where the body of a loop
+  starts and ends by the indentation.
+
+  
+**Code Along**
+
+.. activecode:: ac-for-loop-triangle
+   :language: python
+   :nocodelens:
+   
+   Replace the last comment with a for-loop that 
+   draws an equilateral triangle (with side-lenth 200 pixels).
+   
+   ~~~~
+   
+   # draw a triangle of side length 200 (pixels)
+   
+   import turtle
+   
+   side_length = 200
+   
+   # replace the comment with a for loop
 
 
+Some more important terminology and rules:
+  
+* The word ``range`` is the name of a Python *standard library function*.
+  We'll learn about functions next week.
+  For now, you just need to know that evaluation of ``range(int_exp)`` 
+  produces a sequence of ``int_exp`` integers.
+  Specifically, it produces the sequence:
+  ``0``, ``1``, ``2``, ... , ``int_exp - 1``.
+  (In computer science, it is convenient to start counting at ``0`` instead
+  of ``1``.)
+  
+* The variable in the first line of a ``for`` loop is called the *loop variable*. 
+  
+* Each execution of the loop body is called an *iteration* of the loop.
+  
+* Just before each loop iteration (execution of the loop body), the
+  interpreter assigns ``var`` a value from ``range(int_exp)``, starting
+  with ``0`` and increasing in order.
+  
+The last of these rules allows the code performed on each iteration of a
+loop to depend on what iteration is being executed.
+The following example illustrates this capability.
 
-If you can figure out the number of times the interpreter
-should repeat some code before starting a loop.
+.. activecode:: ac-bulls-eye
+   :language: python
+   :nocodelens:
+   
+   # "bull's eye" - three concentric cirles spaced 50 pixels apart
+   import turtle
+   
+   spacing = 50
+   
+   for n in range(3):
+   
+       # set the radius for this iteration of the loop
+       radius = (n+1) * spacing
+       
+       # get into position
+       turtle.up()
+       turtle.goto(0, -radius)
+       
+       turtle.down()
+       turtle.circle(radius)
+   
+
+NOTE: THE FOLLOWING IS A SANDBOX I'M USING IN DEVELOPING
+EXERCISES. I'M USING IT TO DEVELOP A PARSONS PROBLEM --
+YOU CAN IGNORE IT. THE RAP IS PROBABLY GOING TO COME OUT, TOO
+
+.. activecode:: ac-stacked-circles
+   :language: python
+   :nocodelens:
+   
+   import turtle
+   
+   small_radius = 25
+   turtle.setposition(0, 4*small_radius)
+   
+   for n in range(3):
+       radius = (n+1) * small_radius
+       turtle.circle(radius)
+
+   
+   
+
 
 
 
