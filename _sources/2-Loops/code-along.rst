@@ -4,11 +4,15 @@
     :alt: Technovation logo
 
 
-Learning to Code
+Learning to Code |pumpkinMask|
 :::::::::::::::::::::::::::::::::::::::::::
 
-Variables and assignment
+Variables and assignment 
 -------------------------------------------
+
+.. |pumpkinMask| image:: img/pumpkin-maskClipartLibraryDOTcomClipart-yTkaAqnTE.png
+   :alt: Pumpkin mask from clipart-library.com
+   :width: 90
 
 A *variable* is a name that you use in your program to stand for a data object. 
 You should choose meaningful names.
@@ -17,8 +21,8 @@ of a circle and ``area`` to stand for its area.
 You use variables in your program to form *expressions*.
 Informally, an expression is just code that an *interpreter* can evaluate to 
 produce a data object.
-For example, if ``radius`` stands for ``50``, then ``2 * radius``
-stands for ``100``, which is the diameter of a circle of radius ``50``.
+For example, if ``radius`` stands for ``50``, then evaluating ``2 * radius``
+produces ``100``--the diameter of a circle of radius ``50``.
 
 
 In Python, a variable name must start with a letter (``a``--``z``, ``A``--``Z``) or
@@ -43,16 +47,16 @@ underscores.
 
 
 
-An *assignment* instruction has the form ``var = expression``
+An *assignment command* has the form ``var = expression``
 where ``var`` stands for a variable name and ``expression`` stands for an expression.
 Executing the assignment makes ``var`` stand for the data object produced
 by evaluating ``expression``.
 After the assignment, ``var`` can be used as a "stand in" for this data object.
-We refer to the data object that a variable stands for more simply as 
-the variable's *value*.
+The data object that a variable stands for is also called the
+*value* of the variable.
 
-A variable is like a *container* (e.g., a desk drawer or a file folder) 
-that can hold just one object and that is labelled by the variable name. 
+A variable is like a label for a *container* (e.g., a file folder) 
+that can hold just one object. 
 In this analogy, an assignment to the variable is like putting something in 
 this container.
 The term "variable" is used because the value can change---since 
@@ -68,21 +72,27 @@ you how the values of variables change.
 
 .. codelens:: circle_calculations
    
-   # Calculate the diameter, circumference and area of
+   # Calculate the diameter,  
+   # circumference and area of
    # a circle of radius 50
    
-   from math import pi      # the constant pi
+   # import pi from the math library
+   from math import pi   
    
    radius = 50
    diameter = 2 * radius
-   circumference = diameter * radius
+   circumference = diameter * pi
    area = 2 * pi * radius * radius
 
 
-There is a lot more to learn about variables and assignment to become expert
-in programming.
-Mike's "Data Types and Variables" rap touches on the very important notion of
-the *data type* of an object.
+
+
+
+You will learn a lot more about variables and assignment on
+your programming journey.
+But for today, we'll let Mike introduce you to one
+other important notion---the *data type* of a value---and go
+on to introducing loops.
 
 .. raw:: html
 
@@ -90,11 +100,13 @@ the *data type* of an object.
       <iframe width="560" height="315" src="https://www.youtube.com/embed/m7szVmMta-o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </div>
 
-But one thing in this rap is different in Python: Unlike most languages, you
-do not say what the type of a data object is in a Python program;
-rather, the interpreter figures out the data type of an object based on how your 
-program creates and uses it.
-We won't go into further details now since we can do a lot with Turtle Graphics
+One thing in this rap is different for Python: 
+In Python, you declare a variable just by assigning a value to it---you don't 
+indicate the datatype.
+Rather, the interpreter figures out the datatype based on how the value is created.
+
+
+We won't go into further details now since we can do a lot in Turtle Graphics
 with just a basic understanding of these notions.
 
 
@@ -161,9 +173,9 @@ Some important terminology and rules:
   uses keywords to figure out what kind of instruction you want it to execute.
   
 * The code ``loop_body_code`` is called the *body* of the loop.
-  It consists of one or more Python instructions.
-  Each instruction in the body *must* be indented and the indentation
-  must be consistent (the same number of spaces) throughout the entire program.
+  It consists of one or more Python commands.
+  Each command in the body *must* be indented 
+  by the same number of spaces.
   The interpreter tells where the body of a loop
   starts and ends by the indentation.
 
@@ -188,9 +200,9 @@ Some important terminology and rules:
    # replace the comment with a for loop
 
 
-Some more important terminology and rules:
+More important terminology and evaluation rules:
   
-* The word ``range`` is the name of a Python *standard library function*.
+* ``range`` is the name of a Python *standard library function*.
   We'll learn about functions next week.
   For now, you just need to know that evaluation of ``range(int_exp)`` 
   produces a sequence of ``int_exp`` integers.
@@ -203,21 +215,22 @@ Some more important terminology and rules:
   
 * Each execution of the loop body is called an *iteration* of the loop.
   
-* Just before each loop iteration (execution of the loop body), the
+* Just before each iteration (execution of the loop body), the
   interpreter assigns ``var`` a value from ``range(int_exp)``, starting
-  with ``0`` and increasing in order.
+  with ``0`` and in increasing order.
   
-The last of these rules allows the code performed on each iteration of a
-loop to depend on what iteration is being executed.
-The following example illustrates this capability.
+The last of these rules allows the commands in the loop body
+to depend on the iteration being executed.
+This next example illustrates this idea.
 
 .. activecode:: ac-bulls-eye
    :language: python
    :nocodelens:
    
-   # "bull's eye" - three concentric cirles spaced 50 pixels apart
+   # draw a "bull's eye" - three concentric cirles
    import turtle
    
+   # the spacing (# of pixels) between circles
    spacing = 50
    
    for n in range(3):
@@ -229,6 +242,7 @@ The following example illustrates this capability.
        turtle.up()
        turtle.goto(0, -radius)
        
+       # draw the circle
        turtle.down()
        turtle.circle(radius)
    
@@ -243,12 +257,8 @@ YOU CAN IGNORE IT. THE RAP IS PROBABLY GOING TO COME OUT, TOO
    
    import turtle
    
-   small_radius = 25
-   turtle.setposition(0, 4*small_radius)
+   turtle.up()
    
-   for n in range(3):
-       radius = (n+1) * small_radius
-       turtle.circle(radius)
 
    
    
