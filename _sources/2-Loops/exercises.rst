@@ -11,20 +11,22 @@ Practice Makes Perfect
    :widths: auto
    :align: left
 
-   ==========================  ========================
+   ==========================  =========================
    Command                     What does it do?
-   ==========================  ========================
+   ==========================  =========================
    ``forward( distance )``     Move forward a specified distance
    ``backward( distance )``    Move backward a specified distance
    ``left(90)``                Turns 90 degrees to the left (you can use any angle, not just 90!)
    ``right(90)``               Turns 90 degrees to the right
    ``circle( radius )``        Draws a circle with the specified radius
-   ``penup()``                 Stop leaving a trail
-   ``pendown()``               Start drawing a trail
+   ``goto( x, y )``            Move straight to the position with coordinates (x, y). *Note: the center is (0, 0)*
+   ``up()``                    Stop leaving a trail
+   ``down()``                  Start drawing a trail
+   ``color( c )``              Set the color to *c* (https://trinket.io/docs/colors)
    ``for i in range( n ):``    Repeat *n* times
-   ==========================  ========================
+   ==========================  =========================
 
-If you don't remember what they do, give them a try below!
+If you don't remember what these commands do, give them a try below!
 
 .. activecode:: command-review-wk2
    :language: python
