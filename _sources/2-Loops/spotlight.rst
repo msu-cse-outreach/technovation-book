@@ -55,5 +55,11 @@ Devan joins us today via Zoom to tell you a little bit about
 * What are you concerned or confused about?
 * What do you want to hear more about?
 
+.. raw:: html
+
+   <div>
+       <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSpFit1Z57qONgp6a3P2_M9vgmy2MPeCQ0yER9X7dFmnMaMqlc3MeORSqcDEAJ1Nw/embed?start=false&loop=true&delayms=60000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+   </div>
+
 
 **Stay on this page until a mentor says it's time to move on!**
