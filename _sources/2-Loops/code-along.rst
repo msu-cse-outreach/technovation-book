@@ -433,7 +433,7 @@ Check your understanding of this example by answering the following.
    executed? |blank|
      
    - :50: Correct! Evaluating ``range(3)`` produces the sequence ``0``, ``1``, ``2``.
-          So ``n`` is assigned ``0`` on the first iteration of the loop. Because
+          So ``0`` is assigned to ``n`` on the first iteration of the loop. Because
           of this and the assignment of ``50`` to ``spacing``, 
           the expression ``(n+1) * spacing``
           evaluates as ``(0+1) * 50``, which produces ``50``.
@@ -446,7 +446,7 @@ Check your understanding of this example by answering the following.
    executed? |blank|
      
    - :100: Correct! Evaluating ``range(3)`` produces the sequence ``0``, ``1``, ``2``.
-           So ``n`` is assigned ``1`` on the second iteration. Because
+           So ``1`` is assigned to ``n`` on the second iteration. Because
            of this and the assignment of ``50`` to ``spacing``, 
            the expression ``(n+1) * spacing``
            evaluates as ``(1+1) * 50``, which produces ``100``.

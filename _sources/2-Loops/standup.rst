@@ -50,3 +50,10 @@ Goodbye!
 
 Thanks for making it a great week! We're already excited for next Saturday---in the meantime, stay healthy and
 stay safe.
+
+And have a ...
+
+.. image:: img/Happy_halloween_clipart-4.png
+    :width: 400
+    :align: center
+    :alt: Happy Halloween clipart from Pinterest
