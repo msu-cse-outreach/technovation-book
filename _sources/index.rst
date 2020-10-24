@@ -38,3 +38,4 @@ Resources
 * `Technovation Homepage <http://technovation.cse.msu.edu/>`_
 * `Python Homepage <http://www.python.org/>`_
 * `Turtle Docs <https://docs.python.org/3/library/turtle.html>`_
+* `Cheat Sheet </cheatsheet.html>`_
