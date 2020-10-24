@@ -9,7 +9,7 @@ Icebreaker
 .. image:: img/pictionary.gif
      :align: center
      :width: 400 
-
+Normally, we leave all of the drawing to the python turtle, but today we're gonna give it a try! 
 This week we'll be putting your artistic skills to the test with
 Virtual Pictionary!
 
@@ -19,12 +19,12 @@ How to play:
 
 * When it's your turn, choose one of 3 words to draw.
 
-* Give the drawing your best shot, and everyone will try to guess what you're drawing.
+* Once you pick a word, you'll have 60 seconds to draw.
+
+* Give the drawing your best shot, and everyone will try to guess what it is.
 
 * If you're not the one drawing, have fun guessing what someone else is drawing.
 
-
-Make sure you're quick! The faster you are the more points you earn!
 
 
 **Stay on this Runestone page until told to proceed.**
