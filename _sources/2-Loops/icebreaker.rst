@@ -9,7 +9,8 @@ Icebreaker
 .. image:: img/pictionary.gif
      :align: center
      :width: 400 
-Normally, we leave all of the drawing to the python turtle, but today we're gonna give it a try! 
+Normally, we leave all of the drawing to the python turtle, but today we're gonna give it a try!
+
 This week we'll be putting your artistic skills to the test with
 Virtual Pictionary!
 
