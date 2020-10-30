@@ -250,7 +250,7 @@ where it says "the sweetener" and tap water where it says "the liquid".
     :nocodelens:
     
     To see how code can be like a recipe, run the program below.
-    Then use it in answering the questions that follow.
+    Then modify it to check out your answers to the questions that follow.
     
     ~~~~
     import turtle
@@ -364,8 +364,8 @@ to draw a colored rectangle and values for the variables are
 like ingredients to use when following the recipe: 
 If you give the interpreter the ingredients to use (values for the variables) and
 tell it what recipe (function) you want it to use,
-the interpreter performs the assignments and then follows the recipe 
-(executes code in the *function body*) to draw a rectangle.
+the interpreter can perform the assignments and then follow the recipe 
+(execute the code) to draw a rectangle.
 
 In Python, you write a *function definition* to teach the interpreter a new command.
 The active code below contains an example of a function definition for a ``draw_rectangle`` 
