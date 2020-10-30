@@ -7,7 +7,8 @@
 Learning to Code: Functions
 :::::::::::::::::::::::::::::::::::::::::::
 
-If needed, you can show summaries of the ``turtle`` commands used in this section below.
+If needed, you can see summaries of the ``turtle`` commands used in this section by
+pressing the button below.
 
 .. reveal:: re-turtle-commands-3-4
     :showtitle: Show a summary of commands
@@ -20,23 +21,15 @@ If needed, you can show summaries of the ``turtle`` commands used in this sectio
         
     ``turtle.speed(S)``
    
-        Set the drawing speed to ``S`` -- a number between 0 (slow) and 10 (fast).
+        Set the drawing speed to ``S``, a number between 0 (slow) and 10 (fast).
         
     ``turtle.color(C)``
    
-        Set the pen color to be ``C`` -- a color string or RGB number.
-        
-    ``turtle.pensize(T)``
-   
-        Set the pen thickness to ``T`` pixels.
-        
+        Set the pen color to be ``C``, a color string.
+                
     ``turtle.hideturtle()``, 
     
         Make the turtle invisible.
-        
-    ``turtle.showturtle()``
-    
-        Make the turtle visible.
         
     ``turtle.begin_fill()``
     
@@ -44,7 +37,7 @@ If needed, you can show summaries of the ``turtle`` commands used in this sectio
     
     ``turtle.end_fill()``
     
-        Fill the shape drawn after the last call to ``begin_fill``.
+        Fill the shape drawn since the last ``begin_fill()`` command.
         
     ``turtle.up()``
    
@@ -57,22 +50,18 @@ If needed, you can show summaries of the ``turtle`` commands used in this sectio
     ``turtle.goto(X, Y)``
     
         Move straight to the pixel with coordinates (``X``, ``Y``).
-
-    ``turtle.forward(N)``
-
-        Move forward ``N`` pixels.
         
-    ``turtle.backward(N)``
-   
-        Move backward ``N`` pixels
+    ``turtle.forward(L)``
+    
+        Move forward (in the direction of travel) by ``L`` pixels
+        
+    ``turtle.left(D)``
+    
+        Rotate left (counter-clockwise) by ``D`` degrees
 
-    ``turtle.left(N)``
-
-        Rotate towards the left (counter-clockwise) by ``N`` degrees.
-
-    ``turtle.right(N)``
-
-        Rotate towards the right (clockwise) by ``N`` degrees.
+    ``turtle.circle(R)``
+    
+        Move in a circle of radius ``R`` pixels, counter-clockwise in the direction of travel
 
 Run the code below to see what it draws.
 
@@ -205,7 +194,7 @@ We counted each square as 10 pixels.
     :alt: Drawing of a house on graph paper
     
 When writing the code, we added a comment at the start of the code that 
-draws the different parts of the house --- frame of the house, door,
+draws the different parts of the house --- the frame, door,
 windows, roof, and door knob ---
 to help us remember how the code works.
 Do you see how the hand-drawn design and
@@ -215,8 +204,10 @@ the sections of code match up?
    :optional: 
    
    Compare the section of code that draws the frame of the house (lines 5--16) 
-   with the section of code that draws the door (lines 19--30). 
+   with the section of code that draws the door (lines 19--30).
    What do you notice about these two sections of code?
+   (Suggestion: Drag the bottom right corner of the code editor window
+   down farther to see more of the program without needing to scroll.)
    
 .. shortanswer:: sa-compare-code-2
    :optional:    
@@ -226,7 +217,7 @@ the sections of code match up?
    of code that draws the top middle window (lines 69--78). 
    What do you notice about these two sections of code?
 
-It might not surprise you that the sections of code are so similar. 
+Maybe you aren't surprised that the sections of code are so similar. 
 The house and the door are both colored rectangles,
 and the two windows are both colored squares,
 so you might expect code to draw them would be almost the same.
@@ -236,7 +227,7 @@ Wouldn't code for drawing this house be much easier to write (and read)
 if there were commands for drawing colored rectangles, squares
 and triangles?
 
-That is where functions come to the rescue: 
+FUNCTIONS TO THE RESCUE: 
 We can create functions to teach the interpreter new commands!
 
 A function is kind of like a recipe.
@@ -247,6 +238,12 @@ You can make cherry jelly from a bushel of cherries, refined sugar and water.
 And you can also make blueberry jelly from a basket of blueberries,
 unrefined sugar, and apple juice.
 And so on.
+
+The recipe just says what you do to "fruit" and "a sweetner" and "the liquid"
+to make fruit jelly. 
+But when you follow the recipe, you use actual fruit that you bought or
+collected where it says "fruit" and the sugar you have on hand
+where it says "the sweetener" and tap water where it says "the liquid". 
 
 .. activecode:: ac-func-warmup
     :language: python
@@ -341,15 +338,85 @@ And so on.
           Don't forget the quotes.
 
  
-So, in a way, the code in lines 9--20 is like a recipe
-for drawing a colored rectangle and the values are 
-like ingredients: 
-If the interpreter is given values to assign to the variables, 
-it can execute the code to draw a 
-rectangle at the starting position and of the dimensions and the color given
-by the values.
+So, in a way, the code
 
-The way you would define the rectangle function in Python
+.. raw:: html
+    
+    <div>
+        <pre>
+    turtle.up()
+    turtle.goto(X, Y)
+    turtle.down()
+
+    turtle.color(C)
+    turtle.begin_fill()
+    for i in range(2):
+        turtle.forward(W)
+        turtle.left(90)
+        turtle.forward(H)
+        turtle.left(90)
+    turtle.end_fill()
+        </pre>
+    </div>
+
+is like a recipe for an interpreter
+to draw a colored rectangle and values for the variables are 
+like ingredients to use when following the recipe: 
+If you give the interpreter the ingredients to use (values for the variables) and
+tell it what recipe (function) you want it to use,
+the interpreter performs the assignments and then follows the recipe 
+(executes code in the *function body*) to draw a rectangle.
+
+In Python, you write a *function definition* to teach the interpreter a new command.
+The active code below contains an example of a function definition for a ``draw_rectangle`` 
+command. 
+
+.. activecode:: ac-draw-rect
+    :language: python
+    :nocodelens:
+    
+    Run this program to define a ``draw_rectangle`` function.
+    
+    ~~~~
+    
+    import turtle
+    
+    def draw_rectangle(X, Y, W, H, C):
+        "draw a rectangle with lower left corner at (X, Y), width W, height H, and color C"
+        
+        turtle.up()
+        turtle.goto(X, Y)
+        turtle.down()
+
+        turtle.color(C)
+        turtle.begin_fill()
+        for i in range(2):
+            turtle.forward(W)
+            turtle.left(90)
+            turtle.forward(H)
+            turtle.left(90)
+        turtle.end_fill()
+        
+It doesn't * *look like* * running the program does anything.
+But it does: Running the program teaches the interpreter a new command, 
+called ``draw_rectangle``. 
+
+To see this, add the following commands starting on line 20 in the code editor.
+Be careful **not** to indent either command.
+They both need to start in the first column.
+
+.. raw:: html
+    
+    <div>
+        <pre>
+    draw_rectangle(-150, -150, 300, 200, "blue")
+    draw_rectangle(-30, -150, 60, 100, "brown")
+        </pre>
+    </div>
+    
+    
+
+   
 
 
 
