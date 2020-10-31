@@ -26,6 +26,11 @@ pressing the button below.
     ``turtle.color(C)``
    
         Set the pen color to be ``C``, a color string (https://trinket.io/docs/colors).
+        
+    ``turtle.setheading(A)``
+    
+        Set the direction of travel to ``A`` degrees (e.g., 0 = east, 90 = north,
+        180 = west, 270 = south).
                 
     ``turtle.hideturtle()``, 
     
