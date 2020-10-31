@@ -233,7 +233,7 @@ A function is kind of like a recipe.
 If you write down a recipe for making jelly from 
 "fruit," "a sweetner," and some sort of "clear liquid,"
 then you can use that recipe to create different kinds of fruit jellies.
-You can make cherry jelly from a bushel of cherries, refined sugar and tap water.
+You can make cherry jelly from a bushel of cherries, refined sugar, and tap water.
 And you can also make blueberry jelly from a basket of blueberries,
 unrefined sugar, and apple juice.
 And so on.
@@ -439,7 +439,7 @@ the coordinates for the vertices of the triangle.
 
 This drawing suggests the code below as a recipe for drawing an
 isosceles triangle.
-Before creating a function from the code, let's test it.
+But before creating a function from the code, let's test it.
 
 .. activecode:: ac-triangle-warmup
     :language: python
@@ -539,8 +539,8 @@ In this example, all the circles are drawn starting at the
 origin and with the same radius; 
 but the direction the turtle is facing is
 different. 
-We use different colors to make it easy to match up the commands
-with the circles.
+We use different colors to make it easier to match up the circles
+with the commands that draw them.
 
 .. activecode:: ac-circle-direction
     :language: python
@@ -559,7 +559,48 @@ with the circles.
     turtle.left(45)
     turtle.circle(50)
     
+
+To simplify drawing circles, we can define a ``draw_circle`` function
+with parameters that stand for the coordinates of the center of the circle, 
+the radius, and the pen color.
+
+.. image:: img/parsons-circles.png
+    :width: 200
+    :align: center
+    :alt: Drawing produced by a Turtle Graphics program
     
+    
+.. parsonsprob:: pp-circles
+    :adaptive:
+    :language: python
+   
+    Use the code blocks on the left to create a program
+    that defines and calls a ``draw_circle`` function to
+    draw the figure above.
+    -----
+    import turtle
+    turtle.speed(10)
+    =====
+    def draw_circle(X, Y, R, C):
+        "draw a circle with center at (X, Y), radius R, and pencolor C"
+    =====
+        turtle.setheading(0)
+        turtle.up()
+    =====
+        turtle.goto(X, Y - R)
+        turtle.color(C)
+    =====
+        turtle.down()
+        turtle.circle(R)
+    =====
+    for i in range(7):
+    =====
+        draw_circle(-150 + i*50, 50, 50, "red")
+        draw_circle(-150 + i*50, 0, 50, "green")
+        draw_circle(-150 + i*50, -50, 50, "blue")
+        
+        
+
  
     
     

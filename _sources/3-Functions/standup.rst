@@ -48,11 +48,13 @@ Let us know what you liked, disliked, or would change.
 Goodbye!
 ---------
 
-Thanks for making it a great week! We're already excited for next Saturday---in the meantime, stay healthy and stay safe.
+Thanks for making it a great week! We're excited for the next half
+of Technovation---stay healthy and stay safe.
 
 And remind your voting-age friends and relations: 
 
 .. image:: img/every-vote-counts-clipart.med.png
     :width: 200
     :align: center
+    :alt: Every Vote Counts Clipart (http://www.clker.com/clipart-746223.html)
 
