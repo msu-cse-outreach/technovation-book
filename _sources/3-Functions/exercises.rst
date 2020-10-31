@@ -38,7 +38,7 @@ Practice Makes Perfect
    ==========================  =========================
    ``begin_fill()``            Starts filling in drawn shapes
    ``end_fill()``              Stops filling in drawn shapes
-   ``speed(number 0-10)``      Determines how quickly Tracy will move through commands
+   ``speed(number 0-10)``      Determines how quickly the turtle will move through commands
    ``def function_name():``    Creates and defines a new function
    ``function_name()``         Calls a function
    ==========================  =========================
@@ -185,7 +185,7 @@ Practice Makes Perfect
        turtle.down()
        turtle.begin_fill()
        for i in range(3):
-           # teach Tracy how to draw a right-side-up triangle!
+           # teach your turtle how to draw a right-side-up triangle!
        turtle.end_fill()
        turtle.up()
    
@@ -195,8 +195,8 @@ Practice Makes Perfect
        turtle.begin_fill()
        # hint: turn 60 before you start looping to make it upside down!
        for i in range(3):
-           # teach Tracy how to draw an upside-down triangle!
-       # hint: turn 60 back the other way to reset Tracy on track!
+           # teach your turtle how to draw an upside-down triangle!
+       # hint: turn 60 back the other way to reset the turtle on track!
        turtle.end_fill()
        turtle.up()
     
@@ -207,7 +207,7 @@ Practice Makes Perfect
    turtle.setposition(-200, 0)
 
    for i in range(6):
-       # tell Tracy to draw a right side up triangles then move forward
-       # tell Tracy to draw an upside-down triangle then move forward
+       # tell the turtle to draw a right side up triangles then move forward
+       # tell the turtle to draw an upside-down triangle then move forward
 
 
