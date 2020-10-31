@@ -25,7 +25,7 @@ pressing the button below.
         
     ``turtle.color(C)``
    
-        Set the pen color to be ``C``, a color string.
+        Set the pen color to be ``C``, a color string (https://trinket.io/docs/colors).
                 
     ``turtle.hideturtle()``, 
     
@@ -194,9 +194,8 @@ We counted each square as 10 pixels.
     :alt: Drawing of a house on graph paper
     
 When writing the code, we added a comment at the start of the code that 
-draws the different parts of the house --- the frame, door,
-windows, roof, and door knob ---
-to help us remember how the code works.
+draws the different parts of the house---a frame, door,
+windows, roof, and door knob---to help us remember how the code works.
 Do you see how the hand-drawn design and
 the sections of code match up?
     
@@ -217,33 +216,31 @@ the sections of code match up?
    of code that draws the top middle window (lines 69--78). 
    What do you notice about these two sections of code?
 
-Maybe you aren't surprised that the sections of code are so similar. 
+Maybe you aren't surprised that these sections of code are so similar. 
 The house and the door are both colored rectangles,
 and the two windows are both colored squares,
-so you might expect code to draw them would be almost the same.
+so you might think the code to draw them would be almost the same.
 
 But this might also make you wonder: 
 Wouldn't code for drawing this house be much easier to write (and read)
-if there were commands for drawing colored rectangles, squares
+if Python had commands for drawing colored rectangles, squares
 and triangles?
 
-FUNCTIONS TO THE RESCUE: 
-We can create functions to teach the interpreter new commands!
+*FUNCTIONS TO THE RESCUE:* 
+You can create functions to teach the interpreter new commands!
 
 A function is kind of like a recipe.
 If you write down a recipe for making jelly from 
-berries, a sweetner and some liquid,
+"fruit," "a sweetner," and some sort of "clear liquid,"
 then you can use that recipe to create different kinds of fruit jellies.
-You can make cherry jelly from a bushel of cherries, refined sugar and water.
+You can make cherry jelly from a bushel of cherries, refined sugar and tap water.
 And you can also make blueberry jelly from a basket of blueberries,
 unrefined sugar, and apple juice.
 And so on.
-
-The recipe just says what you do to "fruit" and "a sweetner" and "the liquid"
-to make fruit jelly. 
-But when you follow the recipe, you use actual fruit that you bought or
-collected where it says "fruit" and the sugar you have on hand
-where it says "the sweetener" and tap water where it says "the liquid". 
+When you follow the recipe, you use actual berries that you bought or
+picked yourself where the recipe says "fruit" and the sugar you have on hand
+where it says "a sweetener" and tap water or other (clear)
+beverage where it says "clear liquid". 
 
 .. activecode:: ac-func-warmup
     :language: python
@@ -359,17 +356,16 @@ So, in a way, the code
         </pre>
     </div>
 
-is like a recipe for an interpreter
-to draw a colored rectangle and values for the variables are 
+is like a recipe for 
+drawing a colored rectangle, and values for the variables are 
 like ingredients to use when following the recipe: 
-If you give the interpreter the ingredients to use (values for the variables) and
-tell it what recipe (function) you want it to use,
+If you indicate the ingredients to use (values for the variables) and
+provide a recipe (*function definition*),
 the interpreter can perform the assignments and then follow the recipe 
-(execute the code) to draw a rectangle.
+(execute code it finds in the function definition) to draw a rectangle.
 
-In Python, you write a *function definition* to teach the interpreter a new command.
-The active code below contains an example of a function definition for a ``draw_rectangle`` 
-command. 
+The active code below contains an example of a function definition for 
+a ``draw_rectangle`` command. 
 
 .. activecode:: ac-draw-rect
     :language: python
@@ -382,7 +378,8 @@ command.
     import turtle
     
     def draw_rectangle(X, Y, W, H, C):
-        "draw a rectangle with lower left corner at (X, Y), width W, height H, and color C"
+        """draw a rectangle with lower left corner at (X, Y), width W, 
+        height H, and color C"""
         
         turtle.up()
         turtle.goto(X, Y)
@@ -397,13 +394,13 @@ command.
             turtle.left(90)
         turtle.end_fill()
         
-It doesn't * *look like* * running the program does anything.
-But it does: Running the program teaches the interpreter a new command, 
-called ``draw_rectangle``. 
+It doesn't *look like* running the program does anything.
+*But it does!* Running the program teaches the interpreter a new command. 
 
 To see this, add the following commands starting on line 20 in the code editor.
 Be careful **not** to indent either command.
 They both need to start in the first column.
+These commands are called *function calls*.
 
 .. raw:: html
     
@@ -414,7 +411,161 @@ They both need to start in the first column.
         </pre>
     </div>
     
+Add five additional ``draw_rectangle`` function calls to draw the windows. 
+
+Next, let's create a ``draw_isosceles_triangle`` command for
+drawing the roof.
+We'll start by deciding on variables to stand for the values
+the coder will need to supply when calling ``draw_isosceles_triangle``. 
+We'll use:
+
+* ``X`` for the x-coordinate of the triangle's bottom-left pixel
+
+* ``Y`` for the y-coordinate of the triangle's bottom-left pixel
+
+* ``B`` for the length (in pixels) of the triangle's base
+
+* ``H`` for the height (in pixels) of the triangle
+
+* ``C`` for the color of the triangle
+
+The sketch below shows how the values for these variables
+can be used to determine
+the coordinates for the vertices of the triangle.
+
+.. image:: img/isos-triangle-sketch.jpg
+    :width: 300
+    :align: center
+
+This drawing suggests the code below as a recipe for drawing an
+isosceles triangle.
+Before creating a function from the code, let's test it.
+
+.. activecode:: ac-triangle-warmup
+    :language: python
+    :nocodelens:
     
+    Replace the comment at the start of this code
+    with assignments so that the code will draw
+    the roof for a house.
+    
+    ~~~~
+    
+    import turtle
+    
+    # Replace this comment with the necessary assignments 
+    
+    turtle.up()
+    turtle.goto(X, Y)
+    turtle.down()
+
+    turtle.color(C)
+    turtle.begin_fill()
+    turtle.goto(X + B, Y)
+    turtle.goto(X + (B/2), Y + H)
+    turtle.goto(X, Y)
+    turtle.end_fill()
+  
+Now use this code to complete the definition
+for a ``draw_isosceles_triangle`` function in the
+program below.
+Then add a call to the function to draw a roof.
+
+.. activecode:: ac-triangle-function
+    :language: python
+    :nocodelens:
+    
+    Complete the function definition and add a call to 
+    the function to draw the roof. 
+    (Suggestion: To see more of the program in the editor
+    window, enlarge it by dragging
+    down on the bottom-right corner.)
+    
+    ~~~~
+    
+    import turtle
+    turtle.speed(10)
+    
+    def draw_isosceles_triangle(X, Y, B, H, C):
+        """draw an isosceles triangle with lower left corner at (X, Y), 
+        base of length B, height H, and color C"""
+           
+        # replace with the function body (code)
+
+    
+    def draw_rectangle(X, Y, W, H, C):
+        """draw a rectangle with lower left corner at (X, Y), width W, 
+        height H, and color C"""
+        
+        turtle.up()
+        turtle.goto(X, Y)
+        turtle.down()
+
+        turtle.color(C)
+        turtle.begin_fill()
+        for i in range(2):
+            turtle.forward(W)
+            turtle.left(90)
+            turtle.forward(H)
+            turtle.left(90)
+        turtle.end_fill()
+    
+    # draw the frame of the house
+    draw_rectangle(-150, -150, 300, 200, "blue")
+    # draw the door
+    draw_rectangle(-30, -150, 60, 100, "brown")
+    
+    # draw the bottom windows, from left to right
+    draw_rectangle(-120, -110, 60, 60, "white")
+    draw_rectangle(60, -110, 60, 60, "white")
+    
+    # draw the top windows, from left to right
+    draw_rectangle(-120, -30, 60, 60, "white")
+    draw_rectangle(-30, -30, 60, 60, "white")
+    draw_rectangle(60, -30, 60, 60, "white")
+    
+    # draw the roof
+    
+ 
+The program should now draw everything except the door knob. 
+
+
+**Some exercises to help solidify your understanding**
+
+The ``turtle.circle`` command can be tricky to use because the angle
+of the ``turtle`` affects how the circle is drawn. 
+For an example, run the following code.
+In this example, all the circles are drawn starting at the
+origin and with the same radius; 
+but the direction the turtle is facing is
+different. 
+We use different colors to make it easy to match up the commands
+with the circles.
+
+.. activecode:: ac-circle-direction
+    :language: python
+    :nocodelens:
+    
+    import turtle
+    
+    turtle.color("blue")
+    turtle.circle(50)
+    
+    turtle.color("green")
+    turtle.left(180)
+    turtle.circle(50)
+    
+    turtle.color("red")
+    turtle.left(45)
+    turtle.circle(50)
+    
+    
+ 
+    
+    
+    
+
+
 
    
 
