@@ -21,16 +21,16 @@ Attendance
    ============================  =========================
    Command                       What does it do?
    ============================  =========================
-   ``forward( L )``              Move forward ``L`` pixels
-   ``backward( L )``             Move backward ``L`` pixels
+   ``forward( L )``              Moves forward ``L`` pixels
+   ``backward( L )``             Moves backward ``L`` pixels
    ``left( D )``                 Turns ``D`` degrees to the left 
    ``right( D )``                Turns ``D`` degrees to the right
    ``circle( R )``               Draws a circle with radius ``R``
-   ``goto( X, Y )``              Move straight to the pixel with coordinates (``X``, ``Y``). *Note: the center is (0, 0)*
-   ``up()``                      Stop leaving a trail
-   ``down()``                    Start drawing a trail
-   ``color( C )``                Set the color to ``C`` (https://trinket.io/docs/colors)
-   ``for i in range( N ):``      Repeat ``N`` times
+   ``goto( X, Y )``              Moves straight to the pixel with coordinates (``X``, ``Y``). *Note: the center is (0, 0)*
+   ``up()``                      Stops leaving a trail
+   ``down()``                    Starts drawing a trail
+   ``color( C )``                Sets the color to ``C`` (https://trinket.io/docs/colors)
+   ``for i in range( N ):``      Repeats ``N`` times
    ============================  =========================
 
 |
