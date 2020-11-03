@@ -32,9 +32,10 @@ pressing the button below.
         Set the direction of travel to ``A`` degrees (e.g., 0 = east, 90 = north,
         180 = west, 270 = south).
                 
-    ``turtle.hideturtle()``, 
+    ``turtle.hideturtle()``, ``turtle.showturtle()``
     
-        Make the turtle invisible.
+        Make the turtle invisible,
+        make the turtle visible.
         
     ``turtle.begin_fill()``
     
@@ -44,29 +45,30 @@ pressing the button below.
     
         Fill the shape drawn since the last ``begin_fill()`` command.
         
-    ``turtle.up()``
+    ``turtle.up()``,  ``turtle.down()``
    
-        Do not leave a trail when moving. 
-        
-    ``turtle.down()``
-   
-        Leave a trail when moving.
+        Do not leave a trail when moving,
+        leave a trail when moving.
         
     ``turtle.goto(X, Y)``
     
         Move straight to the pixel with coordinates (``X``, ``Y``).
         
-    ``turtle.forward(L)``
+    ``turtle.forward(L)``, ``turtle.backward(L)``
     
-        Move forward (in the direction of travel) by ``L`` pixels
+        Move forward (in the direction of travel) by ``L`` pixels,
+        move backward (opposite to the direction of travel) by ``L`` pixels
         
-    ``turtle.left(D)``
+    ``turtle.left(D)``, ``turtle.right(D)``
     
-        Rotate left (counter-clockwise) by ``D`` degrees
+        Rotate left (counter-clockwise) by ``D`` degrees, 
+        rotate right (clockwise) by ``D`` degrees
 
     ``turtle.circle(R)``
     
-        Move in a circle of radius ``R`` pixels, counter-clockwise in the direction of travel
+        Move counter-clockwise in the direction of travel
+        and in a circle of radius ``R`` pixels.
+        
 
 Run the code below to see what it draws.
 
@@ -207,8 +209,8 @@ the sections of code match up?
 .. shortanswer:: sa-compare-code-1
    :optional: 
    
-   Compare the section of code that draws the frame of the house (lines 5--16) 
-   with the section of code that draws the door (lines 19--30).
+   Compare the code that draws the frame of the house (lines 5--16) 
+   with the code that draws the door (lines 19--30).
    What do you notice about these two sections of code?
    (Suggestion: Drag the bottom right corner of the code editor window
    down farther to see more of the program without needing to scroll.)
@@ -216,9 +218,8 @@ the sections of code match up?
 .. shortanswer:: sa-compare-code-2
    :optional:    
    
-   Compare the section of code that draws the top left window (lines 57--66)
-   with the section
-   of code that draws the top middle window (lines 69--78). 
+   Compare the code that draws the top left window (lines 57--66)
+   with the code that draws the top middle window (lines 69--78). 
    What do you notice about these two sections of code?
 
 Maybe you aren't surprised that these sections of code are so similar. 
