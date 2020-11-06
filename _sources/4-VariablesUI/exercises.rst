@@ -7,5 +7,15 @@
 Practice Makes Perfect
 :::::::::::::::::::::::::::::::::::::::::::
 
-We'll add exercises here shortly!
--The Technovation Team
+
+| We're taking this week to slow down a bit and review what we've learned so far.
+|
+| Use the links below to review loops / functions and complete any exercises we
+  haven't gotten to yet:
+|
+| **Loops:** `week 2 exercises <../2-Loops/exercises.html>`_
+| 
+| **Functions:** `week 3 exercises <../3-Functions/exercises.html>`_
+|
+| If you've completed all of the exercises, check out the `week 2 lesson <../2-Loops/code-along.html>`_ to learn about
+  variables, or the `week 3 lesson <../3-Functions/code-along.html>`_ to learn about function parameters!
