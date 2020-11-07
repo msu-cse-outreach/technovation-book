@@ -3,7 +3,7 @@
     :align: center
     :alt: Technovation logo
 
-User Input
+Review: Loops and Functions
 ==================================
 
 .. toctree::
@@ -11,8 +11,8 @@ User Input
    :maxdepth: 3
 
    attendance.rst
-   icebreaker.rst
    spotlight.rst
+   icebreaker.rst
    code-along.rst
    exercises.rst
    standup.rst
