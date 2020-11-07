@@ -11,8 +11,8 @@ Review: Loops and Functions
    :maxdepth: 3
 
    attendance.rst
-   spotlight.rst
    icebreaker.rst
+   spotlight.rst
    code-along.rst
    exercises.rst
    standup.rst
