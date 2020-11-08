@@ -127,9 +127,10 @@ To let the user choose the length, try replacing the ``300`` with something like
 .. shortanswer:: sa-type-error
 
     What happens when you run the program after making the suggested replacement?
+    See if you are can answer the following questions  
     
     
-MORE TO COME
+
 
 
 

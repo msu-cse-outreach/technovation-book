@@ -212,8 +212,9 @@ the sections of code match up?
    Compare the code that draws the frame of the house (lines 5--16) 
    with the code that draws the door (lines 19--30).
    What do you notice about these two sections of code?
+   
    (Suggestion: Drag the bottom right corner of the code editor window
-   down farther to see more of the program without needing to scroll.)
+   down farther to see more of the program at a time.)
    
 .. shortanswer:: sa-compare-code-2
    :optional:    
@@ -481,8 +482,10 @@ Then add a call to the function to draw a roof.
     :language: python
     :nocodelens:
     
-    Complete the function definition and add a call to 
+    Complete the function definition for ``draw_isosceles_triangle``
+    and add a call to 
     the function to draw the roof. 
+    
     (Suggestion: To see more of the program in the editor
     window, enlarge it by dragging
     down on the bottom-right corner.)
@@ -491,14 +494,7 @@ Then add a call to the function to draw a roof.
     
     import turtle
     turtle.speed(10)
-    
-    def draw_isosceles_triangle(X, Y, B, H, C):
-        """draw an isosceles triangle with lower left corner at (X, Y), 
-        base of length B, height H, and color C"""
-           
-        # replace with the function body (code)
-
-    
+         
     def draw_rectangle(X, Y, W, H, C):
         """draw a rectangle with lower left corner at (X, Y), width W, 
         height H, and color C"""
@@ -516,6 +512,13 @@ Then add a call to the function to draw a roof.
             turtle.left(90)
         turtle.end_fill()
     
+    def draw_isosceles_triangle(X, Y, B, H, C):
+        """draw an isosceles triangle with lower left corner at (X, Y), 
+        base of length B, height H, and color C"""
+           
+        # replace with the function body
+
+
     # draw the frame of the house
     draw_rectangle(-150, -150, 300, 200, "blue")
     # draw the door
@@ -535,8 +538,118 @@ Then add a call to the function to draw a roof.
  
 The program should now draw everything except the door knob. 
 
+.. reveal:: rv-function-terminology
+    :showtitle: Show important terminology used with functions
+    :hidetitle: Hide important terminology used with functions
+    
+    **Important Function Terminology**
+    
+    * The first line of a function definition is called the *function header* ---
+      e.g., 
+      
+      ``def draw_rectangle(X, Y, W, H, C):``. 
+ 
+      - ``def`` is a *key word*. 
+        (You shouldn't use a key word to name a
+        variable because the interpreter uses it for other purposes --- e.g., to 
+        recognize a function definition.)
+        
+      - The name following ``def`` --- e.g., ``draw_rectangle`` --- is the *function name*. 
+        
+      - The variables in parentheses --- e.g., ``X``, ``Y``, ``W``, ``H``, ``C`` ---
+        are called *parameters* 
+        
+      - **Don't forget the final semi-colon!**
+        
+    * The code indented beneath a function header --- e.g., lines 6--20 in 
+      ac-triangle-function_ --- is called the *function body*.
 
+    * The triple-quoted string immediately after the function header is called a *doc string*.
+      It should briefly describe what the function does and the purpose of each parameter.
+    
+    * A *function call* is a command that consists of a function name followed
+      by a list of expressions, one for each parameter, separated by commas and
+      enclosed in parenthesis --- e.g., 
+      
+      ``draw_rectangle(-120, -30, 60, 60, "white")
+      
+      The expressions in a function call are called *arguments*.
+      Parentheses are required even if a function call has no arguments.
+      
+    
+    
 **Some exercises to help solidify your understanding**
+
+Arrange the code blocks below into a definition
+for a function, called ``draw_poly``, that draws a
+filled regular polygon.
+Drawing should start at the current
+location and use the current direction of travel of the ``turtle``.
+The polygon should have ``N`` sides, each of length ``L``, and be
+filled using color ``C``. 
+
+To understand the calculation for ``turn_angle``, 
+see the `explanation of the angles formed by a regular polygon`__ .
+       
+.. _PolygonExplanation: https://www.bbc.co.uk/bitesize/guides/zshb97h/revision/6
+
+__ PolygonExplanation_
+
+.. parsonsprob:: pp-draw-poly
+    :adaptive:
+    :language: python
+
+    import turtle
+    =====
+    def draw_poly( N, L, C ):
+    =====
+        """Draw a N-sided regular polygon with lower left corner at (X, Y),
+        side length L, and pen color C"""
+        # requires: N >= 3 and  L > 0
+    =====
+        turtle.color( C )    
+        turn_angle = 360 / N
+    =====
+        turtle.begin_fill()
+    =====
+        for i in range( N ):
+    =====
+            turtle.forward( L )
+            turtle.left( turn_angle )
+    =====
+        turtle.end_fill()
+        
+.. image:: img/nested-polygons.png
+    :align: center
+    :width: 200
+    :alt: Image of nested polygons created by a Turtle Graphics program
+
+.. activecode:: ac-reg-poly
+    :language: python
+    :nocodelens:
+    
+    Finish the program below to draw a diagram like that shown above.
+    Specifically, add a body for ``draw_poly`` and appropriate code after the
+    comments.
+    
+    ~~~~
+    
+    import turtle
+    turtle.speed(10)
+
+    def draw_poly( N, L, C ):
+        """Draw a N-sided regular polygon with lower left corner at (X, Y),
+        side length L, and pen color C"""
+        # requires: N >= 3 and  L > 0
+
+
+    # move to the starting location
+    
+    
+    # draw the polygons
+
+    
+    
 
 The ``turtle.circle`` command can be tricky to use because the angle
 of the ``turtle`` affects how the circle is drawn. 
@@ -580,9 +693,9 @@ the radius, and the pen color.
     :adaptive:
     :language: python
    
-    Use the code blocks on the left to create a program
-    that defines and calls a ``draw_circle`` function to
-    draw the figure above.
+    Arrange the code blocks into a program
+    that defines and calls a ``draw_circle`` function and
+    then draws the figure above.
     -----
     import turtle
     turtle.speed(10)
