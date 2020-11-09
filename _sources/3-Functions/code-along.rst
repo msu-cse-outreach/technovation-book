@@ -550,30 +550,33 @@ The program should now draw everything except the door knob.
       ``def draw_rectangle(X, Y, W, H, C):``. 
  
       - ``def`` is a *key word*. 
-        (You shouldn't use a key word to name a
-        variable because the interpreter uses it for other purposes --- e.g., to 
+        (Don't use a key word to name a variable because the interpreter uses it for 
+        other purposes --- e.g., to 
         recognize a function definition.)
         
-      - The name following ``def`` --- e.g., ``draw_rectangle`` --- is the *function name*. 
+      - The name immediately after ``def`` is the *function name* --- e.g., ``draw_rectangle``. 
         
-      - The variables in parentheses --- e.g., ``X``, ``Y``, ``W``, ``H``, ``C`` ---
-        are called *parameters* 
+      - The variables in parentheses after the function name are called *parameters* --- e.g., 
+        ``X``, ``Y``, ``W``, ``H``, ``C`` are the ``draw_rectangle`` parameters. 
         
       - **Don't forget the final semi-colon!**
         
-    * The code indented beneath a function header --- e.g., lines 6--20 in 
-      ac-triangle-function_ --- is called the *function body*.
+    * The code indented beneath a function header is called the *function body*
+      --- e.g., lines 6--20 in ac-triangle-function_ are the body of ``draw_rectangle``.
 
     * The triple-quoted string immediately after the function header is called a *doc string*.
-      It should briefly describe what the function does and the purpose of each parameter.
+      A doc string should briefly describe what the function does and the purpose of 
+      each parameter.
     
-    * A *function call* is a command that consists of a function name followed
+    * A *function call* consists of a function name followed
       by a list of expressions, one for each parameter, separated by commas and
       enclosed in parenthesis --- e.g., 
       
-      ``draw_rectangle(-120, -30, 60, 60, "white")
+      ``draw_rectangle(-120, -30, 60, 60, "white")``.
       
-      The expressions in a function call are called *arguments*.
+      The expressions in a function call are called *arguments* --- e.g., in the
+      example call to ``draw_rectangle``, ``-120``
+      is the first argument, ``-30`` is the second argument, etc.
       Parentheses are required even if a function call has no arguments.
       
     
