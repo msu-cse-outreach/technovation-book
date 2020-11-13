@@ -3,16 +3,15 @@
     :align: center
     :alt: Technovation logo
 
-Making Choices
-==========================
+Review: Loops and Functions
+==================================
 
 .. toctree::
-   :caption: Week 5 Table of Contents
+   :caption: Week 4 Table of Contents
    :maxdepth: 3
 
    attendance.rst
    icebreaker.rst
    spotlight.rst
-   code-along.rst
    exercises.rst
    standup.rst

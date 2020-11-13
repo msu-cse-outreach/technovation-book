@@ -3,11 +3,11 @@
     :align: center
     :alt: Technovation logo
 
-Review: Loops and Functions
-==================================
+User Input and Types
+==========================
 
 .. toctree::
-   :caption: Week 4 Table of Contents
+   :caption: Week 5 Table of Contents
    :maxdepth: 3
 
    attendance.rst

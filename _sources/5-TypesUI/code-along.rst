@@ -32,8 +32,8 @@ the ``enter`` key or the ``OK`` button, which signals that the user is done.
 The interpreter uses the string of characters typed by the user into the input box
 as the input value.
 
-The input value is usually assigned to a variable in order that
-it can be used in later commands.
+You will usually want to assign the input value to a variable so that
+you can use the value in later commands.
 
 .. activecode:: ac-input
     :language: python
@@ -106,23 +106,28 @@ Let's explore how you might use input in a Turtle Graphics program.
 
     turtle.hideturtle()
 
-This program will only draw a string of red beads.
+This program will always draw a string of red beads.
 A more useful program might let the user decide what color to make the beads.
 
 To do this, replace the string ``"red"`` in line 7 of ac-TG-input-example_ with  
 
     ``input( "Enter a color: ")``
 
-Now, when the interpreter gets to line 7, it should
-bring up a dialog box containing the prompt.
-Type the name of a different color (without quotes) 
+Now, when you run the program and the interpreter gets to line 7, it will
+bring up a dialog box containing the prompt and wait for you to type
+something into the box.
+Type the name of a different color (without any quotes) 
 into the dialog box and then press ``enter``.
+If you typed a color name that the interpreter knows, 
+it draws the string of beads in this color.
+How cool is that!
 
-In addition to the bead color, a user might like to say how long a string
-they want and the number of beads it should contain.
+In addition to the bead color, you might like to let the user 
+decide how long the string of beads should be and how
+many beads it should contain.
 
 To let the user choose the length, try replacing the ``300`` 
-in ac-TG-input-example_ with something like:
+in ac-TG-input-example_ with:
 
     ``input( "Enter a length (in pixels): " )``
 
@@ -131,7 +136,7 @@ in ac-TG-input-example_ with something like:
     What happens when you run the program in ac-TG-input-example_ 
     after making the suggested replacement?
     
-See if you are can guess answers to the following questions by reading what
+See if you are can find answers to the following questions by reading what
 it says in the *error box* (the light red box) now displayed below the editor window.
 
 .. mchoice:: mc-err-line
@@ -193,38 +198,41 @@ it says in the *error box* (the light red box) now displayed below the editor wi
     
 To understand the problem we are bumping into, we need to talk about the *types*
 of values.
+
 Every programming language provides different types of values.
 Python provides four *primitive data types*:
 
 * ``int``
 
-    - Used to represent integers
+  - Used to represent integers
     
-    - One or more digits with no punctuation or spaces, possibly
-      preceded by a minus sign (``-``), e.g. ``0`` or ``2020`` or ``-35``
+  - Denoted by one or more digits with no punctuation or spaces, possibly
+    preceded by a minus sign (``-``), e.g. ``0`` or ``2020`` or ``-35``
 
 * ``float``
 
-    - Used to represent decimal numbers
+  - Used to represent decimal numbers
     
-    - One or more digits and a period (``.``) with no other punctuation
-      or spaces, possibly
-      preceded by a minus sign (``-``), e.g., ``0.0`` or ``3.1416`` or ``-.75``
+  - Denoted by one or more digits and a period (``.``) with no other punctuation
+    or spaces, possibly
+    preceded by a minus sign (``-``), e.g., ``0.0`` or ``3.1416`` or ``-.75``
 
 * ``str``
 
-    - Used to represent text
+  - Used to represent text
     
-    - Zero or more characters enclosed in either single quotes (``'...'`),
-      double quotes (``"..."``), or triple quotes (``"""..."""``), e.g.,
-      ``'Coders rule!'" or ``"Practice makes perfect."`` or ``"""Keep on keepin' on."""``
+  - Denoted by zero or more characters enclosed in either single quotes (``'...'``),
+    double quotes (``"..."``), or triple quotes (``"""..."""``), e.g.,
+    ``'Coders rule!'`` or 
+    
+    ``"Practice makes perfect."`` or ``"""Keep on keepin' on."""``
 
 * ``bool``
 
-    - Used to represent the outcome of a yes-no decision (``bool`` is short for 
-      ``Boolean``, which comes from the name of the man who invented the study of Logic.)
+  - Used to represent the outcome of a yes-no decision (``bool`` is short for 
+    ``Boolean``, which comes from the name of the man who invented the study of Logic.)
     
-    - There are only two values of type ``bool``: ``True`` and ``False``
+  - There are only two values of type ``bool``: ``True`` and ``False``
 
 Mike's rap about variables and types may help you remember them, and maybe even 
 understand them a bit better.

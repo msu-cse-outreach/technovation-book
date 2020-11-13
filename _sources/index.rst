@@ -25,8 +25,8 @@ Table of Contents
    1-Intro/toctree.rst
    2-Loops/toctree.rst
    3-Functions/toctree.rst
-   4-VariablesUI/toctree.rst
-   5-Conditionals/toctree.rst
+   4-Review1/toctree.rst
+   5-TypesUI/toctree.rst
    6-WrapUp/toctree.rst
    
 
