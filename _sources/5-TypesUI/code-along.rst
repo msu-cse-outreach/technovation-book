@@ -71,7 +71,7 @@ you can use the value in later commands.
 
 Let's explore how you might use input in a Turtle Graphics program.
 
-.. activecode:: ac-TG-input-example 
+.. activecode:: ac-TG-input 
     :language: python
     :nocodelens:
     
@@ -109,7 +109,7 @@ Let's explore how you might use input in a Turtle Graphics program.
 This program will always draw a string of red beads.
 A more useful program might let the user decide what color to make the beads.
 
-To do this, replace the string ``"red"`` in line 7 of ac-TG-input-example_ with  
+To do this, replace the string ``"red"`` in line 7 of ac-TG-input_ with  
 
     ``input( "Enter a color: ")``
 
@@ -127,13 +127,13 @@ decide how long the string of beads should be and how
 many beads it should contain.
 
 To let the user choose the length, try replacing the ``300`` 
-in ac-TG-input-example_ with:
+in ac-TG-input_ with:
 
     ``input( "Enter a length (in pixels): " )``
 
 .. shortanswer:: sa-type-error
 
-    What happens when you run the program in ac-TG-input-example_ 
+    What happens when you run the program in ac-TG-input_ 
     after making the suggested replacement?
     
 See if you are can find answers to the following questions by reading what
@@ -204,41 +204,59 @@ Python provides four *primitive data types*:
 
 * ``int``
 
-  - Used to represent integers
+  - For representing whole numbers (*integers*)
     
-  - Denoted by one or more digits with no punctuation or spaces, possibly
-    preceded by a minus sign (``-``), e.g. ``0`` or ``2020`` or ``-35``
+  - Examples:
+  
+    ::
+  
+        0     2020     -35     
 
 * ``float``
 
-  - Used to represent decimal numbers
+  - For representing decimals (*floats*)
     
-  - Denoted by one or more digits and a period (``.``) with no other punctuation
-    or spaces, possibly
-    preceded by a minus sign (``-``), e.g., ``0.0`` or ``3.1416`` or ``-.75``
+  - Examples: 
+  
+    ::
+    
+        0.0     3.1416      -.75     
 
 * ``str``
 
-  - Used to represent text
+  - For representing text (*strings*)
     
-  - Denoted by zero or more characters enclosed in either single quotes (``'...'``),
-    double quotes (``"..."``), or triple quotes (``"""..."""``), e.g.,
-    ``'Coders rule!'`` or 
+  - Examples:
+  
+    ::
     
-    ``"Practice makes perfect."`` or ``"""Keep on keepin' on."""``
+       'Coders rule!' 
+       
+       "Practice makes perfect."
+       
+       """12/25/2020"""
+       
+       """Only tripled quoted strings can go for
+          more than one line."""
 
 * ``bool``
 
-  - Used to represent the outcome of a yes-no decision (``bool`` is short for 
-    ``Boolean``, which comes from the name of the man who invented the study of Logic.)
+  - For representing a yes-no decision (*booleans*)
     
-  - There are only two values of type ``bool``: ``True`` and ``False``
+  - There are only two values of type ``bool``: 
+  
+    ::
+    
+       True      False
 
 Mike's rap about variables and types may help you remember them, and maybe even 
 understand them a bit better.
-But keep in mind that,
-unlike the programming languages that Mike raps about, Python does not
-have a ``char`` type and it does not make you write the type in the assignment
+But keep in mind that
+Mike's raps is about languages like Java, and 
+types in Python are a bit simpler than types in Java.
+In particular, Python does *not*
+have a ``char`` type and it does *not* let you write the type 
+at the beginning of an assignment
 statement.
 
 .. raw:: html
@@ -247,30 +265,105 @@ statement.
         <iframe width="560" height="315" src="https://www.youtube.com/embed/m7szVmMta-o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
- .. reveal:: rv-types-explanation
-    :showtitle: Show why programming languages define types
-    :hidetitle: Hide why programming languages define types
+.. reveal:: rv-types-explanation
+    :showtitle: Show why types?
+    :hidetitle: Hide why types?
     
     Under construction.
     
-    .. Reminder that we said a variable is like a container for a value -- more accurately,
-       it's the address in computer memory of the first bit representing the value is stored.
-       The conventions for representing different types of data are different -- integers
-       can be represented exactly using binary notation. But floats cannot. They can only
-       be approximated. Computers essentially use scientific notation to represent floats.
-       A float is represented by two integers--one for the mantissa and the other for the
-       exponent. The number of bits used for each is fixed. String could be any number of
-       characters, so can be of arbitrary length and each character is represented by their
-       binary ascii code. So just knowing the address where the value of a var starts isn't
-       enough to know how many bits make up the value or what the value is.
+.. Reminder that we said a variable is like a container for a value -- more accurately,
+   it's the address in computer memory of the first bit representing the value is stored.
+   The conventions for representing different types of data are different -- integers
+   can be represented exactly using binary notation. But floats cannot. They can only
+   be approximated. Computers essentially use scientific notation to represent floats.
+   A float is represented by two integers--one for the mantissa and the other for the
+   exponent. The number of bits used for each is fixed. String could be any number of
+   characters, so can be of arbitrary length and each character is represented by their
+   binary ascii code. So just knowing the address where the value of a var starts isn't
+   enough to know how many bits make up the value or what the value is.
        
-    .. Maybe do a concrete example of the rep for a short string in memory assuming a very
-       small word-size and what that same seq of bits would produce if interpreted as an
-       int and/or as a float? Or for bool -- anything but all 0's is true.
+.. Maybe do a concrete example of the rep for a short string in memory assuming a very
+   small word-size and what that same seq of bits would produce if interpreted as an
+   int and/or as a float? Or for bool -- anything but all 0's is true.
+
        
-       
-       
-       
+Let's look again at the program we are working on and the error it produces:
+
+.. activecode:: ac-TG-input-error 
+    :language: python
+    :nocodelens:
+    
+    The program is copied below and the ``input`` commands are added.
+    Run it to see the error that it produces.
+    Type a whole number in the first input box and a color name in the second.
+    ~~~~
+    # draw a string of beads
+    import turtle
+    turtle.speed(10)
+
+    s_length = input( "Enter a length (in pixels): " )  # length of the string
+    b_number = 20                # number of beads
+    b_color = input( "Enter a color: ")                 # color of beads
+
+    b_diameter = s_length/b_number
+    b_radius = b_diameter/2
+
+    turtle.up()
+    turtle.goto( -(s_length/2), 0 )
+    turtle.color( b_color )
+    turtle.down()
+
+    for i in range( b_number ):
+        turtle.begin_fill()
+        turtle.circle(b_radius)
+        turtle.end_fill()
+        turtle.up()
+        turtle.forward(b_diameter)
+        turtle.down()
+
+    turtle.hideturtle()
+
+The error message tells you
+that the interpreter could not execute the instruction on line 9 because of 
+a type error (``TypeError``).
+It also tells you that it cannot perform
+division (``Div``) on values of type ``str`` and ``int``.
+Looking at line 9, you can see that your code says to divide the value of
+``s_length`` by the value of ``b_number`` and assign the result to ``b_diameter``.
+So the problem is that ``b_number`` stands for a string at line 9, not a number!
+
+Why? 
+**Because the ``input`` command always produces a string value.**
+For example, suppose you type ``300`` into the first input box when you run the program,
+then the value of ``b_number`` at line 9 will be the string ``"300"``, not the 
+number ``300``!
+
+How can we fix this problem?
+Python provides an ``int`` function for exactly this kind of situation.
+You call ``int`` with an argument that denotes a number and it returns the ``int``
+representation of that number.
+For example, ``int("300")`` is ``300``.
+
+
+In ac-TG-input-error_, add the following assignment *after* line 5:
+
+::
+
+   b_number = int(b_number)
+   
+Then run the program and check that it no longer produces an error, and that you can
+get it to draw longer and shorter strings of beads of different colors.
+
+Finally, modify the program to also ask the user for the number of beads.
+Chat with your mentor if you encounter any additional issues.
+Your final program should ask the user for the length to make the string,
+the number of beads to use, and the color.
+Then it should draw a string of beads of the given length and containing
+the given number of beads of the given color.
+
+
+
+
        
     
     
