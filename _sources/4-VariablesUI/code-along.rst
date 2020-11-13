@@ -22,10 +22,11 @@ running a program in order to affect what the program does.
 
 Python provides the ``input`` command for user input.
 It must be called with one *string* argument---any number of characters enclosed in quotations.
-You can think of the argument of an ``input`` command as a message, or *prompt*, for the user.
+The interpreter expects this argument to be a message, or *prompt*, 
+that you want it to print.
 
 To execute an ``input`` command, the interpreter displays an
-*input box* in which it prints the argument (prompt). 
+*input box* in which it prints the prompt (argument). 
 It then waits for the user to type something into the box and press either
 the ``enter`` key or the ``OK`` button, which signals that the user is done. 
 The interpreter uses the string of characters typed by the user into the input box
@@ -108,7 +109,7 @@ Let's explore how you might use input in a Turtle Graphics program.
 This program will only draw a string of red beads.
 A more useful program might let the user decide what color to make the beads.
 
-To do this, replace the string ``"red"`` with  
+To do this, replace the string ``"red"`` in line 7 of ac-TG-input-example_ with  
 
     ``input( "Enter a color: ")``
 
@@ -118,21 +119,119 @@ Type the name of a different color (without quotes)
 into the dialog box and then press ``enter``.
 
 In addition to the bead color, a user might like to say how long a string
-they want and the number of beads they want on it.
+they want and the number of beads it should contain.
 
-To let the user choose the length, try replacing the ``300`` with something like:
+To let the user choose the length, try replacing the ``300`` 
+in ac-TG-input-example_ with something like:
 
     ``input( "Enter a length (in pixels): " )``
 
 .. shortanswer:: sa-type-error
 
-    What happens when you run the program after making the suggested replacement?
-    See if you are can answer the following questions  
+    What happens when you run the program in ac-TG-input-example_ 
+    after making the suggested replacement?
     
+See if you are can guess answers to the following questions by reading what
+it says in the *error box* (the light red box) now displayed below the editor window.
+
+.. mchoice:: mc-err-line
+    :random:
     
+    At what line did the interpreter find an error?
+    
+    - the line containing ``s_length = input( "Enter a length (in pixels): " )``
+    
+      - No, this command assigned the string of characters that you typed into the 
+        input box to ``s_length``. Look at the contents of the line number mentioned 
+        in the error box.
+    
+    - the line containing ``b_color = input( "Enter a color: ")``
+    
+      - No, this command assigned the string of characters that you typed into the input 
+        box to ``b_color``. Look at the contents of the line number mentioned in the error box.        
+    
+    - the line containing ``b_diameter = s_length/b_number``
+    
+      + Yes! The interpreter was not able to calculate ``s_length/b_number`` because 
+        ``s_length`` holds a string value --- that is, a sequence of characters ---
+        and division is not defined for strings.
+    
+    - the line containing ``b_radius = b_diameter/2``
+    
+      - No, the interpreter stopped executing the program when the error occurred. 
+        So it never even executed this line
+          
+.. mchoice:: mc-err-type
+    :random:
+    
+    What is the *name* of the error that occurred?
+    
+    - TypeError
+    
+      + Yes! Many different kinds of errors can occur. The name indicates what 
+        kind of error happened. The interpreter shows the kind of error at the
+        very start of the error message.
+    
+    - NameError
+    
+      - No. Many different kinds of errors can occur. The name indicates what 
+        kind of error happened. The interpreter shows the kind of error at the
+        very start of the error message.
+    
+    - DivisionError
+    
+      - No. Many different kinds of errors can occur. The name indicates what 
+        kind of error happened. The interpreter shows the kind of error at the
+        very start of the error message.
+    
+    - Gross Error
+    
+      - No. Many different kinds of errors can occur. The name indicates what 
+        kind of error happened. The interpreter shows the kind of error at the
+        very start of the error message.
 
+    
+To understand the problem we are bumping into, we need to talk about the *types*
+of values.
+Every programming language provides different types of values.
+Python provides four *primitive data types*:
 
+* ``int``
 
+    - Used to represent integers
+    
+    - One or more digits with no punctuation or spaces, possibly
+      preceded by a minus sign (``-``), e.g. ``0`` or ``2020`` or ``-35``
+
+* ``float``
+
+    - Used to represent decimal numbers
+    
+    - One or more digits and a period (``.``) with no other punctuation
+      or spaces, possibly
+      preceded by a minus sign (``-``), e.g., ``0.0`` or ``3.1416`` or ``-.75``
+
+* ``str``
+
+    - Used to represent text
+    
+    - Zero or more characters enclosed in either single quotes (``'...'`),
+      double quotes (``"..."``), or triple quotes (``"""..."""``), e.g.,
+      ``'Coders rule!'" or ``"Practice makes perfect."`` or ``"""Keep on keepin' on."""``
+
+* ``bool``
+
+    - Used to represent the outcome of a yes-no decision (``bool`` is short for 
+      ``Boolean``, which comes from the name of the man who invented the study of Logic.)
+    
+    - There are only two values of type ``bool``: ``True`` and ``False``
+
+Mike's rap about variables and types may help you remember them, and maybe even 
+understand them a bit better.
+But keep in mind that,
+unlike the programming languages that Mike raps about, Python does not
+have a ``char`` type and it does not make you write the type in the assignment
+statement.
 
 .. raw:: html
 
@@ -140,7 +239,31 @@ To let the user choose the length, try replacing the ``300`` with something like
         <iframe width="560" height="315" src="https://www.youtube.com/embed/m7szVmMta-o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
+ .. reveal:: rv-types-explanation
+    :showtitle: Show why programming languages define types
+    :hidetitle: Hide why programming languages define types
     
+    Under construction.
+    
+    .. Reminder that we said a variable is like a container for a value -- more accurately,
+       it's the address in computer memory of the first bit representing the value is stored.
+       The conventions for representing different types of data are different -- integers
+       can be represented exactly using binary notation. But floats cannot. They can only
+       be approximated. Computers essentially use scientific notation to represent floats.
+       A float is represented by two integers--one for the mantissa and the other for the
+       exponent. The number of bits used for each is fixed. String could be any number of
+       characters, so can be of arbitrary length and each character is represented by their
+       binary ascii code. So just knowing the address where the value of a var starts isn't
+       enough to know how many bits make up the value or what the value is.
+       
+    .. Maybe do a concrete example of the rep for a short string in memory assuming a very
+       small word-size and what that same seq of bits would produce if interpreted as an
+       int and/or as a float? Or for bool -- anything but all 0's is true.
+       
+       
+       
+       
+       
     
     
 
