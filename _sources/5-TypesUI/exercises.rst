@@ -58,12 +58,23 @@ Practice Makes Perfect
 
 |
 |
-| (Add slides here? Note - week 5/6 Technovation 2019 should have variables/input lessons)
+| What are *variables* and *user input* all about?
+|
+|
+
+.. raw:: html
+
+    <div align="middle">
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ5Fjx7Z3YBTJ5I0C_rweTub6V-oQOPznzKHjNEVx8rxM9FiQ_PCpbrZ8bv8m7tmej7K0JlfsRcma9-/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+
 |
 |
 | Let's test out how to use variables! Use the code below or
  `python tutor <http://pythontutor.com/visualize.html#mode=edit>`_
   to walk through some examples.
+|
+|
 
 .. activecode:: variables-code-along
    :language: python
@@ -156,7 +167,10 @@ Practice Makes Perfect
    :align: center
    :width: 300
 
-| How could you use variables and user input to draw different colored circles?
+| How could you use variables and user input to draw a *library*?
+| Every library must have books - could you define a function to draw a book?
+| Then, could you take user input to set the color of each book?
+| Give it a try!
 
 .. activecode:: colorful-library
    :language: python
