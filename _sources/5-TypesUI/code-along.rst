@@ -21,9 +21,10 @@ running a program in order to affect what the program does.
     
 
 Python provides the ``input`` command for user input.
-It must be called with one *string* argument---any number of characters enclosed in quotations.
-The interpreter expects this argument to be a message, or *prompt*, 
-that you want it to print.
+It must be called with a *string* argument, 
+which consists of characters that are enclosed in matching quotations.
+The argument should be a message, or *prompt*, that you want the interpreter to print
+before collecting the input.
 
 To execute an ``input`` command, the interpreter displays an
 *input box* in which it prints the prompt (argument). 
@@ -114,11 +115,11 @@ To do this, replace the string ``"red"`` in line 7 of ac-TG-input_ with
     ``input( "Enter a color: ")``
 
 Now, when you run the program and the interpreter gets to line 7, it will
-bring up a dialog box containing the prompt and wait for you to type
+bring up an input box containing the prompt and wait for you to type
 something into the box.
 Type the name of a different color (without any quotes) 
-into the dialog box and then press ``enter``.
-If you typed a color name that the interpreter knows, 
+into the input box and then press ``enter``.
+If you typed a known color name, 
 it draws the string of beads in this color.
 How cool is that!
 
@@ -163,7 +164,8 @@ it says in the *error box* (the light red box) now displayed below the editor wi
     
     - the line containing ``b_radius = b_diameter/2``
     
-      - No, the interpreter stopped executing the program when the error occurred. 
+      - No, the interpreter stopped executing the program when the error occurred
+        in line 9. 
         So it never even executed this line
           
 .. mchoice:: mc-err-type
@@ -173,26 +175,22 @@ it says in the *error box* (the light red box) now displayed below the editor wi
     
     - TypeError
     
-      + Yes! Many different kinds of errors can occur. The name indicates what 
-        kind of error happened. The interpreter shows the kind of error at the
+      + Yes! The interpreter shows the kind of error at the
         very start of the error message.
     
     - NameError
     
-      - No. Many different kinds of errors can occur. The name indicates what 
-        kind of error happened. The interpreter shows the kind of error at the
+      - No. The interpreter shows the kind of error at the
         very start of the error message.
     
     - DivisionError
     
-      - No. Many different kinds of errors can occur. The name indicates what 
-        kind of error happened. The interpreter shows the kind of error at the
+      - No. The interpreter shows the kind of error at the
         very start of the error message.
     
     - Gross Error
     
-      - No. Many different kinds of errors can occur. The name indicates what 
-        kind of error happened. The interpreter shows the kind of error at the
+      - No. The interpreter shows the kind of error at the
         very start of the error message.
 
     
@@ -241,9 +239,9 @@ Python provides four *primitive data types*:
 
 * ``bool``
 
-  - For representing a yes-no decision (*booleans*)
+  - For representing either true or false 
     
-  - There are only two values of type ``bool``: 
+  - The values of type ``bool`` are: 
   
     ::
     
@@ -252,8 +250,8 @@ Python provides four *primitive data types*:
 Mike's rap about variables and types may help you remember them, and maybe even 
 understand them a bit better.
 But keep in mind that
-Mike's raps is about languages like Java, and 
-types in Python are a bit simpler than types in Java.
+Mike's rap is about general languages, and that
+types in Python are a bit simpler.
 In particular, Python does *not*
 have a ``char`` type and it does *not* let you write the type 
 at the beginning of an assignment
@@ -287,15 +285,17 @@ statement.
    int and/or as a float? Or for bool -- anything but all 0's is true.
 
        
-Let's look again at the program we are working on and the error it produces:
+Armed with this information about types, 
+let's look again at the program we are working on and the error it produces:
 
 .. activecode:: ac-TG-input-error 
     :language: python
     :nocodelens:
+    :timelimit: 40000
     
     The program is copied below and the ``input`` commands are added.
-    Run it to see the error that it produces.
-    Type a whole number in the first input box and a color name in the second.
+    Run this program
+    and type a whole number in the first input box and a color name in the second.
     ~~~~
     # draw a string of beads
     import turtle
@@ -330,38 +330,37 @@ It also tells you that it cannot perform
 division (``Div``) on values of type ``str`` and ``int``.
 Looking at line 9, you can see that your code says to divide the value of
 ``s_length`` by the value of ``b_number`` and assign the result to ``b_diameter``.
-So the problem is that ``b_number`` stands for a string at line 9, not a number!
+So the problem is that, at line 9, ``b_number`` contains a string, not a number!
 
-Why? 
-**Because the ``input`` command always produces a string value.**
-For example, suppose you type ``300`` into the first input box when you run the program,
-then the value of ``b_number`` at line 9 will be the string ``"300"``, not the 
-number ``300``!
+Why is ``b_number`` a string? 
+*Because the input command always returns a string value!*
+For example, suppose you run the program and type ``300`` into the first input box;
+then the value of ``b_number`` at line 9 will be the string ``"300"``, which
+is *not* the same as the number ``300``!
 
-How can we fix this problem?
+How can you fix this problem?
 Python provides an ``int`` function for exactly this kind of situation.
-You call ``int`` with an argument that denotes a number and it returns the ``int``
-representation of that number.
-For example, ``int("300")`` is ``300``.
+If you call ``int`` with a string of numbers, it creates and returns the ``int``
+value represented by that string.
+For example, ``int("300")`` returns ``300``.
 
 
 In ac-TG-input-error_, add the following assignment *after* line 5:
 
 ::
 
-   b_number = int(b_number)
+   s_length = int(s_length)
    
 Then run the program and check that it no longer produces an error, and that you can
 get it to draw longer and shorter strings of beads of different colors.
 
 Finally, modify the program to also ask the user for the number of beads.
-Chat with your mentor if you encounter any additional issues.
 Your final program should ask the user for the length to make the string,
 the number of beads to use, and the color.
 Then it should draw a string of beads of the given length and containing
 the given number of beads of the given color.
 
-
+Chat with your mentor if you encounter any additional issues.
 
 
        
