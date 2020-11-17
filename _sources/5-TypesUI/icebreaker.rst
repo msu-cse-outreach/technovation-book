@@ -7,7 +7,9 @@
 Icebreaker
 :::::::::::::::::::::::::::::::::::::::::::
 
-Show us how your last week has been by adding gifs, memes, images, and doodles to the slides below!
+Show us how virtual learing has been going so far by adding gifs, memes, images, and doodles to the slides below!
+
+You can also just add some memes and gifs that describe your current mood, how your week has been, or just some of your overall favorites!
 
 If it's more convenient, you can open the |googleslides| here!
    
