@@ -7,11 +7,12 @@
 Learning to Code: If Commands
 :::::::::::::::::::::::::::::::::::::::::::
 
-User Input and Drawing
-------------------------
+Making code interactive
+-------------------------
 
 Remember user input last week? 
-We can let the user decide what the turtle will draw using *if commands* with user input. 
+We can let the user decide what the turtle will draw
+by introducing an *if command*.  
 Making a program interactive makes it a lot more fun! 
 
 For example, the code in the box below lets the user say if the
@@ -24,7 +25,7 @@ For example, the code in the box below lets the user say if the
 
     Run the code below twice.
     Enter ``yes`` at the prompt on one of the runs, and something else on the other.
-    (If you are not able to press the ``Run`` button to start another run, try
+    (After running it once, if you are not able to press the ``Run`` button, try
     refreshing the page.)
     ~~~~
     # an example interactive program
@@ -128,10 +129,78 @@ For example, the code in the box below lets the user say if the
       + Yes. The indented code is not executed
         since ``answer`` is not equal to ``"no"`` (it's equal to ``"No"``).
         So the program terminates without drawing anything.
+
+For the activity below, 
+arrange the code blocks into a program that does the following, in order:
+    
+* defines a ``draw_centered_circle`` function as described by the 
+  docstring in the definition.
+    
+* defines a ``draw_centered_square`` function as described by the 
+  docstring in the definition.
+    
+* requests the user to enter either ``square`` or ``circle``
+    
+* checks if the user entered ``circle`` and, if so, draws a circle 
+    
+* checks if the user entered ``square`` and, if so, draws a square
+    
+* prints an error message if the user did not enter either ``circle`` or ``square``
+
+
+.. parsonsprob:: pp-simple-if
+    :language: python
+
+    import turtle
+    turtle.speed(10)
+    =====
+    def draw_centered_circle( R ):
+        """Draw a circle of radius R and centered around the origin"""
+    =====
+        turtle.up()
+        turtle.goto(0, -R)
+        turtle.setheading(0)
+        turtle.down()
+    =====
+        turtle.circle(R)
+
+    =====
+    def draw_centered_square( L ):
+        """Draw a square with side-length L and centered around the origin"""
+    =====
+        turtle.up()
+        turtle.goto(-L/2, -L/2)
+        turtle.setheading(0)
+        turtle.down()
+    =====
+        for i in range(4):
+            turtle.forward(L)
+            turtle.left(90)
+
+    =====
+    PROMPT = "Should the turtle draw a circle or a square? "
+    answer = input(PROMPT)
+    =====
+    if answer == "circle":
+    =====
+        draw_centered_circle(100)
+    =====
+    if answer == "square":
+    =====
+        draw_centered_square(100)
+    =====
+    if answer != "circle" and answer != "square":
+    =====
+        print("Error. You entered '" + answer + \
+              "' instead of 'circle' or 'square'.")
+
         
+Making functions interactive
+-----------------------------
+
 Recall the ``draw_poly`` function from the lesson on functions?
 Let's revisit it to see how we can use the ``if`` command to make the 
-``draw_poly`` function more useful.
+``draw_poly`` function both more interactive and more useful.
 
 .. activecode:: ac-if-poly
     :nocodelens:
@@ -148,7 +217,6 @@ Let's revisit it to see how we can use the ``if`` command to make the
     def draw_poly( N, L, C ):
         """Draw a N-sided regular polygon with lower left corner at (X, Y),
         side length L, and pen color C"""
-        # requires: N >= 3 and  L > 0
 
         turtle.color( C )    
         turn_angle = 360 / N
@@ -215,3 +283,40 @@ Or suppose we want some filled, but not others:
     :width: 50%
     :align: center
     :alt: turtle drawing of nested polygons of increasing number of sides, some filled, others not filled
+
+We *could* define another function that draws unfilled polygons and then call it instead
+of ``draw_poly`` when an unfilled polygon is needed.
+But that will create two functions that are almost identical, which is frowned on
+in coding.
+A better solution is to redefine function ``draw_poly`` to have a fourth parameter: 
+a boolean value that indicates if the polygon should be filled or not.
+Say, we call this parameter ``F``.
+We can then use if-commands so that ``turtle.begin_fill()`` and ``turtle.end_fill()``
+commands are executed only if ``F`` equals ``True``. 
+This strategy will mean that the calls to ``draw_poly`` will need a fourth argument,
+either ``True`` (if you want a filled polygon) or ``False`` (if you want an unfilled
+polygon)---e.g., 
+   ``draw_poly( 10, 100, "purple", True)``.
+
+.. activecode:: ac-draw-poly2
+    :nocodelens"
+    :language: python
+    
+    We have started you out with a header for the new ``draw_poly`` definition below.
+    
+    Add a body that uses the strategy described above.
+    (Hint: Start with a copy of the old ``draw_poly`` body and replace the lines
+    that call ``turtle.begin_fill()`` and ``turtle.end_fill()`` with if-commands.)
+    
+    Once you have tested ``draw_poly`` and believe it is correct, 
+    use it to create the example diagrams above.
+    ~~~~
+    import turtle
+    turtle.speed(10)
+    
+    def draw_poly( N, L, C, F ):
+        """Draw a N-sided regular polygon with side length L; pen color C;
+        filled, if F == True, or unfilled, if F == False """
+        
+
+

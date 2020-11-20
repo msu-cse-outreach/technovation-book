@@ -607,7 +607,6 @@ __ PolygonExplanation_
     def draw_poly( N, L, C ):
     =====
         """filled N-sided polygon with side length L, pen color C"""
-        # requires: N >= 3 and  L > 0
     =====
         turtle.color( C )    
         turn_angle = 360 / N
@@ -642,8 +641,7 @@ __ PolygonExplanation_
     def draw_poly( N, L, C ):
         """Draw a N-sided regular polygon with lower left corner at (X, Y),
         side length L, and pen color C"""
-        # requires: N >= 3 and  L > 0
-
+        
 
     # move to the starting location
     
