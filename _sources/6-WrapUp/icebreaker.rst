@@ -7,7 +7,7 @@
 Icebreaker
 :::::::::::::::::::::::::::::::::::::::::::
 
-.. image:: turkey.gif
+.. image:: img/turkey.gif
     :width: 500
     :align: center
     :alt: Happy Thanksgiving
