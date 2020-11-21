@@ -12,13 +12,12 @@ Icebreaker
     :align: center
     :alt: Happy Thanksgiving
 
-It's our last week of Technovation! Wow how time flies when you're having fun!
-
-For our last icebreaker, add gifs, memes, images, and doodles to the slides below that describe your feelings about our upcoming break, 
-
-and an image of your favorite Thanksgiving food!
-
-If it's more convenient, you can open the |googleslides| here!
+| It's our last week of Technovation! Wow how time flies when you're having fun!
+| 
+| For our last icebreaker, add gifs, memes, images, and doodles to the slides below
+  that describe your feelings about our upcoming break, and an image of your favorite Thanksgiving food!
+|
+| If it's more convenient, you can open the |googleslides| here!
    
 .. |googleslides| raw:: html
 
