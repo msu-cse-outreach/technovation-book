@@ -14,4 +14,5 @@ Wrap Up
    icebreaker.rst
    code-along.rst
    exercises.rst
+   kahoot.rst
    standup.rst
