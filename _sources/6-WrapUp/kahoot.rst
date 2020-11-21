@@ -7,8 +7,13 @@ Closing Celebration
 :::::::::::::::::::::::::::::::::::::::::::
 
 | We've had so much fun working with you these past six weeks, so
- let's have close it out with a last bit of fun - a Kahoot to review
+ let's close it out with one last bit of fun---a |kahoot| to review
  everything we've learned!
+
+.. |kahoot| raw:: html
+
+    <a href="https://kahoot.it/" target=_blank>Kahoot</a>
+
 
 .. raw:: html
 
