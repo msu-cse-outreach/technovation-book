@@ -294,8 +294,9 @@ Say, we call this parameter ``F``.
 We can then use if-commands so that ``turtle.begin_fill()`` and ``turtle.end_fill()``
 commands are executed only if ``F`` equals ``True``. 
 This strategy will mean that the calls to ``draw_poly`` will need a fourth argument,
-either ``True`` (if you want a filled polygon) or ``False`` (if you want an unfilled
-polygon)---e.g., 
+either ``True``, to draw a filled polygon, or ``False``, to draw an unfilled
+polygon---e.g., 
+
    ``draw_poly( 10, 100, "purple", True)``.
 
 .. activecode:: ac-draw-poly2
@@ -318,5 +319,24 @@ polygon)---e.g.,
         """Draw a N-sided regular polygon with side length L; pen color C;
         filled, if F == True, or unfilled, if F == False """
         
+
+More advanced if-commands
+-----------------------------
+
+The if-command comes in several varieties.
+We've been using the simplest version, which has the form,
+
+.. code:: python
+
+    if cond:
+        command1
+        command2
+        ...
+        commandN
+        
+where *cond* stands for a *boolean expression*, or an expression that is either
+``True`` or ``False`` and *command1*, *command2*, ..., *commandN* stand for the
+commands that should be executed if *cond* equals ``True``.
+
 
 
