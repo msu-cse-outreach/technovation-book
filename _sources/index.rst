@@ -6,9 +6,8 @@
 Technovation
 ==========================================
 
-Welcome to the inaugural *Virtual Technovation*! 
+Welcome to *Technovation*! 
 
-Transitioning from an in-person to a virtual club will be an adventure.
 Hang tight and enjoy the ride! |sledding|
 
 .. |sledding| image:: img/sleddingClipart-libraryDOTcomClipart196301.png
@@ -23,6 +22,7 @@ Table of Contents
    :maxdepth: 2
 
    1-Intro/toctree.rst
+   2-TurtleBasics/toctree.rst
    2-Loops/toctree.rst
    3-Functions/toctree.rst
    4-Review1/toctree.rst
