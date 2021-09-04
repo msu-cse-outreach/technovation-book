@@ -16,7 +16,7 @@ Can you believe our first meeting of Virtual Technovation is already over?
 Stand Up
 ------------
 
-Reflect on what you've learned. 
+Reflect on what you've learned.
 In your breakout room, you will be given 6 minutes to discuss the questions below
 and *select someone in your group* to report back your responses upon
 return to the main room.
@@ -25,7 +25,6 @@ return to the main room.
 2. What's something you succeeded with today?
 3. What's one thing you're looking forward to learning next week?
 
-.. ADD A 6 MIN MUSIC CLIP FOR TIMING THIS??
 
 Feedback
 ----------
@@ -36,9 +35,16 @@ Let us know what you liked, disliked, or would change.
 .. raw:: html
 
      <div align="middle">
-         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeup8H3UXl_FXfMTEKtb5Y1qx_6tpydSZTsSxMvCIPTt8VXdQ/viewform?embedded=true" width="640" height="1333" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2_9bter71L1JC2ss-epeaTnlRC0SAxfzJDkZqNc8t0wh6Eg/viewform?embedded=true" width="640" height="1620" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
      </div>
 
+
+.. raw:: html
+
+  <div align="middle">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hgw_yprN_-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  
 Goodbye!
 ---------
 

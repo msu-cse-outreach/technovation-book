@@ -1,12 +1,12 @@
 .. image:: img/Technovation-yellow-gradient-background.png
     :width: 500
     :align: center
-    
+
 ==========================================
 Technovation
 ==========================================
 
-Welcome to *Technovation*! 
+Welcome to *Technovation*!
 
 Hang tight and enjoy the ride! |sledding|
 
@@ -22,13 +22,13 @@ Table of Contents
    :maxdepth: 2
 
    1-Intro/toctree.rst
-   2-TurtleBasics/toctree.rst
+   2-Basics/toctree.rst
    2-Loops/toctree.rst
    3-Functions/toctree.rst
    4-Review1/toctree.rst
    5-TypesUI/toctree.rst
    6-WrapUp/toctree.rst
-   
+
 
 
 

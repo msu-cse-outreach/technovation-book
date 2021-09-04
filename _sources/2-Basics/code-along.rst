@@ -1,0 +1,458 @@
+.. image:: ../img/Technovation-yellow-gradient-background.png
+    :width: 500
+    :align: center
+    :alt: Technovation logo
+
+
+Learning to Code
+:::::::::::::::::::::::::::::::::::::::::::
+
+Python Turtle
+-----------------------------------------
+
+Think of a Python ``turtle`` as your new (virtual) pet.
+Instead of using words and gestures
+to teach it to roll over or sit, you write computer programs containing instructions
+that tell it how to draw pictures on a *screen*.
+
+For example, the code in the box below instructs the ``turtle`` to draw a square.
+
+.. activecode:: turtle_square
+    :language: python
+    :above:
+    :caption: A Square Program
+    :nocodelens:
+
+    Press the ``Run`` button. You may need to scroll the window to see
+    the screen below the editor window.
+    ~~~~
+    # a square with side-length 100 pixels
+    import turtle
+
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+
+.. reveal:: re-turtle-square
+    :showtitle: Read an explanation of this code
+    :modal:
+    :modaltitle: Code for drawing a square measuring 100 pixels on each side
+
+    1 ``# a square with side-length 100 pixels``
+
+    Lines that start with ``#`` are *comments*. The computer ignores all comments.
+    Comments help someone reading the code understand what the code does.
+
+    This comment tells the reader that the program draws a square measuring
+    100 pixels on each side.
+
+    2 ``import turtle``
+
+    *Imports* the ``turtle`` *module* that comes with Python. A module defines
+    one or more data objects and instructions.
+    Importing the module allows you to use these data objects and instructions
+    in your own program.
+
+    4 ``turtle.forward(100)``
+
+    Moves the ``turtle`` forward (i.e., in whatever direction it is facing)
+    by 100 pixels.
+
+    The ``100`` is an *input* to the instruction---the computer
+    reads this number to know how many pixels to move forward. Since the ``turtle``
+    is facing right, this instruction will move it 100 pixels to the right.
+
+    5 ``turtle.left(90)``
+
+    Rotates the ``turtle``  ``90`` degrees to the left (counter-clockwise).
+
+    The ``left`` instruction needs one input---the computer reads the input (``90`` in
+    this instruction) to know how many degrees to rotate through.
+
+    The final two instructions are repeated three times to complete the other
+    three sides of the square.
+
+    Notice that:
+
+    - After the line 5 ``turtle.left(90)`` instruction, the ``turtle`` is facing up.
+      So the line 6 ``turtle.forward(100)`` instruction moves it *up* by 100 pixels.
+
+    - The line 7 ``turtle.left(90)`` then rotates the ``turtle`` so it faces left
+      and so the line 8 ``turtle.forward(100)`` instruction moves the ``turtle``
+      left by 100 pixels.
+
+    - The line 9 ``turtle.left(90)`` then rotates the ``turtle`` so it faces down and so the line 10
+      ``turtle.forward(100)`` instruction moves the ``turtle`` back down to where it started.
+
+    - Finally, the line 11 ``turtle.left(90)`` instruction rotates the ``turtle`` back to
+      the start position---making it again face to the right.
+
+Check your understanding of this program.
+
+.. dragndrop:: dnd-check-understanding-1
+    :match_6: 1 #  a square with side-length 100 pixels|||does not move or turn the turtle
+    :match_1: 2 import turtle|||allows you to use data objects and instructions from the turtle module
+    :match_2: 4 turtle.forward(100)|||moves the turtle 100 pixels to the right
+    :match_7: 6 turtle.forward(100)|||moves the turtle 100 pixels up
+    :match_3: 8 turtle.forward(100)|||moves the turtle  100 pixels to the left
+    :match_4: 9 turtle.left(90)|||makes the turtle  face down
+    :match_5: 11 turtle.left(90)|||makes the turtle face to the right
+
+    Match each line from the program above with the effect that executing it has
+    on the turtle.
+    (Line numbers are shown on the left.)
+
+
+.. image:: img/rectangle.png
+    :alt: image of a rectangle with left corner at the origin, width 150 pixels, and height 100 pixels
+    :align: center
+    :width: 300
+
+
+.. parsonsprob:: pa-rectangle-program
+    :language: python
+    :adaptive:
+
+    Arrange the instructions into a program that draws a rectangle
+    150 pixels wide and 100 pixels high, like the one shown above.
+    -----
+    import turtle
+
+    turtle.forward(150)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(150)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+
+
+
+A (Python) ``turtle`` knows many more *instructions* than just ``forward`` and ``left``.
+Following are some that will be useful in the remaining exercises for this week.
+
+See if you can guess what each instruction does. Then press the button to see an
+explanation.
+
+.. reveal:: re-turtle-backward
+    :modaltitle: turtle.backward(L)
+    :modal:
+    :showtitle: turtle.backward(L)
+
+    instructs the ``turtle`` to move ``L`` pixels backwards
+    (i.e., opposite to the direction that the turtle is facing).
+
+    The input, ``L``, tells the computer how many pixels to move.
+
+.. reveal:: re-turtle-right
+    :showtitle: turtle.right(D)
+    :modaltitle: turtle.right(D)
+    :modal:
+
+    instructs the ``turtle`` to rotate ``D`` degrees towards the right
+    (i.e., clockwise).
+
+    The input, ``D``, tells the computer the number of degrees to rotate through.
+
+.. reveal:: re-turtle-goto
+    :showtitle: turtle.goto(X, Y)
+    :modaltitle: turtle.goto(X, Y)
+    :modal:
+
+    instructs the ``turtle`` to go straight to the position with *coordinates* ``(X, Y)``
+    on the screen.
+
+    Positions are indicated using a Cartesian coordinate system with the center
+    of the screen at position ``(0, 0)`` and units measured in pixels.
+    The default screen-size in an active code widget is 400 pixels wide and 400 pixels high.
+
+    The inputs, ``X`` and ``Y``, tell the computer what position to move to.
+
+.. reveal:: re-turtle-circle
+    :showtitle: turtle.circle(R)
+    :modaltitle: turtle.circle(R)
+    :modal:
+
+    instructs the ``turtle`` to draw a circle of radius ``R`` pixels.
+
+    The ``turtle`` draws the circle starting at its current location
+    and curving left from the direction of travel (the direction the turtle is
+    facing).
+
+    The input, ``R``, tells the computer how many pixels long to make the circle's radius.
+
+
+.. reveal:: re-turtle-color
+    :showtitle: turtle.color(C)
+    :modaltitle: turtle.color(C)
+    :modal:
+
+    instructs the ``turtle`` to use the color ``C`` for drawing.
+
+    The initial ``turtle`` color is ``black``.
+
+    The input, ``C``, tells the computer what color to use.
+
+.. reveal:: re-turtle-up
+    :modaltitle: turtle.up()
+    :modal:
+    :showtitle: turtle.up()
+
+    instructs the ``turtle`` to stop drawing as it moves.
+
+    **Why the name ``up``?**
+    Think of attaching a felt-tip marker or a paint brush to the tail of the ``turtle`` so that,
+    when its tail is up, it moves without making any mark and, when its tail is down,
+    it makes a solid line as it moves.
+
+    The ``turtle`` always starts out with its tail down. So if you want to move it to
+    to a starting position without drawing anything, you have to first instruct it
+    to lift it's tail up (i.e., execute ``turtle.up()``).
+
+
+.. reveal:: re-turtle-down
+    :modaltitle: turtle.down()
+    :modal:
+    :showtitle: turtle.down()
+
+    instructs the ``turtle`` to draw as it moves.
+
+    After executing a ``turtle.up()`` instruction, if you ever want the
+    ``turtle`` to start drawing again, you have
+    to first execute a ``turtle.down()`` instruction.
+
+.. reveal:: re-turtle-fill
+    :showtitle: turtle.begin_fill() ... turtle.end_fill()
+    :modaltitle: turtle.begin_fill() ... turtle.end_fill()
+    :modal:
+
+    instructs the computer to fill the figure drawn by executing the code between
+    the ``turtle.begin_fill()`` and ``turtle.end_fill()`` instructions.
+
+.. |trinket| raw:: html
+
+    <a href="https://trinket.io/docs/colors" target="_blank">trinket.io/docs/colors</a>
+
+..
+
+.. mchoice:: mc-read-code
+    :answer_a: top left
+    :answer_b: top right
+    :answer_c: bottom left
+    :answer_d: bottom right
+    :correct: a
+    :feedback_d: No. Draw lines between the points that the turtle goes to on a graph paper to form the boundary. Then color every point that lies between two points on the boundary.
+    :feedback_a: Correct! The turtle starts drawing at (-100, 0), goes up to (-100,100), then over to (100,100), and then down to (100,0), forming three sides of a rectangle; filling the shape creates the top-left image, with the turtle still at (100,0) and facing right.
+    :feedback_b: No. Draw lines between the points that the turtle goes to on a graph paper to form the boundary. Then color every point that lies between two points on the boundary.
+    :feedback_c: No. Draw lines between the points that the turtle goes to on a graph paper to form the boundary. Then color every point that lies between two points on the boundary.
+
+    Pretend to be a ``turtle`` and follow the instructions in the next
+    program. (You might want to do it on a graph paper.)
+
+    Which of the shapes shown below will the program draw?
+
+    .. code:: python
+
+        import turtle
+
+        turtle.up()
+        turtle.goto(-100, 0)
+        turtle.down()
+
+        turtle.color("lightblue")
+        turtle.begin_fill()
+        turtle.goto(-100, 100)
+        turtle.goto(100, 100)
+        turtle.goto(100, 0)
+        turtle.end_fill()
+
+    .. image:: img/read-code-choices.png
+        :alt: four shapes, all 200 pxls wide by 100 pxls high: top left has a light-blue filled rectangle; top right has a light-blue outlined rectangle; bottom left has a light-blue outlined isosceles triangle; bottom right has a light-blue filled isosceles triangle
+        :align: center
+
+
+.. reveal:: re-turtle-state
+    :showtitle: Show Pro tip
+    :hidetitle: Hide Pro tip
+
+    A Python Graphics ``turtle`` is an example of what computer scientists
+    call a *data object*.
+    A data object is just a computer representation of something in
+    the *application domain*,
+    such as a customer in an
+    airline reservation system or a pen in a drawing program.
+
+    An important property of a data object is that it has a *state*.
+    The state of a data object affects what the object does when it
+    receives an instruction.
+    For example, the state of a ``turtle`` determines whether it will draw a
+    line when it moves or not.
+    Before any ``turtle.up()`` instructions, the ``turtle.forward(100)``
+    instruction both draws a line
+    and changes the position of the ``turtle``;
+    but after a ``turtle.up()`` instruction, a ``turtle.forward(100)``
+    instruction only changes the ``turtle``'s
+    position.
+
+    Computer scientists refer to commands, like ``turtle.up()`` and ``turtle.down()``, that change
+    the state of the data object that receives them as
+    having *side effects*.
+
+    .. clickablearea:: cli-state
+       :question: Click on the commands that you think may have a side-effect (change the state of the turtle).
+       :table:
+       :correct: 1,1;1,2;2,1;2,2;3,1
+       :incorrect: 3,2
+
+       +-----------------------+---------------------+
+       |   turtle.forward(45)  | turtle.backward(90) |
+       +-----------------------+---------------------+
+       |    turtle.left(30)    |   turtle.right(90)  |
+       +-----------------------+---------------------+
+       |  turtle.color("red")  |  turtle.circle(75)  |
+       +-----------------------+---------------------+
+
+With these commands, we can instruct the ``turtle`` to draw more interesting diagrams.
+
+For example, here's a program that draws a six-pointed star in two colors.
+
+.. activecode:: turtle_6_point_star
+    :language: python
+    :nocodelens:
+    :caption: Six-Pointed Star
+
+    Run the program and scroll down to see what the ``turtle`` draws.
+    ~~~~
+    import turtle
+
+    # a base triangle in green
+    turtle.up()
+    turtle.goto(-100, -50)
+    turtle.color("green")
+    turtle.down()
+    turtle.forward(200)
+    turtle.left(120)
+    turtle.forward(200)
+    turtle.left(120)
+    turtle.forward(200)
+    turtle.left(120)
+
+    # a rotated triangle in blue
+    turtle.left(60)
+    turtle.up()
+    turtle.goto(0, -110)
+    turtle.color("blue")
+    turtle.down()
+    turtle.forward(200)
+    turtle.left(120)
+    turtle.forward(200)
+    turtle.left(120)
+    turtle.forward(200)
+    turtle.left(120)
+
+
+The computer executes the instructions in a program exactly as they are
+written and in the exact order. Your dog probably is not as obedient! |dogtricks|
+
+.. |dogtricks| image:: img/dogTricksCliparts.png
+    :alt: Cartoon of a dog with a bucket on its head and a ball, presumably being instructed to do a trick
+    :width: 20 %
+
+Sometimes the order doesn't matter; other times it does.
+
+.. clickablearea:: cli-commuting-instructions
+   :question: Click on the pairs of lines from the Six-Pointed Star Program containing instructions that could be swapped without affecting what the program draws.
+   :table:
+   :correct: 2,1;3,1
+   :incorrect: 1,1;1,2;2,2;3,2
+
+
+   +--------------------------+--------------------------+
+   | 1 import turtle &        | 4 turtle.up() &          |
+   | 4 turtle.up()            | 5 turtle.goto(-100, -50) |
+   +--------------------------+--------------------------+
+   | 6 turtle.color("green")  | 8 turtle.forward(200)  & |
+   | & 7 turtle.down()        | 9 turtle.left(120)       |
+   +--------------------------+--------------------------+
+   | 16 turtle.left(60)  &    | 6 turtle.color("green")  |
+   | 17 turtle.up()           | & 19 turtle.color("blue")|
+   +--------------------------+--------------------------+
+
+.. figure:: img/circles.png
+   :width: 80 %
+   :alt: A Turtle drawing with three concentric circles centered at the origin--a blue circle of radius 25, a red circle of radius 50, and a purple circle of radius 75
+   :align: center
+
+   Concentric Circles
+
+   ..
+
+.. parsonsprob:: pa-turtle-circles
+   :adaptive:
+
+   Arrange the instruction blocks below into a program
+   that draws:
+
+   - First, a purple circle of radius 75.
+
+   - Then, a red circle of radius 50.
+
+   - And finally, a blue circle of radius 25.
+
+   The drawing it produces should look like the Concentric Circles image above.
+
+   (Drag the instruction blocks into the yellow rectangular region in the order
+   that the computer should execute them.)
+   -----
+   import turtle
+
+   =====
+   turtle.up()
+   =====
+   turtle.goto(0, -75)
+   turtle.color("purple")
+   =====
+   turtle.down()
+   =====
+   turtle.circle(75)
+   =====
+   turtle.up()
+   =====
+   turtle.goto(0, -50)
+   turtle.color("red")
+   =====
+   turtle.down()
+   =====
+   turtle.circle(50)
+   =====
+   turtle.up()
+   =====
+   turtle.goto(0, -25)
+   turtle.color("blue")
+   =====
+   turtle.down()
+   =====
+   turtle.circle(25)
+
+
+We'll introduce more ``turtle`` instructions as we go along.
+But if you are curious, you can learn all about |turtleGraphics|,
+including all of the instructions that the ``turtle`` understands, |here|.
+
+.. |turtleGraphics| raw:: html
+
+    <a href="https://docs.python.org/3.7/library/turtle.html#module-turtle" target="_blank">Turtle Graphics</a>
+
+
+.. |here| raw:: html
+
+    <a href="https://docs.python.org/3.7/library/turtle.html#module-turtle" target="_blank">here</a>
+
+Variables and Assignment
+----------------------------------------

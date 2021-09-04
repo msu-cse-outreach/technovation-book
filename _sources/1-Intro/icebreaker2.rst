@@ -14,7 +14,7 @@
 ..
 
 
-A mentor in your breakout room will assign you a page on our |gettoknowyou|. 
+A mentor in your breakout room will assign you a page on our |gettoknowyou|.
 
 They will then give you 5 minutes to upload your images
 and add at least the following information to your page.
@@ -30,18 +30,18 @@ Other things you might add (time permitting):
 
 When time is up (Julie is done singing), your mentor will give you a few more minutes to browse the pages of others from your breakout room.
 
-Be ready to ask a question or two about some other pages and to respond to 
+Be ready to ask a question or two about some other pages and to respond to
 questions others may ask about yours.
 
 
 .. |gettoknowyou| raw:: html
 
-   <a href="https://docs.google.com/presentation/d/1WXLw4eFMFGSFvPCMxidBZLtd-t-x-oCDwNADeeI4m-8/edit?usp=sharing" target="_blank">Getting To Know You Presentation</a>
+   <a href="https://docs.google.com/presentation/d/1IJaxWGMmHlWqCm4NRzZNI4aXHdmUI6QmcKJkGUBpyt8/edit?usp=sharing" target="_blank">Getting To Know You Presentation</a>
 
 
 ..
 
-**Stay on this Runstone page until you are invited to return to the main Zoom room.**
+**Stay on this Runestone page until you are invited to return to the main Zoom room.**
 
 .. youtube:: BbbYY-pAmlY
    :align: center
