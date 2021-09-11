@@ -45,7 +45,7 @@ What are some reasons to learn to code? (Click on the dark gray buttons below.)
 
     .. raw:: html
 
-        <img src="https://www.cse.msu.edu/~ldillon/Gifs/think-try-learn2.gif" alt="Animated gif - girls thinking, trying, and learning">
+        <img src="https://www.cse.msu.edu/~ldillon/TechnovationBook/think-try-learn2.gif" alt="Animated gif - girls thinking, trying, and learning">
 
 
 .. reveal:: re-reasonToCode4
@@ -55,7 +55,7 @@ What are some reasons to learn to code? (Click on the dark gray buttons below.)
 
     .. raw:: html
 
-        <img src="https://www.cse.msu.edu/~ldillon/Gifs/code-needed-in-all-fields850.gif">
+        <img src="https://www.cse.msu.edu/~ldillon/TechnovationBook/code-needed-in-all-fields850.gif">
 
 
 .. reveal:: re-reasonToCode5

@@ -27,6 +27,9 @@ Restructured text documentation:
 - https://docutils.sourceforge.io/rst.html#user-documentation
 - https://docutils.sourceforge.io/docs/user/rst/quickref.html
 
+For creating audio files:
+- https://twistedwave.com/online
+
 * Nice exercise for functions (collatz sequence): https://compucademy.net/the-collatz-conjecture-with-python/?mc_cid=918f6749ce&mc_eid=14692b5f86
 
 

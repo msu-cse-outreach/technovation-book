@@ -522,7 +522,8 @@ Keywords |keyword|
 
 All but the most primitive programming languages
 have words that mean something special to the computer.
-Called *keywords*, these words help the computer recognize instructions.
+Called *keywords*, these words help the computer recognize the instructions
+that you want it to execute.
 There are 35 keywords in Python.
 
 +----------+----------+----------+----------+----------+
@@ -548,7 +549,7 @@ you can use them only in special instructions.
 
 .. fillintheblank:: ftb-familiar-keyword
 
-    The example programs given in this ebook so far have used
+    The example programs given so far in this ebook have used
     just one of these keywords. What keyword is it?
 
     - :import: Yes! The `import` keyword tells the computer that the next word will be the name of a module and instructs the computer to import all the code in the module.
@@ -570,6 +571,10 @@ you probably guessed that variables are important.
 If so, you are right!
 Almost all programming languages allow you
 to create variables in writing code.
+
+A variable is like a container that you have labeled with a name (the variable name).
+When running a program, the computer can store different values (data objects)
+in the variable (container).
 
 In Python, the name that you create for a variable has to satisfy
 three rules:
@@ -596,12 +601,8 @@ three rules:
     | 1_a      | true     | True_no  | _103     |
     +----------+----------+----------+----------+
 
-A variable is like a container that you have labeled with a name (the variable name).
-When running a program, the computer can store different values (data objects)
-in the variable (container).
-
-Much like a good label for a container is one that reminds you what the container contains,
-a good name for a variable is one that reminds you what the values stored in the variable are
+Much like a good container label is one that reminds you what the container contains,
+a good variable name is one that reminds you what the values stored in the variable are
 used for. For example, you might name a variable ``radius`` if it will be used to store
 the length (number of pixels) for the radius of a circle or ``time_left`` if it will
 be used to store the number of minutes left in a video you are is watching.
@@ -623,7 +624,7 @@ Assignment |assignment-gif|
 
 .. |assignment-gif| raw:: html
 
-        <img src="https://www.cse.msu.edu/~ldillon/Gifs/assignment-gifmaker.me.gif" width="75 %" alt="Animated gif representing assignment by putting a box in a container">
+        <img src="https://www.cse.msu.edu/~ldillon/TechnovationBook/assignment-gifmaker.me.gif" width="75 %" alt="Animated gif representing assignment by putting a box in a container">
 
 
 An assignment instructs the computer to store a value in a variable.
@@ -638,17 +639,24 @@ For example, if the variable ``x`` stores the value ``5``, then executing
 ``y = x + 1`` produces the value ``6`` and stores it in the variable ``y``.
 
 
-An experienced programmer will *not* say: |y-equals-xplus1|
+An experienced programmer will *not* read ``y = x + 1`` as:
+|y-equals-xplus1|
 
-Instead, they might say: |assign-xplus1to-y|
+Instead, they might say:
+|assign-xplus1to-y|
 
-Or: |y-gets-xplus1|
+Or:
+|y-isassigned-xplus1|
+
+Or even:
+|y-gets-xplus1|
 
 .. |y-equals-xplus1| raw:: html
 
     <div>
     <audio controls>
-    <source src="y-equals-xplus1.m4a" type="audio/mpeg">
+    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/y-equals-xplus1-voice-memo.mp3" type="audio/mpeg">
+    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/y-equals-xplus1-voice-memo.wav" type="audio/wav">
     "y equals x plus one"
     </audio>
     </div>
@@ -657,8 +665,9 @@ Or: |y-gets-xplus1|
 
     <div>
     <audio controls>
-    <source src="y-equals-xplus1.m4a" type="audio/mpeg">
-    "y equals x plus one"
+    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/assign-xplus1to-y.mp3" type="audio/mpeg">
+    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/assign-xplus1to-y.wav" type="audio/wav">
+    "assign x plus one to y"
     </audio>
     </div>
 
@@ -666,13 +675,26 @@ Or: |y-gets-xplus1|
 
     <div>
     <audio controls>
-    <source src="y-equals-xplus1.m4a" type="audio/mpeg">
-    "y equals x plus one"
+    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/y-gets-xplus1.mp3" type="audio/mpeg">
+    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/y-gets-xplus1.wav" type="audio/wav">
+    "y gets x plus one"
     </audio>
     </div>
 
-This last example illustrates the use of ``+`` to mean addition.
-Other arithmetic operators defined in Python include:
+
+.. |y-isassigned-xplus1| raw:: html
+
+    <div>
+    <audio controls>
+    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/y-isassigned-xplus1.mp3" type="audio/mpeg">
+    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/yy-isassigned-xplus1.wav" type="audio/wav">
+    "y is assigned x plus one"
+    </audio>
+    </div>
+
+This last example illustrates the use of ``+`` to mean addition. We won't list
+all the Python arithmetic here since you can easily `look them up <>`_ when you need them.
+But some arithmetic operators that you might want to be aware of include:
 
 - ``-`` for subtraction or minus.
   For example, executing ``10 - 5`` produces ``-5``.
@@ -681,12 +703,15 @@ Other arithmetic operators defined in Python include:
   For example, executing ``10 * 5`` produces ``50``.
 
 - ``/`` for division.
-  For example, executing ``10 / 2`` produces ``5.0`` while executing.
+  For example, executing ``2 / 10`` produces ``0.2`` while executing ``10 / 2``
+  produces ``5.0``.
   (In Python, the division operator always produces a *floating point* number---or,
   essentially, a number shown in decimal notation.)
 
-- ``//`` for quotient (the number of times that the bottom number goes into the top number).
-  For example, executing ``12 // 5`` produces ``2`` (since ``5`` goes into ``10``
-  twice with a remainder of ``2``).
+- ``//`` for quotient (the number of times that the *divisor* (bottom number) goes
+  into the *dividend* (top number).
+  For example, executing ``13 // 5`` produces ``2`` (since ``5`` goes into ``10``
+  twice with a remainder of ``3``).
 
-- ``%`` for remainder. For example,
+- ``%`` for remainder. For example, executing ``13 // 5`` produces ``3``
+  (since ``5`` goes into ``10`` twice with a remainder of ``3``).
