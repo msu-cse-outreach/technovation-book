@@ -2,7 +2,7 @@
     :width: 600
     :align: center
 
-Turtles, Variables, & Assignment
+Turtles, Keywords, Variables, & Assignment
 ========================================
 
 .. image:: img/animals-1298747_1280.png

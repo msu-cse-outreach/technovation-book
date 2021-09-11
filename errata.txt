@@ -1,0 +1,189 @@
+* I’m looking over your Technovations book, and found a spelling error in Chapter,for Q. 1 and Q 2, exercises  1.5.2.1 and 1.5.2.2. When you drag the sentences and they are incorrect, then click the Check me button, the response  for “Incorrect” is misspelled as “Incorret”. FIXED
+
+* Parson's problems in early chapters: swap out or change those with multiple solutions.
+
+* Some of the book design needs to be reconsidered if others will use the book we create as a starting point for their own club. I had not appreciated all the difficulties of that until I read the note from Brad that you forwarded. But that might be one way for our collaboration to contribute to Runestone. PUNT FOR NOW AS WE EVALUATE WHAT WE HAVE AND HOW ITS USED/WHAT WE NEED IN THE WAY OF CUSTOMIZATION FROM ONE OFFERING TO THE NEXT.
+
+* Slide 7 of 5-TypesUI Practice page uses "keyword" terminology incorrectly. It would be OK to call it a "key" -- but not a "keyword".  Keyword has a different meaning in PL parlance. This use is misleading and will confuse them later on when being taught about keywords such as 'if' and 'else' and 'elsif' etc.
+
+*** ASK BRAD? I changed the name of a folder containing one of our sections (materials for the week). I also changed the folder name in the index.rst file. Rebuilding gives me the right links in the index. But the 'next' link in the last page of the prior section still points to the old folder. Also, building creates a folder with the new name but does not remove the folder with the old name in the build folder. Should we just manually delete that obsolete folder?
+
+
+* In 
+
+-----------------------------------
+
+Reminders: 
+
+https://github.com/settings/tokens
+
+https://gifmaker.me/
+
+https://www.cse.msu.edu/~ldillon/Gifs/
+
+Runestone Instructor Guide: https://www.csawesome.org/runestone-e-book
+
+Restructured text documentation: 
+- https://docutils.sourceforge.io/rst.html#user-documentation
+- https://docutils.sourceforge.io/docs/user/rst/quickref.html
+
+* Nice exercise for functions (collatz sequence): https://compucademy.net/the-collatz-conjecture-with-python/?mc_cid=918f6749ce&mc_eid=14692b5f86
+
+
+* Make a Quick Reference (cheat sheet) appendix.
+
+
+--------------------------------------
+Example for in-line image:
+
+    A data object is a computer representation of an *abstraction*---something
+    tangible in the problem domain---such as a turtle that understands drawing commands |greensmile|.
+
+    .. |greensmile| image:: img/green-smiley-face-clip-art-emotions-green-smiley-face-md.png
+       :width: 15
+
+--------------------------------------
+
+And have a ...
+
+.. image:: img/Happy_halloween_clipart-4.png
+    :width: 400
+    :align: center
+    :alt: Happy Halloween clipart from Pinterest
+
+---------------------------------------
+To whet your appetite, here's an example program.
+Don't worry about understanding this code
+just yet.
+But notice what the code looks like --- it combines odd-looking words, punctuation, numbers,
+and math-like symbols.
+The way things are indented is important.
+We'll learn the rules for writing code like this in the weeks ahead.
+
+Then click the "Run it" tab to see what running the code produces.
+
+.. MAYBE BETTER TO JUST USE AN ACTIVE CODE WINDOW INSTEAD OF THE TABBED ENVIRONMENT? ONE LESS INTERACTION PATTERN TO LEARN/BE CONFUSED BY...
+
+
+.. tabbed:: tab-python-code-example
+
+   .. tab:: The code
+
+        .. code-block:: python
+
+                import turtle
+
+                def drawTriangle(points,color,myTurtle):
+                    myTurtle.fillcolor(color)
+                    myTurtle.up()
+                    myTurtle.goto(points[0][0],points[0][1])
+                    myTurtle.down()
+                    myTurtle.begin_fill()
+                    myTurtle.goto(points[1][0],points[1][1])
+                    myTurtle.goto(points[2][0],points[2][1])
+                    myTurtle.goto(points[0][0],points[0][1])
+                    myTurtle.end_fill()
+
+                def getMid(p1,p2):
+                    return ( (p1[0]+p2[0]) / 2, (p1[1] + p2[1]) / 2)
+
+                def sierpinski(points,degree,myTurtle):
+                    colormap = ['blue','red','green','white','yellow',
+                                'violet','orange']
+                    drawTriangle(points,colormap[degree],myTurtle)
+                    if degree > 0:
+                        sierpinski([points[0],
+                                        getMid(points[0], points[1]),
+                                        getMid(points[0], points[2])],
+                                   degree-1, myTurtle)
+                        sierpinski([points[1],
+                                        getMid(points[0], points[1]),
+                                        getMid(points[1], points[2])],
+                                   degree-1, myTurtle)
+                        sierpinski([points[2],
+                                        getMid(points[2], points[1]),
+                                        getMid(points[0], points[2])],
+                                   degree-1, myTurtle)
+
+                def main():
+                   myTurtle = turtle.Turtle()
+                   myWin = turtle.Screen()
+                   myPoints = [[-100,-50],[0,100],[100,-50]]
+                   sierpinski(myPoints,3,myTurtle)
+                   myWin.exitonclick()
+
+                main()
+
+
+   .. tab:: Run it
+
+      .. activecode:: ac-example-sierpinski-triangle
+        :nocodelens:
+        :above:
+        :autorun:
+        :hidecode:
+
+        Computers execute code pretty quickly.
+        Your computer probably already executed
+        the code by the time you pressed the ``Run it`` tab.
+        If so, you didn't
+        actually see it executing---you only saw the result it produced.
+
+        Press the ``Run`` button to see it execute the code again from the start.
+        ~~~~
+        import turtle
+
+        def drawTriangle(points,color,myTurtle):
+            myTurtle.fillcolor(color)
+            myTurtle.up()
+            myTurtle.goto(points[0][0],points[0][1])
+            myTurtle.down()
+            myTurtle.begin_fill()
+            myTurtle.goto(points[1][0],points[1][1])
+            myTurtle.goto(points[2][0],points[2][1])
+            myTurtle.goto(points[0][0],points[0][1])
+            myTurtle.end_fill()
+
+        def getMid(p1,p2):
+            return ( (p1[0]+p2[0]) / 2, (p1[1] + p2[1]) / 2)
+
+        def sierpinski(points,degree,myTurtle):
+            colormap = ['blue','red','green','white','yellow',
+                        'violet','orange']
+            drawTriangle(points,colormap[degree],myTurtle)
+            if degree > 0:
+                sierpinski([points[0],
+                                getMid(points[0], points[1]),
+                                getMid(points[0], points[2])],
+                           degree-1, myTurtle)
+                sierpinski([points[1],
+                                getMid(points[0], points[1]),
+                                getMid(points[1], points[2])],
+                           degree-1, myTurtle)
+                sierpinski([points[2],
+                                getMid(points[2], points[1]),
+                                getMid(points[0], points[2])],
+                           degree-1, myTurtle)
+
+        def main():
+           myTurtle = turtle.Turtle()
+           myWin = turtle.Screen()
+           myPoints = [[-100,-50],[0,100],[100,-50]]
+           sierpinski(myPoints,3,myTurtle)
+           myWin.exitonclick()
+
+        main()
+
+
+
+------------------------
+
+
+    .. |greensmile| image:: ../img/green-smiley-face-clip-art-emotions-green-smiley-face-md.png
+       :width: 15
+
+
+I am sorry to hear that. If you need tech support I will go head and escalate the chat to a support ticket. All I would need is your name and email. You can also call 888-222-4346 option 3 for a faster response.
+
+By GitHub - https://github.com/logos, Public Domain, https://commons.wikimedia.org/w/index.php?curid=25623155
+
