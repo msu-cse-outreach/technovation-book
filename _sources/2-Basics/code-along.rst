@@ -639,16 +639,16 @@ For example, if the variable ``x`` stores the value ``5``, then executing
 ``y = x + 1`` produces the value ``6`` and stores it in the variable ``y``.
 
 
-An experienced programmer will *not* read ``y = x + 1`` as:
+An experienced programmer will *not* read ``y = x + 1`` as: *"y equals x plus one"*
 |y-equals-xplus1|
 
-Instead, they might say:
+Instead, they might read it as: *"assign x plus one to y"*
 |assign-xplus1to-y|
 
-Or:
+Or: *"y is assigned x plus one"*
 |y-isassigned-xplus1|
 
-Or even:
+Or even: *"y gets x plus one"*
 |y-gets-xplus1|
 
 .. |y-equals-xplus1| raw:: html
@@ -692,8 +692,11 @@ Or even:
     </audio>
     </div>
 
-This last example illustrates the use of ``+`` to mean addition. We won't list
-all the Python arithmetic here since you can easily `look them up <>`_ when you need them.
+This example assignment illustrates the use of ``+`` to mean addition. We won't list
+all the Python *operators* here since you can easily 
+`look them up <https://www.programiz.com/python-programming/operators>`_ when you need them.
+
+
 But some arithmetic operators that you might want to be aware of include:
 
 - ``-`` for subtraction or minus.
