@@ -7,37 +7,135 @@
 Practice Makes Perfect
 :::::::::::::::::::::::::::::::::::::::::::
 
-.. table:: Turtle Commands
-   :widths: auto
-   :align: left
+.. parsonsprob:: pp-garden-plot
 
-   ==========================  =========================
-   Command                     What does it do?
-   ==========================  =========================
-   ``forward( distance )``     Move forward a specified distance
-   ``backward( distance )``    Move backward a specified distance
-   ``left(90)``                Turns 90 degrees to the left (you can use any angle, not just 90!)
-   ``right(90)``               Turns 90 degrees to the right
-   ``circle( radius )``        Draws a circle with the specified radius
-   ``goto( x, y )``            Move straight to the position with coordinates (x, y). *Note: the center is (0, 0)*
-   ``up()``                    Stop leaving a trail
-   ``down()``                  Start drawing a trail
-   ``color( c )``              Set the color to *c* (https://trinket.io/docs/colors)
-   ``for i in range( n ):``    Repeat *n* times
-   ==========================  =========================
+    -----
+    import turtle
+    =====
+    # set the exterior dimensions, border width, and interior and border colors
+    =====
+    ext_length = 100
+    ext_height = 150
+    border_width = 20
+    border_color = "tan"
+    inter_color = "lightblue"
+    =====
+    # calculate the interior dimensions
+    =====
+    inter_length = ext_length - (2 * border_width)
+    inter_height = ext_height - (2 * border_width)
+    =====
+    # calculate the areas of the interior and the border
+    =====
+    inter_area = inter_length * inter_height
+    border_area = (ext_length * ext_height) - inter_area
+    =====
+    # draw the border
+    =====
+    turtle.up()
+    x_coord = - (ext_length / 2)
+    y_coord = - (ext_height / 2)
+    turtle.goto(x_coord, y_coord)
+    turtle.down()
+    turtle.color(border_color)
+    turtle.begin_fill()
+    turtle.goto(x_coord + ext_length, y_coord)
+    turtle.goto(x_coord + ext_length, y_coord + ext_height)
+    turtle.goto(x_coord, y_coord + ext_height)
+    turtle.goto(x_coord, y_coord)
+    turtle.end_fill()
+    =====
+    # draw the interior
+    =====
+    turtle.up()
+    x_coord = - (inter_length / 2)
+    y_coord = - (inter_height / 2)
+    turtle.goto(x_coord, y_coord)
+    turtle.down()
+    turtle.color(inter_color)
+    turtle.begin_fill()
+    turtle.goto(x_coord + inter_length, y_coord)
+    turtle.goto(x_coord + inter_length, y_coord + inter_height)
+    turtle.goto(x_coord, y_coord + inter_height)
+    turtle.goto(x_coord, y_coord)
+    turtle.end_fill()
+    =====
+    # write out the areas
+    =====
+    turtle.up()
+    turtle.color("black")
+    turtle.goto(x_coord - border_width, y_coord - 50)
+    turtle.write("Border: " + str(border_area) + " sq. px.")
+    turtle.goto(x_coord - border_width, y_coord - 70)
+    turtle.write("Interior: " + str(inter_area) + " sq. px.")
+    ======
+    # hide the cursor
+    turtle.hideturtle()
 
-If you don't remember what these commands do, give them a try below!
+
+
+
 
 .. activecode:: command-review-wk2
    :language: python
    :nocodelens:
-   
-   import turtle
-   
-   turtle.forward(100)
-   turtle.backward(100)
 
-   # try out some other commands here!
+   import turtle
+
+   # set the exterior dimensions, border width, and interior and border colors
+   ext_length = 100
+   ext_height = 150
+   border_width = 20
+   border_color = "tan"
+   inter_color = "forestgreen"
+
+   # calculate the interior dimensions
+   inter_length = ext_length - (2 * border_width)
+   inter_height = ext_height - (2 * border_width)
+
+   # calculate the areas of the interior and the border
+   inter_area = inter_length * inter_height
+   border_area = (ext_length * ext_height) - inter_area
+
+   # draw the border
+   turtle.up()
+   x_coord = - (ext_length / 2)
+   y_coord = - (ext_height / 2)
+   turtle.goto(x_coord, y_coord)
+   turtle.down()
+   turtle.color(border_color)
+   turtle.begin_fill()
+   turtle.goto(x_coord + ext_length, y_coord)
+   turtle.goto(x_coord + ext_length, y_coord + ext_height)
+   turtle.goto(x_coord, y_coord + ext_height)
+   turtle.goto(x_coord, y_coord)
+   turtle.end_fill()
+
+   # draw the interior
+   turtle.up()
+   x_coord = - (inter_length / 2)
+   y_coord = - (inter_height / 2)
+   turtle.goto(x_coord, y_coord)
+   turtle.down()
+   turtle.color(inter_color)
+   turtle.begin_fill()
+   turtle.goto(x_coord + inter_length, y_coord)
+   turtle.goto(x_coord + inter_length, y_coord + inter_height)
+   turtle.goto(x_coord, y_coord + inter_height)
+   turtle.goto(x_coord, y_coord)
+   turtle.end_fill()
+
+   # write out the areas
+   turtle.up()
+   turtle.color("black")
+   turtle.goto(x_coord - border_width, y_coord - 50)
+   turtle.write("Border: " + str(border_area) + " sq. px.")
+   turtle.goto(x_coord - border_width, y_coord - 70)
+   turtle.write("Interior: " + str(inter_area) + " sq. px.")
+
+   # hide the cursor
+   turtle.hideturtle()
+
 
 
 |
@@ -48,12 +146,12 @@ If you don't remember what these commands do, give them a try below!
 .. activecode:: square-loop
    :language: python
    :nocodelens:
-   
+
    import turtle
-   
+
    turtle.forward(100)
    turtle.left(90)
-   
+
    turtle.forward(100)
    turtle.left(90)
 
@@ -77,14 +175,14 @@ If you don't remember what these commands do, give them a try below!
 .. activecode:: dashed-line
    :language: python
    :nocodelens:
-   
+
    import turtle
-   
+
    # draw the first dash
    turtle.forward(10)
 
    # pick the pen up to leave white space between dashes
-   turtle.penup()   
+   turtle.penup()
    turtle.forward(10)
 
    # put the pen down and draw the second dash
@@ -114,7 +212,7 @@ If you don't remember what these commands do, give them a try below!
 .. activecode:: shapes-loop
    :language: python
    :nocodelens:
-   
+
    import turtle
 
 |
@@ -130,7 +228,7 @@ If you don't remember what these commands do, give them a try below!
 .. activecode:: circle-row
    :language: python
    :nocodelens:
-   
+
    import turtle
 
 |
@@ -146,7 +244,7 @@ If you don't remember what these commands do, give them a try below!
 .. reveal:: square-row-hint
    :showtitle: Show hint
    :hidetitle: Hide hint
-    
+
     For this problem, try using two loops! One to draw each square
     (same as in the first problem on this page), and another to draw
     the square *multiple times*
@@ -154,7 +252,7 @@ If you don't remember what these commands do, give them a try below!
 .. activecode:: square-row
    :language: python
    :nocodelens:
-   
+
    import turtle
 
 |
@@ -172,9 +270,9 @@ If you don't remember what these commands do, give them a try below!
 .. activecode:: plus
    :language: python
    :nocodelens:
-   
+
    import turtle
-   
+
 |
 |
 
@@ -189,5 +287,5 @@ If you don't remember what these commands do, give them a try below!
 .. activecode:: asterisk
    :language: python
    :nocodelens:
-   
+
    import turtle

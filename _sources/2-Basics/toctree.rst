@@ -2,7 +2,7 @@
     :width: 600
     :align: center
 
-Turtles, Keywords, Variables, & Assignment
+Turtles & Python Basics
 ========================================
 
 .. image:: img/animals-1298747_1280.png

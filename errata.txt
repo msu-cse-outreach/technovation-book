@@ -26,6 +26,7 @@ Runestone Instructor Guide: https://www.csawesome.org/runestone-e-book
 Restructured text documentation: 
 - https://docutils.sourceforge.io/rst.html#user-documentation
 - https://docutils.sourceforge.io/docs/user/rst/quickref.html
+- https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
 
 For creating audio files:
 - https://twistedwave.com/online
@@ -186,7 +187,40 @@ Then click the "Run it" tab to see what running the code produces.
        :width: 15
 
 
-I am sorry to hear that. If you need tech support I will go head and escalate the chat to a support ticket. All I would need is your name and email. You can also call 888-222-4346 option 3 for a faster response.
+>>>>>> I am sorry to hear that. If you need tech support I will go head and escalate the chat to a support ticket. All I would need is your name and email. You can also call 888-222-4346 option 3 for a faster response. <<<<<<<<<<<
 
-By GitHub - https://github.com/logos, Public Domain, https://commons.wikimedia.org/w/index.php?curid=25623155
+------------------------
+
+|y-equals-xplus1|
+
+.. |y-equals-xplus1| raw:: html
+
+    <div>
+    <audio controls>
+    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/y-equals-xplus1-voice-memo.mp3" type="audio/mpeg">
+    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/y-equals-xplus1-voice-memo.wav" type="audio/wav">
+    "y equals x plus one"
+    </audio>
+    </div>
+
+
+-------------------------
+
+import turtle
+
+# set the exterior dimensions, border width, and interior and border colors
+ext_length = 100
+ext_height = 150
+border_width = 20
+border_color = "brown"
+inter_color = "green"
+
+# calculate the interior dimensions and area
+inter_length = ext_length - (2 * border_width)
+inter_height = ext_height - (2 * border_width)
+inter_area = inter_length * inter_height
+
+# calculate the border area
+border_area = (ext_length * ext_height) - inter_area
+
 

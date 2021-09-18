@@ -50,10 +50,10 @@ For example, the code in the box below instructs the ``turtle`` to draw a square
 
     1 ``# a square with side-length 100 pixels``
 
-    Lines that start with ``#`` are *comments*. The computer ignores all comments.
-    Comments help someone reading the code understand what the code does.
+    A lines that start with a ``#`` is a *comments*. The computer ignores all comments.
+    You write comments to help someone reading the code understand what the code does.
 
-    This comment tells the reader that the program draws a square measuring
+    This comment tells the reader that the program creates a square measuring
     100 pixels on each side.
 
     2 ``import turtle``
@@ -151,7 +151,7 @@ See if you can guess what each does. Then press the button to check if you guess
     :modal:
     :showtitle: turtle.backward(L)
 
-   Iinstructs the ``turtle`` to move ``L`` pixels backwards
+    Instructs the ``turtle`` to move ``L`` pixels backwards
     (i.e., opposite to the direction that the turtle is facing).
 
     The input, ``L``, tells the computer how many pixels to move.
@@ -257,10 +257,10 @@ See if you can guess what each does. Then press the button to check if you guess
     :answer_c: bottom left
     :answer_d: bottom right
     :correct: a
-    :feedback_d: No. Draw lines between the points that the turtle goes to on a graph paper to form the boundary. Then color every point that lies between two points on the boundary.
-    :feedback_a: Correct! The turtle starts drawing at (-100, 0), goes up to (-100,100), then over to (100,100), and then down to (100,0), forming three sides of a rectangle; filling the shape creates the top-left image, with the turtle still at (100,0) and facing right.
-    :feedback_b: No. Draw lines between the points that the turtle goes to on a graph paper to form the boundary. Then color every point that lies between two points on the boundary.
-    :feedback_c: No. Draw lines between the points that the turtle goes to on a graph paper to form the boundary. Then color every point that lies between two points on the boundary.
+    :feedback_d: No. Trace the path that the turtle makes on paper. Then color every point that lies between two points on this path.
+    :feedback_a: Correct! The turtle starts drawing at (-100, 0), goes up to (-100,100), then right to (100,100), and then down to (100,0), forming three sides of a rectangle; filling the shape creates the top-left image, with the turtle still at (100,0) and facing right.
+    :feedback_b: No. Trace the path that the turtle makes paper. Then color every point that lies between two points on this path.
+    :feedback_c: No. Trace the path that the turtle makes on paper. Then color every point that lies between two points on this path.
 
     Pretend to be a ``turtle`` and follow the instructions in the next
     program. (You might want to do it on a graph paper.)
@@ -315,7 +315,7 @@ See if you can guess what each does. Then press the button to check if you guess
     having *side effects*.
 
     .. clickablearea:: cli-state
-       :question: Click on the commands that you think may have a side-effect (change the state of the turtle).
+       :question: Click on the commands that you think may have a side-effect (change the state of the turtle). (If you make a mistake you can click on the value again to unhighlight it.)
        :table:
        :correct: 1,1;1,2;2,1;2,2;3,1
        :incorrect: 3,2
@@ -377,7 +377,7 @@ written and in the exact order. Your dog probably is not as obedient! |dogtricks
 Sometimes the order doesn't matter; other times it does.
 
 .. clickablearea:: cli-commuting-instructions
-   :question: Click on the pairs of lines from the Six-Pointed Star Program containing instructions that could be swapped without affecting what the program draws.
+   :question: Click on the pairs of lines from the Six-Pointed Star Program containing instructions that could be swapped without affecting what the program draws. (If you make a mistake you can click on the value again to unhighlight it.)
    :table:
    :correct: 2,1;3,1
    :incorrect: 1,1;1,2;2,2;3,2
@@ -464,7 +464,7 @@ including all of the instructions that the ``turtle`` understands.
 
     <a href="https://docs.python.org/3.7/library/turtle.html#module-turtle" target="_blank">here</a>
 
-Keywords, Variables, and Assignment
+Python Basics
 ----------------------------------------
 
 According to the |waybackmachine|:
@@ -479,9 +479,14 @@ users and hosting more than 190 *trillion* public code bases
 <https://en.wikipedia.org/wiki/GitHub>`_, |github-logo|
 hosts the largest collection of open-source software in the world.)
 
-You might want to speed this video up before watching: Pause the video and
-select the gear icon,
-|gearicon|; then change the ``playback speed`` to 2.
+.. reveal:: rv-speed-up-video
+    :modal:
+    :showtitle: Viewing recommendation
+    :modaltitle: Viewing recommendation
+
+    You might want to speed up this video before watching: Pause the video and
+    select the gear icon,
+    |gearicon|; then change the ``playback speed`` to 2.
 
 .. |gearicon| image:: img/gear-icon.png
     :width: 1.5 em
@@ -505,11 +510,15 @@ select the gear icon,
 You might think that becoming an expert programmer is hopeless since there are so many
 languages---how could you hope to learn even a small fraction of them?
 But the good news is that you don't need to.
-Almost all of them allow you to do the same basic things. You really only
-need to learn one modern programming language well.
-Also, most of them are based on the same basic concepts.
+Almost all current languages allow you to do the same basic things. So just pick one
+of them. We chose Python for this ebook since it is relatively easy to learn compared
+to some others and is as powerful as any.
+Also, most programming languages are based on the same basic concepts. 
 
-The rest of this section introduces three such concepts: Keywords, variables, and assignment.
+The rest of this section introduces four such concepts: Keywords,
+types, variables, and assignment.
+We will need these concepts to create more interesting drawings
+in later meetings.
 
 
 
@@ -521,10 +530,10 @@ Keywords |keyword|
     :alt: Keyword Icon (iconscout.com/icons/keyword) by EcommDesign (iconscout.com/contributors/ecommdesign)
 
 All but the most primitive programming languages
-have words that mean something special to the computer.
+define words that mean something special to the computer.
 Called *keywords*, these words help the computer recognize the instructions
 that you want it to execute.
-There are 35 keywords in Python.
+There are 35 keywords in Python, as shown below.
 
 +----------+----------+----------+----------+----------+
 |  Python Keywords                                     |
@@ -556,27 +565,118 @@ you can use them only in special instructions.
       :x: Which of the keywords in the table appears at the start of each example program that we have given so far? (Python is case-sensitive, so be sure to type the keyword exactly as shown in the table.)
 
 In later meetings, we'll learn how to use many other keywords.
-For now, just know that a keyword is a word that has the
-same special meaning in all programs.
+For now, it's enough to know that a keyword is a word that has a particular
+meaning in all programs.
+
+Types |exampleset|
+~~~~~~~~~~~~~~~~~~~~
+
+.. |exampleset| image:: img/Example_of_a_set.png
+    :width: 5 em
+    :alt: image of an example set (By PolygonsSet.svg: kismalac / derivative work: Stephan Kulla (Stephan Kulla) - PolygonsSet.svg, CC0, https://commons.wikimedia.org/w/index.php?curid=39323364)
+
+A *type* is a set of values that share some common properties and/or operators.
+Python has four *built-in* types; they are named: 1) ``int``, 2) ``float``, 3) ``bool``,
+and 4) ``str``.
+
+The first two are both *numeric* types. 
+An ``int`` represents an *integer* (or a *whole number*).
+The numeric values in our examples so far have all been ``int``'s.
+In contrast, a ``float`` represents a *decimal number*.
+The computer figures out if a number is an ``int`` or a ``float``
+by how you write it: a number with no decimal point is an ``int``
+and one containing a decimal point is a ``float``.
+For example, ``2`` and ``-33`` are ``int``'s and ``-2.0`` and ``1.414`` are ``float``'s.
+The numeric types share the usual arithmetic operators---addition (``+``), 
+subtraction (``-``), multiplication (``*``),
+division (``/``), and so on---and also some more advanced operators,
+which we probably won't need to use in this ebook.
+
+
+.. clickablearea:: ca-ints
+    :table:
+    :question: Click on all values of type int. (If you make a mistake you can click on the value again to unhighlight it.)
+    :correct: 1,1;1,4
+    :incorrect: 1,2;1,3;1,5;1,6
+    :feedback: Remember, an int can start with a negative sign, must have one or more digits, and cannot have any spaces or other characters between the digits
+
+    +------+-------+--------+----+-------+---------+
+    | -100 | 1,000 |  100.0 | 55 | -0.25 | 145 362 |
+    +------+-------+--------+----+-------+---------+
+
+.. clickablearea:: ca-floats
+    :table:
+    :question: Click on all values of type float. (If you make a mistake you can click on the value again to unhighlight it.)
+    :incorrect: 1,1;1,2;1,4;1,6
+    :correct: 1,3;1,5
+    :feedback: Remember, a float can start with a negative sign, must have one or more digits and one decimal point, and cannot have any spaces or other characters between the digits and decimal point
+
+    +------+-------+--------+----+-------+---------+
+    | -100 | 1,000 |  100.0 | 55 | -0.25 | 145 362 |
+    +------+-------+--------+----+-------+---------+
+
+
+The ``bool`` type has only two *logical* values: ``True`` and ``False``.
+In later weeks, we'll be using logical values and operators
+in instructions that require decision making.
+Remember that Python is case-sensitive:
+For example, ``true`` is not the same as ``True``; and neither is ``TRUE``.
+
+
+The term ``str`` is short for *string*, which represents a series of *characters* (or *text*).
+You write a string by placing *single quotes* (``'``),
+*double quotes* (``"``), or *triple double-quotes* (``"""``) around its characters.
+The quotes that start and end a string have to *match*---in other
+words, if you start a string
+with a single quote, you have to end it with a single quote, and so on for
+the other quotes.
+For example, 
+
+``'Hello World!'``
+
+``"Hello World!"`` and 
+
+``"""Hello World!"""`` 
+
+all represent the same 12-character string (the space and exclamation point are both characters).
+
+
+.. clickablearea:: ca-strings
+    :iscode:
+    :question: Click on all values of type string. (If you make a mistake you can click on the value again to unhighlight it.)
+
+    :click-correct:"It's a done deal.":endclick:
+
+    :click-incorrect:red:endclick:
+
+    :click-correct:'1,000':endclick:
+
+    :click-correct:'-3':endclick:
+
+    :click-incorrect:".':endclick:
+
+    :click-incorrect:'I'm fine, thanks.':endclick:
+
+    :click-correct:"""True""":endclick:
+
 
 Variables |colored-containers-icon|
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. |colored-containers-icon| image:: img/colored-containers.png
-    :width: 5 em
+    :width: 6 em
     :alt: Clipart showing 3 colored containers
 
 If you did the practice exercises from our last meeting,
-you probably guessed that variables are important.
+you probably got the feeling that variables are useful.
 If so, you are right!
-Almost all programming languages allow you
-to create variables in writing code.
+Almost all programming languages allow coders to create variables.
 
 A variable is like a container that you have labeled with a name (the variable name).
-When running a program, the computer can store different values (data objects)
+When running a program, the computer can store different values
 in the variable (container).
 
-In Python, the name that you create for a variable has to satisfy
+In Python, a variable name has to satisfy
 three rules:
 
 - It must consist of one or more *lower case letters* (``a`` to ``z``),
@@ -589,9 +689,10 @@ three rules:
 
 .. clickablearea:: ca-variable-names
     :table:
-    :question: Click on all that could be used as a variable name
+    :question: Click on all that you could use for a variable name. (If you make a mistake you can click on the value again to unhighlight it.)
     :correct: 1,1;1,2;1,3;1,4;2,2;2,4;3,2;3,3;3,4
     :incorrect: 2,1;2,3;3,1
+    :feedback: Be sure the names do not violate any of the three rules.
 
     +----------+----------+----------+----------+
     | item3    | _radius  | Length   | A_2_Z    |
@@ -601,15 +702,17 @@ three rules:
     | 1_a      | true     | True_no  | _103     |
     +----------+----------+----------+----------+
 
-Much like a good container label is one that reminds you what the container contains,
-a good variable name is one that reminds you what the values stored in the variable are
-used for. For example, you might name a variable ``radius`` if it will be used to store
+A good container label is one that reminds you what the container contains so
+you don't have open it to find out.
+In much the same way, a good variable name is one that reminds you what 
+your code will use it for.
+For example, you might name a variable ``radius`` if it will store
 the length (number of pixels) for the radius of a circle or ``time_left`` if it will
-be used to store the number of minutes left in a video you are is watching.
+store the number of minutes left in a game.
 
 .. clickablearea:: ca-variable-benefits
     :table:
-    :question: Click on all that you think are benefits that using good variable names provides
+    :question: Click on all that you think are reasons to use good variable names. (If you make a mistake you can click on the value again to unhighlight it.)
     :correct: 1,1;1,3;2,1;2,3
     :incorrect: 1,2;2,2
 
@@ -620,11 +723,11 @@ be used to store the number of minutes left in a video you are is watching.
     +-------------------------------+------------------------------+---------------------------------+
 
 Assignment |assignment-gif|
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. |assignment-gif| raw:: html
 
-        <img src="https://www.cse.msu.edu/~ldillon/TechnovationBook/assignment-gifmaker.me.gif" width="75 %" alt="Animated gif representing assignment by putting a box in a container">
+        <img src="https://www.cse.msu.edu/~ldillon/TechnovationBook/assignment-gifmaker.me.gif" width="90 %" alt="Animated gif representing assignment by putting a box in a container">
 
 
 An assignment instructs the computer to store a value in a variable.
@@ -632,15 +735,23 @@ In Python, an assignment has the form
 
     ``var = exp``
 
-where ``var`` is the name of a variable and ``exp`` is an *expression*---the expression
-instructs the computer how to produce a value and the assignment instructs the
-computer to store that value in the variable.
-For example, if the variable ``x`` stores the value ``5``, then executing
-``y = x + 1`` produces the value ``6`` and stores it in the variable ``y``.
+where ``var`` is the name of a variable and ``exp`` is an *expression*.
+For example, ``y = x + 1`` is an assignment. 
+Because ``=`` denotes assignment, it is called the *assignment operator*.
+
+An expression is like a recipe that a computer can *evaluate* (execute) to create a value.
+Evaluation of the expression is considered to *return* this value.
+For example, ``x + 1`` is an expression; when evaluated, it returns the value that is
+one more than the value stored in ``x``.
+Thus, if ``x`` stores the value ``5``, evaluation of ``x + 1`` returns ``6``.
+
+An assignment instructs the computer to store the value returned by evaluating
+the expression on the right of the ``=`` in the variable on the left.
+For example, when the value of ``x`` is ``5``, executing
+``y = x + 1`` stores ``6`` (the value returned by evaluation ``x + 1``) in ``y``.
 
 
-An experienced programmer will *not* read ``y = x + 1`` as: *"y equals x plus one"*
-|y-equals-xplus1|
+An experienced programmer will *not* read ``y = x + 1`` as: *"y equals x plus one"* |No-not-sign|
 
 Instead, they might read it as: *"assign x plus one to y"*
 |assign-xplus1to-y|
@@ -651,15 +762,9 @@ Or: *"y is assigned x plus one"*
 Or even: *"y gets x plus one"*
 |y-gets-xplus1|
 
-.. |y-equals-xplus1| raw:: html
-
-    <div>
-    <audio controls>
-    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/y-equals-xplus1-voice-memo.mp3" type="audio/mpeg">
-    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/y-equals-xplus1-voice-memo.wav" type="audio/wav">
-    "y equals x plus one"
-    </audio>
-    </div>
+.. |No-not-sign| image:: ../img/No_not.png
+    :width: 4 em
+    :alt: Not sign. Emufarmers, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
 
 .. |assign-xplus1to-y| raw:: html
 
@@ -692,29 +797,130 @@ Or even: *"y gets x plus one"*
     </audio>
     </div>
 
-This example assignment illustrates the use of ``+`` to mean addition. We won't list
-all the Python *operators* here since you can easily 
+We won't list all the Python operators for these types here since you can easily
 `look them up <https://www.programiz.com/python-programming/operators>`_ when you need them.
+To see examples of numeric operators that we will
+use in later examples, click on 'Some Numeric Operators'.
+You should recognize most of these from your studies of arithmetic.
+
+.. reveal:: re-arithmetic-operators
+    :modal:
+    :showtitle: Some Numeric Operators
+    :modaltitle: Some Numeric Operators
+    
+    The following examples illustrate evaluation of some useful arithmetic operators.
+
+    ``+`` (addition or plus): Returns an ``int`` if both *operands* are ``int``'s; or
+    a ``float`` if either operand is a ``float``.
+
+    - ``5 + 12`` returns ``17``
+
+    - ``1.0 + 3.0`` returns ``4.0``
+
+    - ``7 + 1.2`` returns ``8.2``
+
+    ``-`` (subtraction or minus): Same typing rules as for ``+``
+
+    - ``5 - 10`` returns ``-5``
+
+    - ``5 - 10.0`` returns ``-5.0``
+
+    - ``0.1 - 0.1`` returns ``0.0``
+
+    ``*`` (multiplication): Same typing rules as for ``+``
+
+    - ``10 * 5`` returns ``50``
+
+    - ``0.2 * 10`` returns ``2.0``
+
+    ``/`` (division): Always returns a ``float``
+
+    - ``2 / 10`` returns ``0.2``
+
+    - ``10 / 2`` returns ``5.0``
+
+    - ``10.0 / 2.0`` returns ``5.0``
+
+    ``//`` (quotient or integer division) and ``%`` (remainder): Usually used
+    with ``int`` operands, in which case both returns ``int``'s .
+
+    - Since 5 can be subtracted from 13 a total of 2 times leaving a remainder of 3:
+
+      - ``13 // 5`` returns ``2`` and
+
+      - ``13 % 5`` returns ``3``
 
 
-But some arithmetic operators that you might want to be aware of include:
+    - Since 200 is too big to subtract from 109 (it can be subtracted only 0 times leaving a remainder of 109):
 
-- ``-`` for subtraction or minus.
-  For example, executing ``10 - 5`` produces ``-5``.
+      - ``109 // 200`` returns ``0`` and
 
-- ``*`` for multiplication.
-  For example, executing ``10 * 5`` produces ``50``.
+      - ``109 % 200`` returns ``109``
 
-- ``/`` for division.
-  For example, executing ``2 / 10`` produces ``0.2`` while executing ``10 / 2``
-  produces ``5.0``.
-  (In Python, the division operator always produces a *floating point* number---or,
-  essentially, a number shown in decimal notation.)
 
-- ``//`` for quotient (the number of times that the *divisor* (bottom number) goes
-  into the *dividend* (top number).
-  For example, executing ``13 // 5`` produces ``2`` (since ``5`` goes into ``10``
-  twice with a remainder of ``3``).
+The following code is the beginning of a turtle graphics program that we'll add
+to in the practice exercises for next week.
+Pretend you are the computer and follow the instructions to calculate
+answers for the questions below.
 
-- ``%`` for remainder. For example, executing ``13 // 5`` produces ``3``
-  (since ``5`` goes into ``10`` twice with a remainder of ``3``).
+.. code:: python
+
+    1  import turtle
+    2
+    3  # set the exterior dimensions, border width, and interior and border colors
+    4  ext_length = 100
+    5  ext_height = 150
+    6  border_width = 20
+    7  border_color = "tan"
+    8  inter_color = "green"
+    9
+    10 # calculate the interior dimensions and area
+    11 inter_length = ext_length - (2 * border_width)
+    12 inter_height = ext_height - (2 * border_width)
+    13 inter_area = inter_length * inter_height
+    14
+    15 # calculate the border area
+    16 border_area = (ext_length * ext_height) - inter_area
+
+.. fillintheblank:: ftb-ext_length-and-border_width
+
+    At line 11, what are the values of ``ext_length``: |blank| and ``border_width``:
+    |blank|?
+
+    - :100: Correct! ``ext_length`` still has the value assigned to it in line 4
+      :150: No, 150 is the value of ``ext_height``. Try again.
+      :20: No, 20 is the value of ``border_width``. Try again.
+      :x: No. What is assigned to ``ext_length`` in line 4?
+
+    - :150: No, 150 is the value of ``ext_height``. Try again.
+      :100: No, 100 is the value of ``ext_length``. Try again.
+      :20: Correct! ``border_width`` has the value assigned to it in line 6
+      :x: No. What is assigned to ``border_width`` in line 6?
+
+.. fillintheblank:: ftb-inter_length
+
+    At line 11, what value is assigned to ``inter_length``: |blank|?
+
+    - :60: Correct! Execution of ``ext_length - (2 * border_width)`` produces ``100 - (2 * 20)`` then ``100 - 40`` and finally ``60``.
+      :x: No. Replace the variables in the expression with their values and then perform the indicated operation.
+
+.. fillintheblank:: ftb-inter_height
+
+    At line 12, what value is assigned to ``inter_height``: |blank|?
+
+    - :110: Correct! Execution of ``ext_height - (2 * border_width)`` produces ``150 - (2 * 20)`` then ``150 - 40`` and finally ``110``.
+      :x: No. Replace the variables in the expression with their values and then perform the indicated operation. 
+
+.. fillintheblank:: ftb-inter_area
+
+    At line 13, what value is assigned to ``inter_area``: |blank|?
+
+    - :6600: Correct! Execution of ``inter_length * inter_height`` produces ``60 * 110`` then ``6600``.
+      :x: No. Replace the variables in the expression with their values and then perform the indicated operation. 
+
+.. fillintheblank:: ftb-border_area
+
+    At line 16, what value is assigned to ``inter_area``: |blank|?
+
+    - :8400: Correct! Execution of ``(ext_length * ext_height) - inter_area`` produces ``15000 - 6600`` then ``8400``.
+      :x: No. Replace the variables in the expression with their values and then perform the indicated operation.
