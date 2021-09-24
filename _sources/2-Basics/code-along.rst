@@ -315,7 +315,7 @@ See if you can guess what each does. Then press the button to check if you guess
     having *side effects*.
 
     .. clickablearea:: cli-state
-       :question: Click on the commands that you think may have a side-effect (change the state of the turtle). (If you make a mistake you can click on the value again to unhighlight it.)
+       :question: Highlight the commands that you think may have a side-effect (change the state of the turtle).
        :table:
        :correct: 1,1;1,2;2,1;2,2;3,1
        :incorrect: 3,2
@@ -377,7 +377,7 @@ written and in the exact order. Your dog probably is not as obedient! |dogtricks
 Sometimes the order doesn't matter; other times it does.
 
 .. clickablearea:: cli-commuting-instructions
-   :question: Click on the pairs of lines from the Six-Pointed Star Program containing instructions that could be swapped without affecting what the program draws. (If you make a mistake you can click on the value again to unhighlight it.)
+   :question: Highlight the pairs of lines from the Six-Pointed Star Program containing instructions that could be swapped without affecting what the program draws. (Click on a pair to highlight it; click on the pair again to unhighlight it.)
    :table:
    :correct: 2,1;3,1
    :incorrect: 1,1;1,2;2,2;3,2
@@ -513,7 +513,7 @@ But the good news is that you don't need to.
 Almost all current languages allow you to do the same basic things. So just pick one
 of them. We chose Python for this ebook since it is relatively easy to learn compared
 to some others and is as powerful as any.
-Also, most programming languages are based on the same basic concepts. 
+Also, most programming languages are based on the same basic concepts.
 
 The rest of this section introduces four such concepts: Keywords,
 types, variables, and assignment.
@@ -579,7 +579,7 @@ A *type* is a set of values that share some common properties and/or operators.
 Python has four *built-in* types; they are named: 1) ``int``, 2) ``float``, 3) ``bool``,
 and 4) ``str``.
 
-The first two are both *numeric* types. 
+The first two are both *numeric* types.
 An ``int`` represents an *integer* (or a *whole number*).
 The numeric values in our examples so far have all been ``int``'s.
 In contrast, a ``float`` represents a *decimal number*.
@@ -587,7 +587,7 @@ The computer figures out if a number is an ``int`` or a ``float``
 by how you write it: a number with no decimal point is an ``int``
 and one containing a decimal point is a ``float``.
 For example, ``2`` and ``-33`` are ``int``'s and ``-2.0`` and ``1.414`` are ``float``'s.
-The numeric types share the usual arithmetic operators---addition (``+``), 
+The numeric types share the usual arithmetic operators---addition (``+``),
 subtraction (``-``), multiplication (``*``),
 division (``/``), and so on---and also some more advanced operators,
 which we probably won't need to use in this ebook.
@@ -595,7 +595,7 @@ which we probably won't need to use in this ebook.
 
 .. clickablearea:: ca-ints
     :table:
-    :question: Click on all values of type int. (If you make a mistake you can click on the value again to unhighlight it.)
+    :question: Highlight all values of type int. (Click on a value to highlight it; click on the value again to unhighlight it.)
     :correct: 1,1;1,4
     :incorrect: 1,2;1,3;1,5;1,6
     :feedback: Remember, an int can start with a negative sign, must have one or more digits, and cannot have any spaces or other characters between the digits
@@ -606,7 +606,7 @@ which we probably won't need to use in this ebook.
 
 .. clickablearea:: ca-floats
     :table:
-    :question: Click on all values of type float. (If you make a mistake you can click on the value again to unhighlight it.)
+    :question: Highlight all values of type float. (Click on a value to highlight it; click on the value again to unhighlight it.)
     :incorrect: 1,1;1,2;1,4;1,6
     :correct: 1,3;1,5
     :feedback: Remember, a float can start with a negative sign, must have one or more digits and one decimal point, and cannot have any spaces or other characters between the digits and decimal point
@@ -630,20 +630,20 @@ The quotes that start and end a string have to *match*---in other
 words, if you start a string
 with a single quote, you have to end it with a single quote, and so on for
 the other quotes.
-For example, 
+For example,
 
 ``'Hello World!'``
 
-``"Hello World!"`` and 
+``"Hello World!"`` and
 
-``"""Hello World!"""`` 
+``"""Hello World!"""``
 
 all represent the same 12-character string (the space and exclamation point are both characters).
 
 
 .. clickablearea:: ca-strings
     :iscode:
-    :question: Click on all values of type string. (If you make a mistake you can click on the value again to unhighlight it.)
+    :question: Highlight all values of type string. (Click on a value to highlight it; click on the value again to unhighlight it.)
 
     :click-correct:"It's a done deal.":endclick:
 
@@ -673,10 +673,10 @@ If so, you are right!
 Almost all programming languages allow coders to create variables.
 
 A variable is like a container that you have labeled with a name (the variable name).
-When running a program, the computer can store different values
-in the variable (container).
+When the computer executes a program, you can instruct it to store a value
+in the variable (container) and then use that value in a later instruction.
 
-In Python, a variable name has to satisfy
+In Python, the name that you give to a variable has to satisfy
 three rules:
 
 - It must consist of one or more *lower case letters* (``a`` to ``z``),
@@ -689,10 +689,10 @@ three rules:
 
 .. clickablearea:: ca-variable-names
     :table:
-    :question: Click on all that you could use for a variable name. (If you make a mistake you can click on the value again to unhighlight it.)
+    :question: Highlight all that you could use for a variable name. (Click on an entry to highlight it; click on the entry again to unhighlight it.)
     :correct: 1,1;1,2;1,3;1,4;2,2;2,4;3,2;3,3;3,4
     :incorrect: 2,1;2,3;3,1
-    :feedback: Be sure the names do not violate any of the three rules.
+    :feedback: Be sure the names you select do not violate any of the three rules.
 
     +----------+----------+----------+----------+
     | item3    | _radius  | Length   | A_2_Z    |
@@ -704,15 +704,15 @@ three rules:
 
 A good container label is one that reminds you what the container contains so
 you don't have open it to find out.
-In much the same way, a good variable name is one that reminds you what 
-your code will use it for.
+In much the same way, a good variable name is one that reminds you what
+your code will use the variable for.
 For example, you might name a variable ``radius`` if it will store
-the length (number of pixels) for the radius of a circle or ``time_left`` if it will
+the number of pixels in the radius of a circle or ``time_left`` if it will
 store the number of minutes left in a game.
 
 .. clickablearea:: ca-variable-benefits
     :table:
-    :question: Click on all that you think are reasons to use good variable names. (If you make a mistake you can click on the value again to unhighlight it.)
+    :question: Highlight all that you think are reasons to use good variable names.
     :correct: 1,1;1,3;2,1;2,3
     :incorrect: 1,2;2,2
 
@@ -730,84 +730,40 @@ Assignment |assignment-gif|
         <img src="https://www.cse.msu.edu/~ldillon/TechnovationBook/assignment-gifmaker.me.gif" width="90 %" alt="Animated gif representing assignment by putting a box in a container">
 
 
-An assignment instructs the computer to store a value in a variable.
+The instruction for storing a value in a variable is called an *assignment*.
 In Python, an assignment has the form
 
     ``var = exp``
 
 where ``var`` is the name of a variable and ``exp`` is an *expression*.
-For example, ``y = x + 1`` is an assignment. 
-Because ``=`` denotes assignment, it is called the *assignment operator*.
+For example, ``y = x + 1`` is an assignment.
+The symbol ``=`` is called the *assignment operator*.
 
 An expression is like a recipe that a computer can *evaluate* (execute) to create a value.
-Evaluation of the expression is considered to *return* this value.
-For example, ``x + 1`` is an expression; when evaluated, it returns the value that is
+Evaluation of the expression is said to *return* this value.
+The simplest expressions are values from the built-in types,
+like ``5``, ``True``, ``-52.79``, or ``"Name"``, and variables.
+Evaluation of a value just returns the value.
+Evaluation of a variable returns the value stored in the variable;
+so if ``x`` stores the value ``5``, then evaluation of ``x`` returns ``5``.
+
+You can write more complex expressions by applying *operators* to expressions.
+For example, ``x + 1`` is an expression. When evaluated, it returns the value that is
 one more than the value stored in ``x``.
-Thus, if ``x`` stores the value ``5``, evaluation of ``x + 1`` returns ``6``.
+So if ``x`` stores ``5``, evaluation of ``x + 1`` returns ``6``.
 
-An assignment instructs the computer to store the value returned by evaluating
-the expression on the right of the ``=`` in the variable on the left.
-For example, when the value of ``x`` is ``5``, executing
-``y = x + 1`` stores ``6`` (the value returned by evaluation ``x + 1``) in ``y``.
-
-
-An experienced programmer will *not* read ``y = x + 1`` as: *"y equals x plus one"* |No-not-sign|
-
-Instead, they might read it as: *"assign x plus one to y"*
-|assign-xplus1to-y|
-
-Or: *"y is assigned x plus one"*
-|y-isassigned-xplus1|
-
-Or even: *"y gets x plus one"*
-|y-gets-xplus1|
-
-.. |No-not-sign| image:: ../img/No_not.png
-    :width: 4 em
-    :alt: Not sign. Emufarmers, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
-
-.. |assign-xplus1to-y| raw:: html
-
-    <div>
-    <audio controls>
-    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/assign-xplus1to-y.mp3" type="audio/mpeg">
-    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/assign-xplus1to-y.wav" type="audio/wav">
-    "assign x plus one to y"
-    </audio>
-    </div>
-
-.. |y-gets-xplus1| raw:: html
-
-    <div>
-    <audio controls>
-    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/y-gets-xplus1.mp3" type="audio/mpeg">
-    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/y-gets-xplus1.wav" type="audio/wav">
-    "y gets x plus one"
-    </audio>
-    </div>
-
-
-.. |y-isassigned-xplus1| raw:: html
-
-    <div>
-    <audio controls>
-    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/y-isassigned-xplus1.mp3" type="audio/mpeg">
-    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/yy-isassigned-xplus1.wav" type="audio/wav">
-    "y is assigned x plus one"
-    </audio>
-    </div>
-
-We won't list all the Python operators for these types here since you can easily
+We won't list all the Python operators since you can easily
 `look them up <https://www.programiz.com/python-programming/operators>`_ when you need them.
-To see examples of numeric operators that we will
-use in later examples, click on 'Some Numeric Operators'.
-You should recognize most of these from your studies of arithmetic.
+But you can click on 'Some Numeric Operators' to see examples of the operators
+we will use in later examples.
+You should recognize most of these operators from your studies of arithmetic,
+although some may have been written differently.
 
 .. reveal:: re-arithmetic-operators
     :modal:
     :showtitle: Some Numeric Operators
     :modaltitle: Some Numeric Operators
-    
+
     The following examples illustrate evaluation of some useful arithmetic operators.
 
     ``+`` (addition or plus): Returns an ``int`` if both *operands* are ``int``'s; or
@@ -858,28 +814,93 @@ You should recognize most of these from your studies of arithmetic.
       - ``109 % 200`` returns ``109``
 
 
-The following code is the beginning of a turtle graphics program that we'll add
+An assignment instructs the computer to store the value returned by evaluating
+the expression on the right of the ``=`` in the variable on the left.
+For example, when the value of ``x`` is ``5``, executing
+``y = x + 1`` stores ``6`` (the value returned by evaluation ``x + 1``) in ``y``.
+
+An experienced programmer will *not* read ``y = x + 1`` as: *"y equals x plus one"* |No-not-sign|
+
+Instead, they might read it as: *"assign x plus one to y"*
+|assign-xplus1to-y|
+
+Or: *"set y to x plus one"*
+|set-y-to-xplus1|
+
+Or: *"y is assigned x plus one"*
+|y-isassigned-xplus1|
+
+Or even: *"y gets x plus one"*
+|y-gets-xplus1|
+
+.. |No-not-sign| image:: ../img/No_not.png
+    :width: 4 em
+    :alt: Not sign. Emufarmers, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
+
+.. |set-y-to-xplus1| raw:: html
+
+    <div>
+    <audio controls>
+    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/set-y-to-xplus1.mp3" type="audio/mpeg">
+    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/set-y-to-xplus1.wav" type="audio/wav">
+    "assign x plus one to y"
+    </audio>
+    </div>
+
+.. |assign-xplus1to-y| raw:: html
+
+    <div>
+    <audio controls>
+    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/assign-xplus1to-y.mp3" type="audio/mpeg">
+    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/assign-xplus1to-y.wav" type="audio/wav">
+    "assign x plus one to y"
+    </audio>
+    </div>
+
+.. |y-gets-xplus1| raw:: html
+
+    <div>
+    <audio controls>
+    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/y-gets-xplus1.mp3" type="audio/mpeg">
+    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/y-gets-xplus1.wav" type="audio/wav">
+    "y gets x plus one"
+    </audio>
+    </div>
+
+
+.. |y-isassigned-xplus1| raw:: html
+
+    <div>
+    <audio controls>
+    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/y-isassigned-xplus1.mp3" type="audio/mpeg">
+    <source src="https://www.cse.msu.edu/~ldillon/TechnovationBook/yy-isassigned-xplus1.wav" type="audio/wav">
+    "y is assigned x plus one"
+    </audio>
+    </div>
+
+
+The code below is the beginning of a turtle graphics program that we'll add
 to in the practice exercises for next week.
-Pretend you are the computer and follow the instructions to calculate
-answers for the questions below.
+See what you can understand of it by follow the instructions
+and calculating answers for the questions below.
 
 .. code:: python
 
-    1  # design for a rectangular park
+    1
     2  import turtle
     3
-    4  # set the exterior dimensions, border width, and interior/border colors
+    4
     5  ext_length = 100
     6  ext_height = 150
     7  border_width = 20
     8  border_color = "tan"
     9  inter_color = "green"
     10
-    11 # calculate the interior dimensions 
+    11
     12 inter_length = ext_length - (2 * border_width)
     13 inter_height = ext_height - (2 * border_width)
     14
-    15 # calculate the areas of interior and border
+    15
     16 inter_area = inter_length * inter_height
     17 border_area = (ext_length * ext_height) - inter_area
 
@@ -910,14 +931,14 @@ answers for the questions below.
     At line 13, what value is assigned to ``inter_height``: |blank|?
 
     - :110: Correct! Execution of ``ext_height - (2 * border_width)`` produces ``150 - (2 * 20)`` then ``150 - 40`` and finally ``110``.
-      :x: No. Replace the variables in the expression with their values and then perform the indicated operation. 
+      :x: No. Replace the variables in the expression with their values and then perform the indicated operation.
 
 .. fillintheblank:: ftb-inter_area
 
     At line 14, what value is assigned to ``inter_area``: |blank|?
 
     - :6600: Correct! Execution of ``inter_length * inter_height`` produces ``60 * 110`` then ``6600``.
-      :x: No. Replace the variables in the expression with their values and then perform the indicated operation. 
+      :x: No. Replace the variables in the expression with their values and then perform the indicated operation.
 
 .. fillintheblank:: ftb-border_area
 

@@ -80,6 +80,7 @@ Practice Makes Perfect
    :language: python
    :nocodelens:
 
+   # design for a rectangular park
    import turtle
 
    # set the exterior dimensions, border width, and interior and border colors
