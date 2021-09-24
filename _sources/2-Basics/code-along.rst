@@ -865,62 +865,63 @@ answers for the questions below.
 
 .. code:: python
 
-    1  import turtle
-    2
-    3  # set the exterior dimensions, border width, and interior and border colors
-    4  ext_length = 100
-    5  ext_height = 150
-    6  border_width = 20
-    7  border_color = "tan"
-    8  inter_color = "green"
-    9
-    10 # calculate the interior dimensions and area
-    11 inter_length = ext_length - (2 * border_width)
-    12 inter_height = ext_height - (2 * border_width)
-    13 inter_area = inter_length * inter_height
+    1  # design for a rectangular park
+    2  import turtle
+    3
+    4  # set the exterior dimensions, border width, and interior/border colors
+    5  ext_length = 100
+    6  ext_height = 150
+    7  border_width = 20
+    8  border_color = "tan"
+    9  inter_color = "green"
+    10
+    11 # calculate the interior dimensions 
+    12 inter_length = ext_length - (2 * border_width)
+    13 inter_height = ext_height - (2 * border_width)
     14
-    15 # calculate the border area
-    16 border_area = (ext_length * ext_height) - inter_area
+    15 # calculate the areas of interior and border
+    16 inter_area = inter_length * inter_height
+    17 border_area = (ext_length * ext_height) - inter_area
 
 .. fillintheblank:: ftb-ext_length-and-border_width
 
-    At line 11, what are the values of ``ext_length``: |blank| and ``border_width``:
+    At line 12, what are the values of ``ext_length``: |blank| and ``border_width``:
     |blank|?
 
-    - :100: Correct! ``ext_length`` still has the value assigned to it in line 4
+    - :100: Correct! ``ext_length`` still has the value assigned to it in line 5
       :150: No, 150 is the value of ``ext_height``. Try again.
       :20: No, 20 is the value of ``border_width``. Try again.
-      :x: No. What is assigned to ``ext_length`` in line 4?
+      :x: No. What is assigned to ``ext_length`` in line 5?
 
     - :150: No, 150 is the value of ``ext_height``. Try again.
       :100: No, 100 is the value of ``ext_length``. Try again.
-      :20: Correct! ``border_width`` has the value assigned to it in line 6
-      :x: No. What is assigned to ``border_width`` in line 6?
+      :20: Correct! ``border_width`` has the value assigned to it in line 7
+      :x: No. What is assigned to ``border_width`` in line 7?
 
 .. fillintheblank:: ftb-inter_length
 
-    At line 11, what value is assigned to ``inter_length``: |blank|?
+    At line 13, what value is assigned to ``inter_length``: |blank|?
 
     - :60: Correct! Execution of ``ext_length - (2 * border_width)`` produces ``100 - (2 * 20)`` then ``100 - 40`` and finally ``60``.
       :x: No. Replace the variables in the expression with their values and then perform the indicated operation.
 
 .. fillintheblank:: ftb-inter_height
 
-    At line 12, what value is assigned to ``inter_height``: |blank|?
+    At line 13, what value is assigned to ``inter_height``: |blank|?
 
     - :110: Correct! Execution of ``ext_height - (2 * border_width)`` produces ``150 - (2 * 20)`` then ``150 - 40`` and finally ``110``.
       :x: No. Replace the variables in the expression with their values and then perform the indicated operation. 
 
 .. fillintheblank:: ftb-inter_area
 
-    At line 13, what value is assigned to ``inter_area``: |blank|?
+    At line 14, what value is assigned to ``inter_area``: |blank|?
 
     - :6600: Correct! Execution of ``inter_length * inter_height`` produces ``60 * 110`` then ``6600``.
       :x: No. Replace the variables in the expression with their values and then perform the indicated operation. 
 
 .. fillintheblank:: ftb-border_area
 
-    At line 16, what value is assigned to ``inter_area``: |blank|?
+    At line 17, what value is assigned to ``inter_area``: |blank|?
 
     - :8400: Correct! Execution of ``(ext_length * ext_height) - inter_area`` produces ``15000 - 6600`` then ``8400``.
       :x: No. Replace the variables in the expression with their values and then perform the indicated operation.
