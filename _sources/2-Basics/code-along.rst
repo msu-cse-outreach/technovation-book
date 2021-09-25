@@ -152,7 +152,7 @@ See if you can guess what each does. Then press the button to check if you guess
     :showtitle: turtle.backward(L)
 
     Instructs the ``turtle`` to move ``L`` pixels backwards
-    (i.e., opposite to the direction that the turtle is facing).
+    (opposite to the direction that the turtle is facing).
 
     The input, ``L``, tells the computer how many pixels to move.
 
@@ -162,7 +162,7 @@ See if you can guess what each does. Then press the button to check if you guess
     :modal:
 
     Instructs the ``turtle`` to rotate ``D`` degrees towards the right
-    (i.e., clockwise).
+    (clockwise).
 
     The input, ``D``, tells the computer how many  degrees to rotate through.
 
@@ -171,11 +171,9 @@ See if you can guess what each does. Then press the button to check if you guess
     :modaltitle: turtle.goto(X, Y)
     :modal:
 
-    Instructs the ``turtle`` to go straight to the position with *coordinates* ``(X, Y)``
-    on the screen.
+    Instructs the ``turtle`` to go (straight) to the position with *coordinates* ``(X, Y)``.
 
-    Positions are indicated using a Cartesian coordinate system with the center
-    of the screen at position ``(0, 0)`` and units are measured in pixels.
+    The center of the screen is position ``(0, 0)`` and units are measured in pixels.
     The default screen-size in an active code widget is 400 pixels wide and 400 pixels high.
 
     The inputs, ``X`` and ``Y``, tell the computer what position to move to.
@@ -185,13 +183,13 @@ See if you can guess what each does. Then press the button to check if you guess
     :modaltitle: turtle.circle(R)
     :modal:
 
-    Instructs the ``turtle`` to draw a circle of radius ``R`` pixels.
+    Instructs the ``turtle`` to draw a circle with a radius of ``R`` pixels long.
 
     The ``turtle`` draws the circle starting at its current location
     and curving left from the direction of travel (the direction the turtle is
     facing).
 
-    The input, ``R``, tells the computer how many pixels long to make the circle's radius.
+    The input, ``R``, tells the computer how long to make the circle's radius.
 
 
 .. reveal:: re-turtle-color
@@ -201,7 +199,7 @@ See if you can guess what each does. Then press the button to check if you guess
 
     Instructs the ``turtle`` to use the color ``C`` for drawing.
 
-    The initial ``turtle`` color is ``black``.
+    By default, the initial ``turtle`` color is ``black``.
 
     The input, ``C``, tells the computer what color to use.
 
@@ -212,14 +210,14 @@ See if you can guess what each does. Then press the button to check if you guess
 
     Instructs the ``turtle`` to stop drawing as it moves.
 
-    **Why ``up``?**
-    Think of attaching a felt-tip marker or a paint brush to the tail of the ``turtle`` so that,
-    when its tail is up, it moves without making any mark and, when its tail is down,
+    **Why "up"?**
+    Think of attaching a felt-tip marker to the tail of the ``turtle`` so that,
+    when the ``turtle``'s' tail is up, it moves without making any mark and, when its tail is down,
     it makes a solid line as it moves.
 
-    The ``turtle`` always starts with its tail down. So if you want to move it
-    without drawing anything, you have to first instruct it
-    to lift it's tail up (i.e., to execute ``turtle.up()``).
+    The ``turtle`` starts with its tail down. So if you want to move it
+    without drawing anything, you have to instruct it
+    to lift it's tail up (execute ``turtle.up()``) before you instruct it to move.
 
 
 .. reveal:: re-turtle-down
@@ -229,9 +227,9 @@ See if you can guess what each does. Then press the button to check if you guess
 
     Instructs the ``turtle`` to draw as it moves.
 
-    After executing a ``turtle.up()`` instruction, if you ever want the
+    After executing a ``turtle.up()`` instruction, if you want the
     ``turtle`` to start drawing again, you have
-    to first execute a ``turtle.down()`` instruction.
+    to execute a ``turtle.down()`` instruction.
 
 .. reveal:: re-turtle-fill
     :showtitle: turtle.begin_fill() ... turtle.end_fill()
@@ -240,10 +238,6 @@ See if you can guess what each does. Then press the button to check if you guess
 
     Instructs the computer to fill the figure drawn by executing the code between
     the ``turtle.begin_fill()`` and ``turtle.end_fill()`` instructions.
-
-    Because the initial ``turtle``color is ``black``, the shape will be filled with black
-    unless you instruct the ``turtle`` to use a different color first (i.e., execute a
-    ``turtle.color(C)`` instruction with a different input color).
 
 .. |trinket| raw:: html
 
@@ -259,7 +253,7 @@ See if you can guess what each does. Then press the button to check if you guess
     :correct: a
     :feedback_d: No. Trace the path that the turtle makes on paper. Then color every point that lies between two points on this path.
     :feedback_a: Correct! The turtle starts drawing at (-100, 0), goes up to (-100,100), then right to (100,100), and then down to (100,0), forming three sides of a rectangle; filling the shape creates the top-left image, with the turtle still at (100,0) and facing right.
-    :feedback_b: No. Trace the path that the turtle makes paper. Then color every point that lies between two points on this path.
+    :feedback_b: No. Trace the path that the turtle makes on paper. Then color every point that lies between two points on this path.
     :feedback_c: No. Trace the path that the turtle makes on paper. Then color every point that lies between two points on this path.
 
     Pretend to be a ``turtle`` and follow the instructions in the next
@@ -295,8 +289,8 @@ See if you can guess what each does. Then press the button to check if you guess
     call a *data object*.
     A data object is just a computer representation of something in
     the *application domain*,
-    such as a customer in an
-    airline reservation system or a pen in a drawing program.
+    such as a number, a text, customer in an
+    airline reservation system, or a pen in a drawing program.
 
     An important property of a data object is that it has a *state*.
     The state of a data object affects what the object does when it
@@ -308,7 +302,8 @@ See if you can guess what each does. Then press the button to check if you guess
     and changes the position of the ``turtle``;
     but after a ``turtle.up()`` instruction, a ``turtle.forward(100)``
     instruction only changes the ``turtle``'s
-    position.
+    position. So executing ``turtle.up()`` affects what occurs when
+    ``turtle.forward(100)`` is executed.
 
     Computer scientists refer to commands, like ``turtle.up()`` and ``turtle.down()``, that change
     the state of the data object that receives them as
@@ -381,6 +376,7 @@ Sometimes the order doesn't matter; other times it does.
    :table:
    :correct: 2,1;3,1
    :incorrect: 1,1;1,2;2,2;3,2
+   :feedback: Try interchanging the instruction pairs to see if they affect what the program draws.
 
 
    +--------------------------+--------------------------+
