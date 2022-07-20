@@ -16,7 +16,7 @@ these steps:
 
 1. Ensure you have Git and Python (version >= 3.6) installed, and have created a GitHub account.
 
-1. Clone this repository with `git clone https://github.com/andrewmcdonald27/technovation-book.git`.
+1. Clone this repository with `git clone https://github.com/msu-cse-outreach/technovation-book.git`.
 
 1. Navigate to the newly-created `technovation-book` folder with `cd technovation-book`
 and run `python -m venv venv` (Windows) or `python3 -m venv venv` (Mac)
