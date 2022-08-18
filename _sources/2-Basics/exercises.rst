@@ -76,7 +76,7 @@ Practice Makes Perfect
 
 
 
-.. activecode:: command-review-wk2
+.. activecode:: command-review-wk2B
    :language: python
    :nocodelens:
 
@@ -144,7 +144,7 @@ Practice Makes Perfect
 |
 | Let's take another look at drawing a square. How could we re-write it using a loop?
 
-.. activecode:: square-loop
+.. activecode:: square-loopB
    :language: python
    :nocodelens:
 
@@ -173,7 +173,7 @@ Practice Makes Perfect
 | Let's use what we know about loops to draw a dashed line across the entire box!
 | The code below draws two dashes. See if you can modify it to use a loop!
 
-.. activecode:: dashed-line
+.. activecode:: dashed-lineB
    :language: python
    :nocodelens:
 
@@ -210,7 +210,7 @@ Practice Makes Perfect
 | Start with your code that draws a square. Then, change the number of times the loop
   repeats and the angle that you turn each time to see if you can draw these shapes.
 
-.. activecode:: shapes-loop
+.. activecode:: shapes-loopB
    :language: python
    :nocodelens:
 
@@ -226,7 +226,7 @@ Practice Makes Perfect
 
 | Try converting you dashed line into a row of circles! Let's draw 20 circles, each with a radius of 10.
 
-.. activecode:: circle-row
+.. activecode:: circle-rowB
    :language: python
    :nocodelens:
 
@@ -250,7 +250,7 @@ Practice Makes Perfect
     (same as in the first problem on this page), and another to draw
     the square *multiple times*
 
-.. activecode:: square-row
+.. activecode:: square-rowB
    :language: python
    :nocodelens:
 
@@ -268,7 +268,7 @@ Practice Makes Perfect
 | If you're not sure how to do it with a loop, try writing it out line by line first.
   Once you've got it drawing a plus sign, see if you can put any repeated code in a loop!
 
-.. activecode:: plus
+.. activecode:: plusB
    :language: python
    :nocodelens:
 
@@ -285,7 +285,7 @@ Practice Makes Perfect
 | Now try modifying your code from the plus sign into an asterisk!
 | Hint: you'll need to change the number of repetitions and the angle that you're turning each time
 
-.. activecode:: asterisk
+.. activecode:: asteriskB
    :language: python
    :nocodelens:
 
