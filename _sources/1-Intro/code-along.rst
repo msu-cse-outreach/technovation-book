@@ -10,7 +10,7 @@ Learning to Code
 Why learn Coding?
 ---------------------
 
-What are some reasons to learn to code? (Click on the dark gray buttons below.)
+Click on the dark gray buttons below to see reasons that **we** think you should learn to code.
 
 .. reveal:: re-reasonToCode1
     :showtitle: Become a master problem solver!
@@ -71,7 +71,7 @@ What are some reasons to learn to code? (Click on the dark gray buttons below.)
 .. shortanswer:: sa-reasons
    :optional:
 
-   What are **your** reasons for wanting to learn to code?
+   What are some of **your** reasons for wanting to learn to code?
 
 
 Terminology
@@ -107,7 +107,7 @@ Listen to Mike's rap about coding to learn his answers to:
     Finally, click a speed (number) less than 1.
     (The smaller the number, the slower it plays.)
 
-Here's some other terminology that you'll want to become familiar with (click on the
+Here's some other coding terminology that you'll run into (click on the
 buttons to read our definitions):
 
 .. reveal:: re-define-program
@@ -118,9 +118,9 @@ buttons to read our definitions):
     A computer program: instructions written in a language that a computer
     can interpret to perform some task.
 
-    In other words, a 'computer program' is just another name for 'code'.
+    So a 'computer program' is just a longer way of saying 'code'.
 
-    Example: "I wrote a computer program to play my favorite card game."
+    Example: "I wrote a computer program that plays my favorite card game."
 
 .. reveal:: re-define-coding-programming
     :showtitle: 'Coding' or 'programming'
@@ -137,24 +137,16 @@ buttons to read our definitions):
 
 
 .. reveal:: re-define-executing-running
-    :showtitle: 'Execute code' or 'execute a program'
+    :showtitle: 'Execute' or 'run' code (a computer program)
     :modal:
     :modaltitle: Definition
 
-    Execute code: perform the instructions in the code.
+    Execute or run code (a program): perform the instructions in the code (program).
 
-    Execute a program: perform the instructions in the (computer) program.
+    Example: "To see what code does, just execute it."
+    
+    Example: "The program crashed when I tried to run it."
 
-    Example: "You can see what the program does by executing it."
-
-.. reveal:: re-define-running
-    :showtitle: 'Run code' or 'run a program'
-    :modal:
-    :modaltitle: Definition
-
-    Run code/a program: another way to say 'execute' the code/program.
-
-    Example: "Run the code to see what it does."
 
 .. reveal:: re-define-language
     :showtitle: 'Programming language'
