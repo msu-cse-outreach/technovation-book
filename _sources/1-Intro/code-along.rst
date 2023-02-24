@@ -1,21 +1,35 @@
+.. raw:: html
+
+    <style> .red {color:red} </style>
+    <style> .green {color:green} </style>
+    <style> .blue {color:blue} </style>
+    <style> .purple {color:purple} </style>
+
+.. role:: red
+
+.. role:: green
+
+.. role:: blue
+
+.. role:: purple
+
 .. image:: ../img/Technovation-yellow-gradient-background.png
     :width: 500
     :align: center
     :alt: Technovation logo
 
 
-Learning to Code
+Why learn Coding?
 :::::::::::::::::::::::::::::::::::::::::::
 
-Why learn Coding?
----------------------
-
-Click on the dark gray buttons below to see reasons that **we** think you should learn to code.
+Here are some reasons that **we** think you should learn to code. (Click on the buttons to see more.)
 
 .. reveal:: re-reasonToCode1
     :showtitle: Become a master problem solver!
     :modal:
     :modaltitle: Become a master problem solver!
+    
+    Learn how to break big problems into smaller, more manageable ones. Hone your reasoning skills.
 
     .. raw:: html
 
@@ -30,10 +44,13 @@ Click on the dark gray buttons below to see reasons that **we** think you should
     :showtitle: Expand your creativity with new ways of thinking!
     :modal:
     :modaltitle: Expand your creativity with new ways of thinking!
+    
+    Test out new ideas quickly and cheaply. Easy experimentation leads
+    to new discoveries. 
+    
+    “A computer is a bicycle for your mind” – Steve Jobs
 
     .. raw:: html
-
-        “A computer is a bicycle for your mind” – Steve Jobs
 
         <div style="width:100%;height:0;padding-bottom:50%;position:relative;"><iframe src="https://giphy.com/embed/jRS66R62HFzRK5qXQd" width="50%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/design-idea-ideas-jRS66R62HFzRK5qXQd">via GIPHY</a></p>
 
@@ -42,6 +59,10 @@ Click on the dark gray buttons below to see reasons that **we** think you should
     :showtitle: Practice resilience
     :modaltitle: Practice resilience
     :modal:
+    
+    A key to programming is learning from failed tests: Get an idea. Test it out.
+    Think about how you might fix it. Then try again! This same recipe works for
+    many overcoming many of life's obstacles.
 
     .. raw:: html
 
@@ -52,6 +73,8 @@ Click on the dark gray buttons below to see reasons that **we** think you should
     :showtitle: Code fuels discovery in all fields
     :modal:
     :modaltitle: Code fuels discovery in all fields
+    
+    Code is now used to solve problems in almost all disciplines and sectors.
 
     .. raw:: html
 
@@ -62,6 +85,8 @@ Click on the dark gray buttons below to see reasons that **we** think you should
     :showtitle: Code is a superpower!!
     :modal:
     :modaltitle: Code is a superpower!!
+    
+    The sky is the limit when it comes to what you can do with code!
 
     .. raw:: html
 
@@ -71,21 +96,21 @@ Click on the dark gray buttons below to see reasons that **we** think you should
 .. shortanswer:: sa-reasons
    :optional:
 
-   What are some of **your** reasons for wanting to learn to code?
+   List some of **your** reasons for wanting to learn to code.
 
 
-Terminology
----------------------
+What is Coding?
+:::::::::::::::::::::::::::::::::::::::::::
 
 Listen to Mike's rap about coding to learn his answers to:
 
-- What is code?
+- :red:`What` is code?
 
-- Where is code?
+- :green:`Where` is code?
 
-- Who codes?
+- :blue:`Who` codes?
 
-- Why learn code?
+- :purple:`Why` learn code?
 
 .. raw:: html
 
@@ -97,135 +122,163 @@ Listen to Mike's rap about coding to learn his answers to:
     </div>
 
 .. reveal:: re-slow-down-video
-    :showtitle: Want to slow Mike down?
+    :showtitle: Want change how fast Mike raps?
     :modal:
-    :modaltitle: How to slow down a video
+    :modaltitle: How to change a video's speed
 
     After pressing play, stop the video and click on the gear icon in the
     bottom right of the video frame.
     Then click *Playback Speed*.
     Finally, click a speed (number) less than 1.
-    (The smaller the number, the slower it plays.)
-
-Here's some other coding terminology that you'll run into (click on the
-buttons to read our definitions):
+    (The smaller the number, the slower the video plays.)
+ 
+Think for a minute about what each of the following means in a dicussion of computing. 
+Then click on the buttons to compare our definitions with yours:
 
 .. reveal:: re-define-program
-    :showtitle: A 'computer program'
+    :showtitle: Computer program
     :modal:
     :modaltitle: Definition
 
-    A computer program: instructions written in a language that a computer
-    can interpret to perform some task.
+    **Computer program:** A list of instructions that is written in a language a computer can interpret to perform some task.
 
-    So a 'computer program' is just a longer way of saying 'code'.
+    So a *computer program* is just another name for *code*.
 
-    Example: "I wrote a computer program that plays my favorite card game."
+    :blue:`"I wrote a computer program that plays my favorite card game."`
+    
+    :blue:`"She wrote code that calculates the minumum, maximum, and average temperatures recorded each month."` 
 
 .. reveal:: re-define-coding-programming
-    :showtitle: 'Coding' or 'programming'
+    :showtitle: Coding, Programming
     :modal:
     :modaltitle: Definition
 
-    Coding: writing code.
+    **Coding:** In the process of creating code.
 
-    Example: "I am coding a new mobile app."
+    **Programming:** In the process of creating a computer program.
+    
+    So *programming* is just another way of saying *coding*.
 
-    Programming: writing a computer program.
+    :blue:`"I am coding a new mobile app."`
 
-    Example: "I am programming a new mobile app."
+    :blue:`"I am programming a simulation of the known universe."`
 
 
 .. reveal:: re-define-executing-running
-    :showtitle: 'Execute' or 'run' code (a computer program)
+    :showtitle: Run, Execute
     :modal:
     :modaltitle: Definition
 
-    Execute or run code (a program): perform the instructions in the code (program).
-
-    Example: "To see what code does, just execute it."
+    **Run [code]**: Carry out the instructions in the code.
+   
+    **Execute [a program]**: Carry out the instructions in the program.
     
-    Example: "The program crashed when I tried to run it."
+    So *run the code* is just another way of saying *execute the program*. 
+
+    :blue:`"To see what code does, just execute it."`
+    
+    :blue:`"The program crashed when I tried to run it.`
+    
+    (This last sentence is something you will eventually get used to!)
 
 
 .. reveal:: re-define-language
-    :showtitle: 'Programming language'
+    :showtitle: Programming language, Coding language
     :modal:
     :modaltitle: Definition
 
-    Programming language: the vocabulary and grammar rules for writing a program.
+    **Programming language:** The vocabulary and grammar rules for writing a program.
 
-    Example: "I can write code in several different programming languages."
+    **Coding language:** The vocabulary and grammar rules for code.
+    
+    So a *programming language* is just another way of saying a *coding language*.
 
+    :blue:`"Once you learn one programming language, it is relatively easy to teach yourself others."`
+    
+    :blue:`"What is your favorite coding language to program in?"`
 
 Check your understanding.
 
 .. mchoice:: mc-program-definition
    :random:
 
-   What do "a computer program" and "code" mean? (Select the best description.)
+   What do *a program* and *code* mean when used in computing? 
+   (Select the best description.)
 
-   - A series of instructions that a computer can follow to perform some task.
+   - A series of instructions that a computer can carry out to perform some task.
 
      + Yes, but not just any old instructions---the instructions must be written using the vocabulary and the grammar rules of a programming language.
 
    - A TV show
 
-     - No, "a program" sometimes refers to a TV show, but "code" and a "computer program"
-       do not
+     - No, *a program* sometimes refers to a TV show, but not in computing; and *code* does not; and *code* certainly does not refer to a TV show.
 
    - A secret language that only some people understand
 
-     - No, "code" sometimes refers to a secret language, but a "computer program" does not
-
+     - No, *a program* does not refer to a secret language; and although *code* sometimes refers to a secret language, in computing it generally means the same as *a program*. 
+     
    - A task that a computer can perform.
 
-     - No, but a computer runs a program to perform a task.
+     - No &mdash; You run a program to perform a task, but the *program* is not the task that is to be completed.
 
 
-The distinctions between these terms can be illustrated by analogy.
+To understand the distinctions between these terms, it can help to draw 
+analogies with activities that you are already familiar with. 
 
-.. image:: img/cooking-clipart-libraryDOTcomClipart26transparent.png
+
+.. figure:: img/cooking-clipart-libraryDOTcomClipart26transparent.png
     :width: 300
     :align: center
     :alt: image of teens following a recipe (clipart-library.com/clipart/26)
+    :class: with-border
+    
+    Cooking from a Recipe
 
 .. dragndrop:: dnd-terminology-recipe
     :match_1: The rules for writing down recipes|||Programming language
-    :match_2: A recipe for a pepperoni pizza|||A program (code)
-    :match_3: Cooking a cheese pizza|||Executing (or running) the program
-    :match_4: Writing down the recipe for your favorite pizza|||Programming (coding)
+    :match_2: A recipe for a pepperoni pizza|||A program
+    :match_3: Cooking a Hawaiian pizza|||Executing the program
+    :match_4: Writing down the recipe for your favorite pizza|||Programming
+    
+    Match up the phrase on the left with the coding concept on the right
+    that it is most similar to, thereby illustrating an analogy between coding and 
+    cooking.
 
-    Drag the phrase on the left to the coding concept it is most similar to on the right.
 
-
-.. image:: img/teachingDogTricksCoolCLIPS_vc016297.png
-    :width: 300
+.. figure:: img/dog_hoop_cliparts2518895.png
+    :width: 200
     :align: center
     :alt: clipart of dog pondering an equation involving bones (CoolCLIPS_vc016297)
-
+    :class: with-border
+    
+    Pet Tricks
 
 .. dragndrop:: dnd-terminology-pet-tricks
-    :match_1: The movements and words that your dog understands|||Programming language
-    :match_2: A list of movements and sounds that will make your dog play dead|||A program (code)
-    :match_3: Commanding your dog to play dead|||Executing (or running) a program
-    :match_4: Writing down a list of movements and sounds that will make your dog fetch the newspaper|||Programming (coding)
+    :match_1: The movements and words that make up the commands that your dog understands|||Coding language
+    :match_2: A series of commands that will make your dog play dead|||The code
+    :match_3: Commanding your dog to play dead|||Running the code
+    :match_4: Inventing a series of commands for your dog to get it to fetch a toy|||Coding
 
-    Drag the phrase on the left to the coding concept it is most similar to on the right.
-
-
-.. image:: img/teachingDogTricksClipartsDOTzoneClipart675010.png
-    :width: 300
-    :align: center
-    :alt: image of a trainer trying to get a dog to jump through a hoop (Cliparts.zone/clipart/675010)
+    Match up the phrase on the left with the coding concept on the right
+    that it is most similar to, thereby illustrating an analogy between teaching
+    tricks to a pet and coding.
 
 
 
 Python Turtle Graphics
-------------------------
+:::::::::::::::::::::::::::::::::::::::::::
+
+.. figure:: img/five-pointed-star-animation.gif
+    :width: 600
+    :align: center
+    :alt: Animated gif of a Turtle following instructions to draw a 5-pointed star.
+    
+    Animation of a Turtle following a series of instructions
+
 
 You'll be learning coding using *Python Turtle Graphics*, a library
 of code that is written in the Python Programming Language.
+
 
 To whet your appetite, here's an example program in a Runestone *active code* widget.
 

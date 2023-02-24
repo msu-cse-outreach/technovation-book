@@ -1,0 +1,2223 @@
+{
+  "title" : "",
+  "description" : "",
+  "author" : "",
+  "targetLoudness" : -18.0,
+  "shouldApplyLoudnessNormalization" : true,
+  "videoFormatFrameRate" : 30,
+  "audioFormatSampleRate" : 44100,
+  "width" : 600.0,
+  "height" : 585.0,
+  "version" : "4.0",
+  "editRate" : 30,
+  "authoringClientName" :  {
+    "name" : "Camtasia",
+    "platform" : "Mac",
+    "version" : "2020.0.19"
+  },
+  "sourceBin" : [
+    {
+      "id" : 1,
+      "src" : "./media/1662523075.177239/five-pointed-star-video.mov",
+      "rect" : [0, 0, 640, 624],
+      "lastMod" : "20220906T022632",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 91585],
+          "type" : 0,
+          "editRate" : 6000,
+          "trackRect" : [0, 0, 640, 624],
+          "sampleRate" : "60019/1000",
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20220906T155156.956841"
+      }
+    },
+    {
+      "id" : 2,
+      "src" : "./media/1662523075.178332/tim-frame.png",
+      "rect" : [0, 0, 1920, 1080],
+      "lastMod" : "20220906T161921",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 1],
+          "type" : 1,
+          "editRate" : 600,
+          "trackRect" : [0, 0, 1920, 1080],
+          "sampleRate" : 0,
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20220906T162017.133194"
+      }
+    },
+    {
+      "id" : 3,
+      "src" : "./media/1662523075.179126/tim-frame2.png",
+      "rect" : [0, 0, 1920, 1080],
+      "lastMod" : "20220906T165949",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 1],
+          "type" : 1,
+          "editRate" : 600,
+          "trackRect" : [0, 0, 1920, 1080],
+          "sampleRate" : 0,
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20220906T170234.469357"
+      }
+    },
+    {
+      "id" : 4,
+      "src" : "./media/1662523075.179597/tim-frame3.png",
+      "rect" : [0, 0, 1920, 1080],
+      "lastMod" : "20220906T171445",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 1],
+          "type" : 1,
+          "editRate" : 600,
+          "trackRect" : [0, 0, 1920, 1080],
+          "sampleRate" : 0,
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20220906T171506.927998"
+      }
+    },
+    {
+      "id" : 5,
+      "src" : "/Users/lauradillon/Dropbox/ZZZZZZ/Coding-Clubs/RunestoneBooks/technovation-book/_sources/1-Intro/img/tim-frame4.png",
+      "rect" : [0, 0, 1920, 1080],
+      "lastMod" : "not-a-date-time",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 1],
+          "type" : 1,
+          "editRate" : 600,
+          "trackRect" : [0, 0, 1920, 1080],
+          "sampleRate" : 0,
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20220906T172950.027234"
+      }
+    },
+    {
+      "id" : 6,
+      "src" : "./media/1662523075.180174/frame.png",
+      "rect" : [0, 0, 1920, 1080],
+      "lastMod" : "20220906T174046",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 1],
+          "type" : 1,
+          "editRate" : 600,
+          "trackRect" : [0, 0, 1920, 1080],
+          "sampleRate" : 0,
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20220906T174046.986963"
+      }
+    },
+    {
+      "id" : 7,
+      "src" : "./media/1662523075.180588/frame.png",
+      "rect" : [0, 0, 1920, 1080],
+      "lastMod" : "20220906T174651",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 1],
+          "type" : 1,
+          "editRate" : 600,
+          "trackRect" : [0, 0, 1920, 1080],
+          "sampleRate" : 0,
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20220906T174651.627041"
+      }
+    },
+    {
+      "id" : 8,
+      "src" : "./media/1662523075.180993/frame.png",
+      "rect" : [0, 0, 1920, 1080],
+      "lastMod" : "20220906T175451",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 1],
+          "type" : 1,
+          "editRate" : 600,
+          "trackRect" : [0, 0, 1920, 1080],
+          "sampleRate" : 0,
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20220906T175451.304119"
+      }
+    }
+  ],
+  "timeline" : {
+    "id" : 9,
+    "sceneTrack" : {
+      "scenes" : [
+        {
+          "csml" : {
+            "tracks" : [
+              {
+                "trackIndex" : 0,
+                "medias" : [
+                ]
+              },
+              {
+                "trackIndex" : 1,
+                "medias" : [
+                  {
+                    "id" : 10,
+                    "_type" : "Group",
+                    "parameters" : {
+                      "translation0" : -44.0429716032174,
+                      "translation1" : -5.66528367284093,
+                      "scale0" : 0.531161651818269,
+                      "scale1" : 0.531161651818269,
+                      "sourceCrop0" : 0.0,
+                      "sourceCrop1" : 0.0,
+                      "sourceCrop2" : 0.0,
+                      "sourceCrop3" : 0.0,
+                      "geometryCrop0" : 478.128455159568,
+                      "geometryCrop1" : 0.0,
+                      "geometryCrop2" : 312.301520270181,
+                      "geometryCrop3" : 0.0,
+                      "volume" : 1.0
+                    },
+                    "tracks" : [
+                      {
+                        "trackIndex" : 0,
+                        "medias" : [
+                          {
+                            "id" : 11,
+                            "_type" : "VMFile",
+                            "src" : 1,
+                            "trackNumber" : 0,
+                            "attributes" : {
+                              "ident" : "five-pointed-star-video"
+                            },
+                            "parameters" : {
+                              "translation0" : 81.7940677478406,
+                              "translation1" : 0.0566272884210894,
+                              "scale0" : 1.7532315443219,
+                              "scale1" : 1.7532315443219,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 60,
+                            "duration" : 41,
+                            "mediaStart" : 0,
+                            "mediaDuration" : 41,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 12,
+                            "_type" : "IMFile",
+                            "src" : 2,
+                            "trackNumber" : 0,
+                            "trimStartSum" : 0,
+                            "attributes" : {
+                              "ident" : "tim-frame"
+                            },
+                            "parameters" : {
+                              "translation0" : -51.9799747779678,
+                              "translation1" : -0.863735812607112,
+                              "scale0" : 1.74663683207404,
+                              "scale1" : 1.74663683207404,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 101,
+                            "duration" : 50,
+                            "mediaStart" : 0,
+                            "mediaDuration" : 1,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 13,
+                            "_type" : "VMFile",
+                            "src" : 1,
+                            "trackNumber" : 0,
+                            "attributes" : {
+                              "ident" : "five-pointed-star-video"
+                            },
+                            "parameters" : {
+                              "translation0" : 81.7940677478406,
+                              "translation1" : 0.0566272884210894,
+                              "scale0" : 1.7532315443219,
+                              "scale1" : 1.7532315443219,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 151,
+                            "duration" : 17,
+                            "mediaStart" : 41,
+                            "mediaDuration" : 17,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 14,
+                            "_type" : "IMFile",
+                            "src" : 3,
+                            "trackNumber" : 0,
+                            "trimStartSum" : 0,
+                            "attributes" : {
+                              "ident" : "tim-frame2"
+                            },
+                            "parameters" : {
+                              "translation0" : -51.9799747779678,
+                              "translation1" : -0.863735812607112,
+                              "scale0" : 1.74663683207404,
+                              "scale1" : 1.74663683207404,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 168,
+                            "duration" : 22,
+                            "mediaStart" : 0,
+                            "mediaDuration" : 1,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 15,
+                            "_type" : "VMFile",
+                            "src" : 1,
+                            "trackNumber" : 0,
+                            "attributes" : {
+                              "ident" : "five-pointed-star-video"
+                            },
+                            "parameters" : {
+                              "translation0" : 81.7940677478406,
+                              "translation1" : 0.0566272884210894,
+                              "scale0" : 1.7532315443219,
+                              "scale1" : 1.7532315443219,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 190,
+                            "duration" : 28,
+                            "mediaStart" : 58,
+                            "mediaDuration" : 28,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 16,
+                            "_type" : "IMFile",
+                            "src" : 4,
+                            "trackNumber" : 0,
+                            "trimStartSum" : 0,
+                            "attributes" : {
+                              "ident" : "tim-frame3"
+                            },
+                            "parameters" : {
+                              "translation0" : -51.9799747779678,
+                              "translation1" : -0.863735812607111,
+                              "scale0" : 1.74663683207404,
+                              "scale1" : 1.74663683207404,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 218,
+                            "duration" : 12,
+                            "mediaStart" : 0,
+                            "mediaDuration" : 1,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 17,
+                            "_type" : "VMFile",
+                            "src" : 1,
+                            "trackNumber" : 0,
+                            "attributes" : {
+                              "ident" : "five-pointed-star-video"
+                            },
+                            "parameters" : {
+                              "translation0" : 81.7940677478406,
+                              "translation1" : 0.0566272884210894,
+                              "scale0" : 1.7532315443219,
+                              "scale1" : 1.7532315443219,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 230,
+                            "duration" : 37,
+                            "mediaStart" : 86,
+                            "mediaDuration" : 37,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 18,
+                            "_type" : "VMFile",
+                            "src" : 1,
+                            "trackNumber" : 0,
+                            "attributes" : {
+                              "ident" : "five-pointed-star-video"
+                            },
+                            "parameters" : {
+                              "translation0" : 81.7940677478406,
+                              "translation1" : 0.0566272884210894,
+                              "scale0" : 1.7532315443219,
+                              "scale1" : 1.7532315443219,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 267,
+                            "duration" : 5,
+                            "mediaStart" : 123,
+                            "mediaDuration" : 5,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 19,
+                            "_type" : "IMFile",
+                            "src" : 6,
+                            "trackNumber" : 0,
+                            "trimStartSum" : 0,
+                            "attributes" : {
+                              "ident" : "frame"
+                            },
+                            "parameters" : {
+                              "translation0" : -51.9799747779678,
+                              "translation1" : -0.863735812607112,
+                              "scale0" : 1.74663683207404,
+                              "scale1" : 1.74663683207404,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 272,
+                            "duration" : 12,
+                            "mediaStart" : 0,
+                            "mediaDuration" : 1,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 20,
+                            "_type" : "VMFile",
+                            "src" : 1,
+                            "trackNumber" : 0,
+                            "attributes" : {
+                              "ident" : "five-pointed-star-video"
+                            },
+                            "parameters" : {
+                              "translation0" : 81.7940677478406,
+                              "translation1" : 0.0566272884210894,
+                              "scale0" : 1.7532315443219,
+                              "scale1" : 1.7532315443219,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 284,
+                            "duration" : 40,
+                            "mediaStart" : 128,
+                            "mediaDuration" : 40,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 21,
+                            "_type" : "IMFile",
+                            "src" : 7,
+                            "trackNumber" : 0,
+                            "trimStartSum" : 0,
+                            "attributes" : {
+                              "ident" : "frame"
+                            },
+                            "parameters" : {
+                              "translation0" : -51.9799747779678,
+                              "translation1" : 0.136264187392888,
+                              "scale0" : 1.74663683207404,
+                              "scale1" : 1.74663683207404,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 324,
+                            "duration" : 13,
+                            "mediaStart" : 0,
+                            "mediaDuration" : 1,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 22,
+                            "_type" : "VMFile",
+                            "src" : 1,
+                            "trackNumber" : 0,
+                            "attributes" : {
+                              "ident" : "five-pointed-star-video"
+                            },
+                            "parameters" : {
+                              "translation0" : 81.7940677478406,
+                              "translation1" : 0.0566272884210894,
+                              "scale0" : 1.7532315443219,
+                              "scale1" : 1.7532315443219,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 337,
+                            "duration" : 41,
+                            "mediaStart" : 168,
+                            "mediaDuration" : 41,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 23,
+                            "_type" : "IMFile",
+                            "src" : 8,
+                            "trackNumber" : 0,
+                            "trimStartSum" : 0,
+                            "attributes" : {
+                              "ident" : "frame"
+                            },
+                            "parameters" : {
+                              "translation0" : -51.9799747779678,
+                              "translation1" : 0.136264187392888,
+                              "scale0" : 1.74663683207404,
+                              "scale1" : 1.74663683207404,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 378,
+                            "duration" : 13,
+                            "mediaStart" : 0,
+                            "mediaDuration" : 1,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 24,
+                            "_type" : "VMFile",
+                            "src" : 1,
+                            "trackNumber" : 0,
+                            "attributes" : {
+                              "ident" : "five-pointed-star-video"
+                            },
+                            "parameters" : {
+                              "translation0" : 81.7940677478406,
+                              "translation1" : 0.0566272884210894,
+                              "scale0" : 1.7532315443219,
+                              "scale1" : 1.7532315443219,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 391,
+                            "duration" : 125,
+                            "mediaStart" : 209,
+                            "mediaDuration" : 125,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          }
+                        ],
+                          "ident" : "",
+                          "audioMuted" : false,
+                          "videoHidden" : false,
+                          "magnetic" : false,
+                          "matte" : 0,
+                          "solo" : false
+                      },
+                      {
+                        "trackIndex" : 1,
+                        "medias" : [
+                          {
+                            "id" : 25,
+                            "_type" : "Callout",
+                            "def" : {
+                              "kind" : "remix",
+                              "shape" : "text-rectangle",
+                              "style" : "basic",
+                              "fill-color-blue" : 0.556862745098039,
+                              "fill-color-green" : 0.113725490196078,
+                              "fill-color-opacity" : 1.0,
+                              "fill-color-red" : 0.129411764705882,
+                              "height" : 33.5485788863076,
+                              "line-spacing" : 0.0,
+                              "stroke-color-blue" : 0.56078431372549,
+                              "stroke-color-green" : 0.686274509803922,
+                              "stroke-color-opacity" : 1.0,
+                              "stroke-color-red" : 0.0196078431372549,
+                              "stroke-width" : 2.0,
+                              "tail-x" : 0.0,
+                              "tail-y" : -78.2257105568462,
+                              "width" : 350.0,
+                              "word-wrap" : 1.0,
+                              "fill-style" : "solid",
+                              "horizontal-alignment" : "center",
+                              "resize-behavior" : "resizeText",
+                              "stroke-style" : "solid",
+                              "text" : "from turtle import *",
+                              "vertical-alignment" : "center",
+                              "font" : {
+                                "color-blue" : 0.266666666666667,
+                                "color-green" : 0.231372549019608,
+                                "color-opacity" : 1.0,
+                                "color-red" : 0.184313725490196,
+                                "size" : 64.0,
+                                "tracking" : 0.0,
+                                "name" : "Montserrat",
+                                "weight" : "Regular"
+                              },
+                              "textAttributes" : {
+                                "type" : "textAttributeList",
+                                "keyframes" : [
+                                  {
+                                    "endTime" : 0,
+                                    "time" : 0,
+                                    "value" : [{"name":"fontSize","rangeEnd":20,"rangeStart":0,"value":29,"valueType":"double"},{"name":"fontWeight","rangeEnd":20,"rangeStart":0,"value":700,"valueType":"int"},{"name":"strikethrough","rangeEnd":20,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontItalic","rangeEnd":20,"rangeStart":0,"value":0,"valueType":"int"},{"name":"kerning","rangeEnd":20,"rangeStart":0,"value":0,"valueType":"double"},{"name":"underline","rangeEnd":20,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fgColor","rangeEnd":20,"rangeStart":0,"value":"(216,222,227,255)","valueType":"color"},{"name":"fontName","rangeEnd":20,"rangeStart":0,"value":"Courier New","valueType":"string"}],
+                                    "duration" : 0
+                                  }
+                                ]
+                              }
+                            },
+                            "attributes" : {
+                              "autoRotateText" : true
+                            },
+                            "parameters" : {
+                              "translation0" : 209.0,
+                              "translation1" : 376.2,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 0,
+                            "duration" : 35,
+                            "mediaStart" : 0,
+                            "mediaDuration" : 35,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "AppliedThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "default-text" : "{\\rtf1\\ansi\\ansicpg1252\\cocoartf2639\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl\\f0\\fnil\\fcharset0 Montserrat-Regular;}\n{\\colortbl;\\red255\\green255\\blue255;\\red36\\green45\\blue52;}\n{\\*\\expandedcolortbl;;\\cssrgb\\c18431\\c23137\\c26667;}\n\\pard\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\tx6720\\pardirnatural\\qc\\partightenfactor0\n\n\\f0\\fs128 \\cf2 \\expnd0\\expndtw0\\kerning0\n\\ulnone from turtle import *}",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 26,
+                            "_type" : "Callout",
+                            "def" : {
+                              "kind" : "remix",
+                              "shape" : "text-rectangle",
+                              "style" : "basic",
+                              "fill-color-blue" : 0.556862745098039,
+                              "fill-color-green" : 0.113725490196078,
+                              "fill-color-opacity" : 1.0,
+                              "fill-color-red" : 0.129411764705882,
+                              "height" : 87.054814385149,
+                              "line-spacing" : 0.0,
+                              "stroke-color-blue" : 0.56078431372549,
+                              "stroke-color-green" : 0.686274509803922,
+                              "stroke-color-opacity" : 1.0,
+                              "stroke-color-red" : 0.0196078431372549,
+                              "stroke-width" : 2.0,
+                              "tail-x" : 133.434744779575,
+                              "tail-y" : -51.4725928074255,
+                              "width" : 485.64037122969,
+                              "word-wrap" : 1.0,
+                              "fill-style" : "solid",
+                              "horizontal-alignment" : "left",
+                              "resize-behavior" : "resizeText",
+                              "stroke-style" : "solid",
+                              "text" : "canvas=Screen()\ncanvas.title(\"Tim's World\")",
+                              "vertical-alignment" : "center",
+                              "font" : {
+                                "color-blue" : 0.266666666666667,
+                                "color-green" : 0.231372549019608,
+                                "color-opacity" : 1.0,
+                                "color-red" : 0.184313725490196,
+                                "size" : 64.0,
+                                "tracking" : 0.0,
+                                "name" : "Montserrat",
+                                "weight" : "Regular"
+                              },
+                              "textAttributes" : {
+                                "type" : "textAttributeList",
+                                "keyframes" : [
+                                  {
+                                    "endTime" : 0,
+                                    "time" : 0,
+                                    "value" : [{"name":"fontSize","rangeEnd":43,"rangeStart":0,"value":29,"valueType":"double"},{"name":"kerning","rangeEnd":43,"rangeStart":0,"value":0,"valueType":"double"},{"name":"fontItalic","rangeEnd":43,"rangeStart":0,"value":0,"valueType":"int"},{"name":"strikethrough","rangeEnd":43,"rangeStart":0,"value":0,"valueType":"int"},{"name":"underline","rangeEnd":43,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":43,"rangeStart":0,"value":700,"valueType":"int"},{"name":"fgColor","rangeEnd":43,"rangeStart":0,"value":"(216,222,227,255)","valueType":"color"},{"name":"fontName","rangeEnd":43,"rangeStart":0,"value":"Courier New","valueType":"string"}],
+                                    "duration" : 0
+                                  }
+                                ]
+                              }
+                            },
+                            "attributes" : {
+                              "autoRotateText" : true
+                            },
+                            "parameters" : {
+                              "translation0" : 209.565255220425,
+                              "translation1" : 370.472592807426,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 35,
+                            "duration" : 60,
+                            "mediaStart" : 0,
+                            "mediaDuration" : 60,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "AppliedThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "default-text" : "{\\rtf1\\ansi\\ansicpg1252\\cocoartf2639\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl\\f0\\fnil\\fcharset0 Montserrat-Regular;}\n{\\colortbl;\\red255\\green255\\blue255;\\red36\\green45\\blue52;}\n{\\*\\expandedcolortbl;;\\cssrgb\\c18431\\c23137\\c26667;}\n\\pard\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\tx6720\\pardirnatural\\qc\\partightenfactor0\n\n\\f0\\fs128 \\cf2 \\expnd0\\expndtw0\\kerning0\n\\ulnone from turtle import *}",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 27,
+                            "_type" : "Callout",
+                            "def" : {
+                              "kind" : "remix",
+                              "shape" : "text-rectangle",
+                              "style" : "basic",
+                              "fill-color-blue" : 0.556862745098039,
+                              "fill-color-green" : 0.113725490196078,
+                              "fill-color-opacity" : 1.0,
+                              "fill-color-red" : 0.129411764705882,
+                              "height" : 33.5485788863076,
+                              "line-spacing" : 0.0,
+                              "stroke-color-blue" : 0.56078431372549,
+                              "stroke-color-green" : 0.686274509803922,
+                              "stroke-color-opacity" : 1.0,
+                              "stroke-color-red" : 0.0196078431372549,
+                              "stroke-width" : 2.0,
+                              "tail-x" : 112.074100928068,
+                              "tail-y" : -78.2257105568462,
+                              "width" : 379.87209976798,
+                              "word-wrap" : 1.0,
+                              "fill-style" : "solid",
+                              "horizontal-alignment" : "left",
+                              "resize-behavior" : "resizeText",
+                              "stroke-style" : "solid",
+                              "text" : "tim = Turtle(“turtle”)",
+                              "vertical-alignment" : "center",
+                              "font" : {
+                                "color-blue" : 0.266666666666667,
+                                "color-green" : 0.231372549019608,
+                                "color-opacity" : 1.0,
+                                "color-red" : 0.184313725490196,
+                                "size" : 64.0,
+                                "tracking" : 0.0,
+                                "name" : "Montserrat",
+                                "weight" : "Regular"
+                              },
+                              "textAttributes" : {
+                                "type" : "textAttributeList",
+                                "keyframes" : [
+                                  {
+                                    "endTime" : 0,
+                                    "time" : 0,
+                                    "value" : [{"name":"underline","rangeEnd":26,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontSize","rangeEnd":26,"rangeStart":0,"value":29,"valueType":"double"},{"name":"fontName","rangeEnd":26,"rangeStart":0,"value":"Courier New","valueType":"string"},{"name":"fontItalic","rangeEnd":26,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":26,"rangeStart":0,"value":700,"valueType":"int"},{"name":"strikethrough","rangeEnd":26,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fgColor","rangeEnd":26,"rangeStart":0,"value":"(216,222,227,255)","valueType":"color"},{"name":"kerning","rangeEnd":26,"rangeStart":0,"value":0,"valueType":"double"}],
+                                    "duration" : 0
+                                  }
+                                ]
+                              }
+                            },
+                            "attributes" : {
+                              "autoRotateText" : true
+                            },
+                            "parameters" : {
+                              "translation0" : 216.925899071932,
+                              "translation1" : 368.225710556846,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 96,
+                            "duration" : 30,
+                            "mediaStart" : -10,
+                            "mediaDuration" : 30,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "AppliedThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "default-text" : "{\\rtf1\\ansi\\ansicpg1252\\cocoartf2639\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl\\f0\\fnil\\fcharset0 Montserrat-Regular;}\n{\\colortbl;\\red255\\green255\\blue255;\\red36\\green45\\blue52;}\n{\\*\\expandedcolortbl;;\\cssrgb\\c18431\\c23137\\c26667;}\n\\pard\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\tx6720\\pardirnatural\\qc\\partightenfactor0\n\n\\f0\\fs128 \\cf2 \\expnd0\\expndtw0\\kerning0\n\\ulnone from turtle import *}",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 28,
+                            "_type" : "Callout",
+                            "def" : {
+                              "kind" : "remix",
+                              "shape" : "speech-bubble2",
+                              "style" : "basic",
+                              "fill-color-blue" : 0.556862745098039,
+                              "fill-color-green" : 0.113725490196078,
+                              "fill-color-opacity" : 1.0,
+                              "fill-color-red" : 0.129411764705882,
+                              "height" : 33.5485788863076,
+                              "line-spacing" : 0.0,
+                              "stroke-color-blue" : 0.56078431372549,
+                              "stroke-color-green" : 0.686274509803922,
+                              "stroke-color-opacity" : 1.0,
+                              "stroke-color-red" : 0.0196078431372549,
+                              "stroke-width" : 2.0,
+                              "tail-x" : -38.8218532482577,
+                              "tail-y" : -85.2101943155471,
+                              "width" : 183.3734048724,
+                              "word-wrap" : 1.0,
+                              "fill-style" : "solid",
+                              "horizontal-alignment" : "left",
+                              "resize-behavior" : "resizeText",
+                              "stroke-style" : "solid",
+                              "text" : "tim.up()",
+                              "vertical-alignment" : "center",
+                              "font" : {
+                                "color-blue" : 0.266666666666667,
+                                "color-green" : 0.231372549019608,
+                                "color-opacity" : 1.0,
+                                "color-red" : 0.184313725490196,
+                                "size" : 64.0,
+                                "tracking" : 0.0,
+                                "name" : "Montserrat",
+                                "weight" : "Regular"
+                              },
+                              "textAttributes" : {
+                                "type" : "textAttributeList",
+                                "keyframes" : [
+                                  {
+                                    "endTime" : 0,
+                                    "time" : 0,
+                                    "value" : [{"name":"fontSize","rangeEnd":8,"rangeStart":0,"value":29,"valueType":"double"},{"name":"fontItalic","rangeEnd":8,"rangeStart":0,"value":0,"valueType":"int"},{"name":"kerning","rangeEnd":8,"rangeStart":0,"value":0,"valueType":"double"},{"name":"fontWeight","rangeEnd":8,"rangeStart":0,"value":700,"valueType":"int"},{"name":"strikethrough","rangeEnd":8,"rangeStart":0,"value":0,"valueType":"int"},{"name":"underline","rangeEnd":8,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fgColor","rangeEnd":8,"rangeStart":0,"value":"(216,222,227,255)","valueType":"color"},{"name":"fontName","rangeEnd":8,"rangeStart":0,"value":"Courier New","valueType":"string"}],
+                                    "duration" : 0
+                                  }
+                                ]
+                              }
+                            },
+                            "attributes" : {
+                              "autoRotateText" : true
+                            },
+                            "parameters" : {
+                              "translation0" : 298.6867024362,
+                              "translation1" : 375.225710556846,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 126,
+                            "duration" : 20,
+                            "mediaStart" : 0,
+                            "mediaDuration" : 20,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "AppliedThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "default-text" : "{\\rtf1\\ansi\\ansicpg1252\\cocoartf2639\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl\\f0\\fnil\\fcharset0 Montserrat-Regular;}\n{\\colortbl;\\red255\\green255\\blue255;\\red36\\green45\\blue52;}\n{\\*\\expandedcolortbl;;\\cssrgb\\c18431\\c23137\\c26667;}\n\\pard\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\tx6720\\pardirnatural\\qc\\partightenfactor0\n\n\\f0\\fs128 \\cf2 \\expnd0\\expndtw0\\kerning0\n\\ulnone from turtle import *}",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 29,
+                            "_type" : "Callout",
+                            "def" : {
+                              "kind" : "remix",
+                              "shape" : "speech-bubble2",
+                              "style" : "basic",
+                              "fill-color-blue" : 0.556862745098039,
+                              "fill-color-green" : 0.113725490196078,
+                              "fill-color-opacity" : 1.0,
+                              "fill-color-red" : 0.129411764705882,
+                              "height" : 33.5485788863076,
+                              "line-spacing" : 0.0,
+                              "stroke-color-blue" : 0.56078431372549,
+                              "stroke-color-green" : 0.686274509803922,
+                              "stroke-color-opacity" : 1.0,
+                              "stroke-color-red" : 0.0196078431372549,
+                              "stroke-width" : 2.0,
+                              "tail-x" : -23.6652407192562,
+                              "tail-y" : -85.2101943155471,
+                              "width" : 283.090342227382,
+                              "word-wrap" : 1.0,
+                              "fill-style" : "solid",
+                              "horizontal-alignment" : "left",
+                              "resize-behavior" : "resizeText",
+                              "stroke-style" : "solid",
+                              "text" : "tim.goto(-200,75)",
+                              "vertical-alignment" : "center",
+                              "font" : {
+                                "color-blue" : 0.266666666666667,
+                                "color-green" : 0.231372549019608,
+                                "color-opacity" : 1.0,
+                                "color-red" : 0.184313725490196,
+                                "size" : 64.0,
+                                "tracking" : 0.0,
+                                "name" : "Montserrat",
+                                "weight" : "Regular"
+                              },
+                              "textAttributes" : {
+                                "type" : "textAttributeList",
+                                "keyframes" : [
+                                  {
+                                    "endTime" : 0,
+                                    "time" : 0,
+                                    "value" : [{"name":"strikethrough","rangeEnd":17,"rangeStart":0,"value":0,"valueType":"int"},{"name":"kerning","rangeEnd":17,"rangeStart":0,"value":0,"valueType":"double"},{"name":"fontWeight","rangeEnd":17,"rangeStart":0,"value":700,"valueType":"int"},{"name":"fontSize","rangeEnd":17,"rangeStart":0,"value":29,"valueType":"double"},{"name":"underline","rangeEnd":17,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontItalic","rangeEnd":17,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fgColor","rangeEnd":17,"rangeStart":0,"value":"(216,222,227,255)","valueType":"color"},{"name":"fontName","rangeEnd":17,"rangeStart":0,"value":"Courier New","valueType":"string"}],
+                                    "duration" : 0
+                                  }
+                                ]
+                              }
+                            },
+                            "attributes" : {
+                              "autoRotateText" : true
+                            },
+                            "parameters" : {
+                              "translation0" : 296.530089907198,
+                              "translation1" : 373.225710556846,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 146,
+                            "duration" : 29,
+                            "mediaStart" : -10,
+                            "mediaDuration" : 29,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "AppliedThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "default-text" : "{\\rtf1\\ansi\\ansicpg1252\\cocoartf2639\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl\\f0\\fnil\\fcharset0 Montserrat-Regular;}\n{\\colortbl;\\red255\\green255\\blue255;\\red36\\green45\\blue52;}\n{\\*\\expandedcolortbl;;\\cssrgb\\c18431\\c23137\\c26667;}\n\\pard\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\tx6720\\pardirnatural\\qc\\partightenfactor0\n\n\\f0\\fs128 \\cf2 \\expnd0\\expndtw0\\kerning0\n\\ulnone from turtle import *}",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 30,
+                            "_type" : "Callout",
+                            "def" : {
+                              "kind" : "remix",
+                              "shape" : "speech-bubble2",
+                              "style" : "basic",
+                              "fill-color-blue" : 0.556862745098039,
+                              "fill-color-green" : 0.113725490196078,
+                              "fill-color-opacity" : 1.0,
+                              "fill-color-red" : 0.129411764705882,
+                              "height" : 33.5485788863076,
+                              "line-spacing" : 0.0,
+                              "stroke-color-blue" : 0.56078431372549,
+                              "stroke-color-green" : 0.686274509803922,
+                              "stroke-color-opacity" : 1.0,
+                              "stroke-color-red" : 0.0196078431372549,
+                              "stroke-width" : 2.0,
+                              "tail-x" : -38.8218532482577,
+                              "tail-y" : -85.2101943155471,
+                              "width" : 183.3734048724,
+                              "word-wrap" : 1.0,
+                              "fill-style" : "solid",
+                              "horizontal-alignment" : "left",
+                              "resize-behavior" : "resizeText",
+                              "stroke-style" : "solid",
+                              "text" : "tim.down()",
+                              "vertical-alignment" : "center",
+                              "font" : {
+                                "color-blue" : 0.266666666666667,
+                                "color-green" : 0.231372549019608,
+                                "color-opacity" : 1.0,
+                                "color-red" : 0.184313725490196,
+                                "size" : 64.0,
+                                "tracking" : 0.0,
+                                "name" : "Montserrat",
+                                "weight" : "Regular"
+                              },
+                              "textAttributes" : {
+                                "type" : "textAttributeList",
+                                "keyframes" : [
+                                  {
+                                    "endTime" : 0,
+                                    "time" : 0,
+                                    "value" : [{"name":"strikethrough","rangeEnd":10,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontItalic","rangeEnd":10,"rangeStart":0,"value":0,"valueType":"int"},{"name":"underline","rangeEnd":10,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontSize","rangeEnd":10,"rangeStart":0,"value":29,"valueType":"double"},{"name":"fontWeight","rangeEnd":10,"rangeStart":0,"value":700,"valueType":"int"},{"name":"kerning","rangeEnd":10,"rangeStart":0,"value":0,"valueType":"double"},{"name":"fgColor","rangeEnd":10,"rangeStart":0,"value":"(216,222,227,255)","valueType":"color"},{"name":"fontName","rangeEnd":10,"rangeStart":0,"value":"Courier New","valueType":"string"}],
+                                    "duration" : 0
+                                  }
+                                ]
+                              }
+                            },
+                            "attributes" : {
+                              "autoRotateText" : true
+                            },
+                            "parameters" : {
+                              "translation0" : 298.6867024362,
+                              "translation1" : 376.225710556846,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 175,
+                            "duration" : 20,
+                            "mediaStart" : 2,
+                            "mediaDuration" : 20,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "AppliedThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "default-text" : "{\\rtf1\\ansi\\ansicpg1252\\cocoartf2639\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl\\f0\\fnil\\fcharset0 Montserrat-Regular;}\n{\\colortbl;\\red255\\green255\\blue255;\\red36\\green45\\blue52;}\n{\\*\\expandedcolortbl;;\\cssrgb\\c18431\\c23137\\c26667;}\n\\pard\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\tx6720\\pardirnatural\\qc\\partightenfactor0\n\n\\f0\\fs128 \\cf2 \\expnd0\\expndtw0\\kerning0\n\\ulnone from turtle import *}",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 31,
+                            "_type" : "Callout",
+                            "def" : {
+                              "kind" : "remix",
+                              "shape" : "speech-bubble2",
+                              "style" : "basic",
+                              "fill-color-blue" : 0.556862745098039,
+                              "fill-color-green" : 0.113725490196078,
+                              "fill-color-opacity" : 1.0,
+                              "fill-color-red" : 0.129411764705882,
+                              "height" : 33.5485788863076,
+                              "line-spacing" : 0.0,
+                              "stroke-color-blue" : 0.56078431372549,
+                              "stroke-color-green" : 0.686274509803922,
+                              "stroke-color-opacity" : 1.0,
+                              "stroke-color-red" : 0.0196078431372549,
+                              "stroke-width" : 2.0,
+                              "tail-x" : -23.6652407192562,
+                              "tail-y" : -85.2101943155471,
+                              "width" : 283.090342227382,
+                              "word-wrap" : 1.0,
+                              "fill-style" : "solid",
+                              "horizontal-alignment" : "left",
+                              "resize-behavior" : "resizeText",
+                              "stroke-style" : "solid",
+                              "text" : "tim.forward(400)",
+                              "vertical-alignment" : "center",
+                              "font" : {
+                                "color-blue" : 0.266666666666667,
+                                "color-green" : 0.231372549019608,
+                                "color-opacity" : 1.0,
+                                "color-red" : 0.184313725490196,
+                                "size" : 64.0,
+                                "tracking" : 0.0,
+                                "name" : "Montserrat",
+                                "weight" : "Regular"
+                              },
+                              "textAttributes" : {
+                                "type" : "textAttributeList",
+                                "keyframes" : [
+                                  {
+                                    "endTime" : 0,
+                                    "time" : 0,
+                                    "value" : [{"name":"strikethrough","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":16,"rangeStart":0,"value":700,"valueType":"int"},{"name":"fontSize","rangeEnd":16,"rangeStart":0,"value":29,"valueType":"double"},{"name":"fontItalic","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"int"},{"name":"kerning","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"double"},{"name":"underline","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fgColor","rangeEnd":16,"rangeStart":0,"value":"(216,222,227,255)","valueType":"color"},{"name":"fontName","rangeEnd":16,"rangeStart":0,"value":"Courier New","valueType":"string"}],
+                                    "duration" : 0
+                                  }
+                                ]
+                              }
+                            },
+                            "attributes" : {
+                              "autoRotateText" : true
+                            },
+                            "parameters" : {
+                              "translation0" : 295.530089907198,
+                              "translation1" : 369.225710556846,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 195,
+                            "duration" : 28,
+                            "mediaStart" : -10,
+                            "mediaDuration" : 28,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "AppliedThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "default-text" : "{\\rtf1\\ansi\\ansicpg1252\\cocoartf2639\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl\\f0\\fnil\\fcharset0 Montserrat-Regular;}\n{\\colortbl;\\red255\\green255\\blue255;\\red36\\green45\\blue52;}\n{\\*\\expandedcolortbl;;\\cssrgb\\c18431\\c23137\\c26667;}\n\\pard\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\tx6720\\pardirnatural\\qc\\partightenfactor0\n\n\\f0\\fs128 \\cf2 \\expnd0\\expndtw0\\kerning0\n\\ulnone from turtle import *}",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 32,
+                            "_type" : "Callout",
+                            "def" : {
+                              "kind" : "remix",
+                              "shape" : "speech-bubble2",
+                              "style" : "basic",
+                              "fill-color-blue" : 0.556862745098039,
+                              "fill-color-green" : 0.113725490196078,
+                              "fill-color-opacity" : 1.0,
+                              "fill-color-red" : 0.129411764705882,
+                              "height" : 33.5485788863076,
+                              "line-spacing" : 0.0,
+                              "stroke-color-blue" : 0.56078431372549,
+                              "stroke-color-green" : 0.686274509803922,
+                              "stroke-color-opacity" : 1.0,
+                              "stroke-color-red" : 0.0196078431372549,
+                              "stroke-width" : 2.0,
+                              "tail-x" : -23.6652407192562,
+                              "tail-y" : -85.2101943155471,
+                              "width" : 283.090342227382,
+                              "word-wrap" : 1.0,
+                              "fill-style" : "solid",
+                              "horizontal-alignment" : "left",
+                              "resize-behavior" : "resizeText",
+                              "stroke-style" : "solid",
+                              "text" : "tim.right(144)",
+                              "vertical-alignment" : "center",
+                              "font" : {
+                                "color-blue" : 0.266666666666667,
+                                "color-green" : 0.231372549019608,
+                                "color-opacity" : 1.0,
+                                "color-red" : 0.184313725490196,
+                                "size" : 64.0,
+                                "tracking" : 0.0,
+                                "name" : "Montserrat",
+                                "weight" : "Regular"
+                              },
+                              "textAttributes" : {
+                                "type" : "textAttributeList",
+                                "keyframes" : [
+                                  {
+                                    "endTime" : 0,
+                                    "time" : 0,
+                                    "value" : [{"name":"strikethrough","rangeEnd":14,"rangeStart":0,"value":0,"valueType":"int"},{"name":"kerning","rangeEnd":14,"rangeStart":0,"value":0,"valueType":"double"},{"name":"fontItalic","rangeEnd":14,"rangeStart":0,"value":0,"valueType":"int"},{"name":"underline","rangeEnd":14,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":14,"rangeStart":0,"value":700,"valueType":"int"},{"name":"fontSize","rangeEnd":14,"rangeStart":0,"value":29,"valueType":"double"},{"name":"fgColor","rangeEnd":14,"rangeStart":0,"value":"(216,222,227,255)","valueType":"color"},{"name":"fontName","rangeEnd":14,"rangeStart":0,"value":"Courier New","valueType":"string"}],
+                                    "duration" : 0
+                                  }
+                                ]
+                              }
+                            },
+                            "attributes" : {
+                              "autoRotateText" : true
+                            },
+                            "parameters" : {
+                              "translation0" : 295.530089907198,
+                              "translation1" : 369.225710556846,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 223,
+                            "duration" : 24,
+                            "mediaStart" : -10,
+                            "mediaDuration" : 24,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "AppliedThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "default-text" : "{\\rtf1\\ansi\\ansicpg1252\\cocoartf2639\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl\\f0\\fnil\\fcharset0 Montserrat-Regular;}\n{\\colortbl;\\red255\\green255\\blue255;\\red36\\green45\\blue52;}\n{\\*\\expandedcolortbl;;\\cssrgb\\c18431\\c23137\\c26667;}\n\\pard\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\tx6720\\pardirnatural\\qc\\partightenfactor0\n\n\\f0\\fs128 \\cf2 \\expnd0\\expndtw0\\kerning0\n\\ulnone from turtle import *}",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 33,
+                            "_type" : "Callout",
+                            "def" : {
+                              "kind" : "remix",
+                              "shape" : "speech-bubble2",
+                              "style" : "basic",
+                              "fill-color-blue" : 0.556862745098039,
+                              "fill-color-green" : 0.113725490196078,
+                              "fill-color-opacity" : 1.0,
+                              "fill-color-red" : 0.129411764705882,
+                              "height" : 33.5485788863076,
+                              "line-spacing" : 0.0,
+                              "stroke-color-blue" : 0.56078431372549,
+                              "stroke-color-green" : 0.686274509803922,
+                              "stroke-color-opacity" : 1.0,
+                              "stroke-color-red" : 0.0196078431372549,
+                              "stroke-width" : 2.0,
+                              "tail-x" : -23.6652407192562,
+                              "tail-y" : -85.2101943155471,
+                              "width" : 283.090342227382,
+                              "word-wrap" : 1.0,
+                              "fill-style" : "solid",
+                              "horizontal-alignment" : "left",
+                              "resize-behavior" : "resizeText",
+                              "stroke-style" : "solid",
+                              "text" : "tim.forward(400)",
+                              "vertical-alignment" : "center",
+                              "font" : {
+                                "color-blue" : 0.266666666666667,
+                                "color-green" : 0.231372549019608,
+                                "color-opacity" : 1.0,
+                                "color-red" : 0.184313725490196,
+                                "size" : 64.0,
+                                "tracking" : 0.0,
+                                "name" : "Montserrat",
+                                "weight" : "Regular"
+                              },
+                              "textAttributes" : {
+                                "type" : "textAttributeList",
+                                "keyframes" : [
+                                  {
+                                    "endTime" : 0,
+                                    "time" : 0,
+                                    "value" : [{"name":"strikethrough","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":16,"rangeStart":0,"value":700,"valueType":"int"},{"name":"fontSize","rangeEnd":16,"rangeStart":0,"value":29,"valueType":"double"},{"name":"fontItalic","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"int"},{"name":"kerning","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"double"},{"name":"underline","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fgColor","rangeEnd":16,"rangeStart":0,"value":"(216,222,227,255)","valueType":"color"},{"name":"fontName","rangeEnd":16,"rangeStart":0,"value":"Courier New","valueType":"string"}],
+                                    "duration" : 0
+                                  }
+                                ]
+                              }
+                            },
+                            "attributes" : {
+                              "autoRotateText" : true
+                            },
+                            "parameters" : {
+                              "translation0" : 295.530089907198,
+                              "translation1" : 369.225710556846,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 247,
+                            "duration" : 29,
+                            "mediaStart" : -10,
+                            "mediaDuration" : 29,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "AppliedThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "default-text" : "{\\rtf1\\ansi\\ansicpg1252\\cocoartf2639\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl\\f0\\fnil\\fcharset0 Montserrat-Regular;}\n{\\colortbl;\\red255\\green255\\blue255;\\red36\\green45\\blue52;}\n{\\*\\expandedcolortbl;;\\cssrgb\\c18431\\c23137\\c26667;}\n\\pard\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\tx6720\\pardirnatural\\qc\\partightenfactor0\n\n\\f0\\fs128 \\cf2 \\expnd0\\expndtw0\\kerning0\n\\ulnone from turtle import *}",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 34,
+                            "_type" : "Callout",
+                            "def" : {
+                              "kind" : "remix",
+                              "shape" : "speech-bubble2",
+                              "style" : "basic",
+                              "fill-color-blue" : 0.556862745098039,
+                              "fill-color-green" : 0.113725490196078,
+                              "fill-color-opacity" : 1.0,
+                              "fill-color-red" : 0.129411764705882,
+                              "height" : 33.5485788863076,
+                              "line-spacing" : 0.0,
+                              "stroke-color-blue" : 0.56078431372549,
+                              "stroke-color-green" : 0.686274509803922,
+                              "stroke-color-opacity" : 1.0,
+                              "stroke-color-red" : 0.0196078431372549,
+                              "stroke-width" : 2.0,
+                              "tail-x" : -23.6652407192562,
+                              "tail-y" : -85.2101943155471,
+                              "width" : 283.090342227382,
+                              "word-wrap" : 1.0,
+                              "fill-style" : "solid",
+                              "horizontal-alignment" : "left",
+                              "resize-behavior" : "resizeText",
+                              "stroke-style" : "solid",
+                              "text" : "tim.right(144)",
+                              "vertical-alignment" : "center",
+                              "font" : {
+                                "color-blue" : 0.266666666666667,
+                                "color-green" : 0.231372549019608,
+                                "color-opacity" : 1.0,
+                                "color-red" : 0.184313725490196,
+                                "size" : 64.0,
+                                "tracking" : 0.0,
+                                "name" : "Montserrat",
+                                "weight" : "Regular"
+                              },
+                              "textAttributes" : {
+                                "type" : "textAttributeList",
+                                "keyframes" : [
+                                  {
+                                    "endTime" : 0,
+                                    "time" : 0,
+                                    "value" : [{"name":"strikethrough","rangeEnd":14,"rangeStart":0,"value":0,"valueType":"int"},{"name":"kerning","rangeEnd":14,"rangeStart":0,"value":0,"valueType":"double"},{"name":"fontItalic","rangeEnd":14,"rangeStart":0,"value":0,"valueType":"int"},{"name":"underline","rangeEnd":14,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":14,"rangeStart":0,"value":700,"valueType":"int"},{"name":"fontSize","rangeEnd":14,"rangeStart":0,"value":29,"valueType":"double"},{"name":"fgColor","rangeEnd":14,"rangeStart":0,"value":"(216,222,227,255)","valueType":"color"},{"name":"fontName","rangeEnd":14,"rangeStart":0,"value":"Courier New","valueType":"string"}],
+                                    "duration" : 0
+                                  }
+                                ]
+                              }
+                            },
+                            "attributes" : {
+                              "autoRotateText" : true
+                            },
+                            "parameters" : {
+                              "translation0" : 295.530089907198,
+                              "translation1" : 369.225710556846,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 276,
+                            "duration" : 25,
+                            "mediaStart" : -10,
+                            "mediaDuration" : 25,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "AppliedThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "default-text" : "{\\rtf1\\ansi\\ansicpg1252\\cocoartf2639\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl\\f0\\fnil\\fcharset0 Montserrat-Regular;}\n{\\colortbl;\\red255\\green255\\blue255;\\red36\\green45\\blue52;}\n{\\*\\expandedcolortbl;;\\cssrgb\\c18431\\c23137\\c26667;}\n\\pard\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\tx6720\\pardirnatural\\qc\\partightenfactor0\n\n\\f0\\fs128 \\cf2 \\expnd0\\expndtw0\\kerning0\n\\ulnone from turtle import *}",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 35,
+                            "_type" : "Callout",
+                            "def" : {
+                              "kind" : "remix",
+                              "shape" : "speech-bubble2",
+                              "style" : "basic",
+                              "fill-color-blue" : 0.556862745098039,
+                              "fill-color-green" : 0.113725490196078,
+                              "fill-color-opacity" : 1.0,
+                              "fill-color-red" : 0.129411764705882,
+                              "height" : 33.5485788863076,
+                              "line-spacing" : 0.0,
+                              "stroke-color-blue" : 0.56078431372549,
+                              "stroke-color-green" : 0.686274509803922,
+                              "stroke-color-opacity" : 1.0,
+                              "stroke-color-red" : 0.0196078431372549,
+                              "stroke-width" : 2.0,
+                              "tail-x" : -23.6652407192562,
+                              "tail-y" : -85.2101943155471,
+                              "width" : 283.090342227382,
+                              "word-wrap" : 1.0,
+                              "fill-style" : "solid",
+                              "horizontal-alignment" : "left",
+                              "resize-behavior" : "resizeText",
+                              "stroke-style" : "solid",
+                              "text" : "tim.forward(400)",
+                              "vertical-alignment" : "center",
+                              "font" : {
+                                "color-blue" : 0.266666666666667,
+                                "color-green" : 0.231372549019608,
+                                "color-opacity" : 1.0,
+                                "color-red" : 0.184313725490196,
+                                "size" : 64.0,
+                                "tracking" : 0.0,
+                                "name" : "Montserrat",
+                                "weight" : "Regular"
+                              },
+                              "textAttributes" : {
+                                "type" : "textAttributeList",
+                                "keyframes" : [
+                                  {
+                                    "endTime" : 0,
+                                    "time" : 0,
+                                    "value" : [{"name":"strikethrough","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":16,"rangeStart":0,"value":700,"valueType":"int"},{"name":"fontSize","rangeEnd":16,"rangeStart":0,"value":29,"valueType":"double"},{"name":"fontItalic","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"int"},{"name":"kerning","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"double"},{"name":"underline","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fgColor","rangeEnd":16,"rangeStart":0,"value":"(216,222,227,255)","valueType":"color"},{"name":"fontName","rangeEnd":16,"rangeStart":0,"value":"Courier New","valueType":"string"}],
+                                    "duration" : 0
+                                  }
+                                ]
+                              }
+                            },
+                            "attributes" : {
+                              "autoRotateText" : true
+                            },
+                            "parameters" : {
+                              "translation0" : 295.530089907198,
+                              "translation1" : 369.225710556846,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 301,
+                            "duration" : 29,
+                            "mediaStart" : -10,
+                            "mediaDuration" : 29,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "AppliedThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "default-text" : "{\\rtf1\\ansi\\ansicpg1252\\cocoartf2639\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl\\f0\\fnil\\fcharset0 Montserrat-Regular;}\n{\\colortbl;\\red255\\green255\\blue255;\\red36\\green45\\blue52;}\n{\\*\\expandedcolortbl;;\\cssrgb\\c18431\\c23137\\c26667;}\n\\pard\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\tx6720\\pardirnatural\\qc\\partightenfactor0\n\n\\f0\\fs128 \\cf2 \\expnd0\\expndtw0\\kerning0\n\\ulnone from turtle import *}",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 36,
+                            "_type" : "Callout",
+                            "def" : {
+                              "kind" : "remix",
+                              "shape" : "speech-bubble2",
+                              "style" : "basic",
+                              "fill-color-blue" : 0.556862745098039,
+                              "fill-color-green" : 0.113725490196078,
+                              "fill-color-opacity" : 1.0,
+                              "fill-color-red" : 0.129411764705882,
+                              "height" : 33.5485788863076,
+                              "line-spacing" : 0.0,
+                              "stroke-color-blue" : 0.56078431372549,
+                              "stroke-color-green" : 0.686274509803922,
+                              "stroke-color-opacity" : 1.0,
+                              "stroke-color-red" : 0.0196078431372549,
+                              "stroke-width" : 2.0,
+                              "tail-x" : -23.6652407192562,
+                              "tail-y" : -85.2101943155471,
+                              "width" : 283.090342227382,
+                              "word-wrap" : 1.0,
+                              "fill-style" : "solid",
+                              "horizontal-alignment" : "left",
+                              "resize-behavior" : "resizeText",
+                              "stroke-style" : "solid",
+                              "text" : "tim.right(144)",
+                              "vertical-alignment" : "center",
+                              "font" : {
+                                "color-blue" : 0.266666666666667,
+                                "color-green" : 0.231372549019608,
+                                "color-opacity" : 1.0,
+                                "color-red" : 0.184313725490196,
+                                "size" : 64.0,
+                                "tracking" : 0.0,
+                                "name" : "Montserrat",
+                                "weight" : "Regular"
+                              },
+                              "textAttributes" : {
+                                "type" : "textAttributeList",
+                                "keyframes" : [
+                                  {
+                                    "endTime" : 0,
+                                    "time" : 0,
+                                    "value" : [{"name":"strikethrough","rangeEnd":14,"rangeStart":0,"value":0,"valueType":"int"},{"name":"kerning","rangeEnd":14,"rangeStart":0,"value":0,"valueType":"double"},{"name":"fontItalic","rangeEnd":14,"rangeStart":0,"value":0,"valueType":"int"},{"name":"underline","rangeEnd":14,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":14,"rangeStart":0,"value":700,"valueType":"int"},{"name":"fontSize","rangeEnd":14,"rangeStart":0,"value":29,"valueType":"double"},{"name":"fgColor","rangeEnd":14,"rangeStart":0,"value":"(216,222,227,255)","valueType":"color"},{"name":"fontName","rangeEnd":14,"rangeStart":0,"value":"Courier New","valueType":"string"}],
+                                    "duration" : 0
+                                  }
+                                ]
+                              }
+                            },
+                            "attributes" : {
+                              "autoRotateText" : true
+                            },
+                            "parameters" : {
+                              "translation0" : 295.5,
+                              "translation1" : 369.2,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 330,
+                            "duration" : 25,
+                            "mediaStart" : -10,
+                            "mediaDuration" : 25,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "AppliedThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "default-text" : "{\\rtf1\\ansi\\ansicpg1252\\cocoartf2639\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl\\f0\\fnil\\fcharset0 Montserrat-Regular;}\n{\\colortbl;\\red255\\green255\\blue255;\\red36\\green45\\blue52;}\n{\\*\\expandedcolortbl;;\\cssrgb\\c18431\\c23137\\c26667;}\n\\pard\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\tx6720\\pardirnatural\\qc\\partightenfactor0\n\n\\f0\\fs128 \\cf2 \\expnd0\\expndtw0\\kerning0\n\\ulnone from turtle import *}",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 37,
+                            "_type" : "Callout",
+                            "def" : {
+                              "kind" : "remix",
+                              "shape" : "speech-bubble2",
+                              "style" : "basic",
+                              "fill-color-blue" : 0.556862745098039,
+                              "fill-color-green" : 0.113725490196078,
+                              "fill-color-opacity" : 1.0,
+                              "fill-color-red" : 0.129411764705882,
+                              "height" : 33.5485788863076,
+                              "line-spacing" : 0.0,
+                              "stroke-color-blue" : 0.56078431372549,
+                              "stroke-color-green" : 0.686274509803922,
+                              "stroke-color-opacity" : 1.0,
+                              "stroke-color-red" : 0.0196078431372549,
+                              "stroke-width" : 2.0,
+                              "tail-x" : -23.6652407192562,
+                              "tail-y" : -85.2101943155471,
+                              "width" : 283.090342227382,
+                              "word-wrap" : 1.0,
+                              "fill-style" : "solid",
+                              "horizontal-alignment" : "left",
+                              "resize-behavior" : "resizeText",
+                              "stroke-style" : "solid",
+                              "text" : "tim.forward(400)",
+                              "vertical-alignment" : "center",
+                              "font" : {
+                                "color-blue" : 0.266666666666667,
+                                "color-green" : 0.231372549019608,
+                                "color-opacity" : 1.0,
+                                "color-red" : 0.184313725490196,
+                                "size" : 64.0,
+                                "tracking" : 0.0,
+                                "name" : "Montserrat",
+                                "weight" : "Regular"
+                              },
+                              "textAttributes" : {
+                                "type" : "textAttributeList",
+                                "keyframes" : [
+                                  {
+                                    "endTime" : 0,
+                                    "time" : 0,
+                                    "value" : [{"name":"strikethrough","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":16,"rangeStart":0,"value":700,"valueType":"int"},{"name":"fontSize","rangeEnd":16,"rangeStart":0,"value":29,"valueType":"double"},{"name":"fontItalic","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"int"},{"name":"kerning","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"double"},{"name":"underline","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fgColor","rangeEnd":16,"rangeStart":0,"value":"(216,222,227,255)","valueType":"color"},{"name":"fontName","rangeEnd":16,"rangeStart":0,"value":"Courier New","valueType":"string"}],
+                                    "duration" : 0
+                                  }
+                                ]
+                              }
+                            },
+                            "attributes" : {
+                              "autoRotateText" : true
+                            },
+                            "parameters" : {
+                              "translation0" : 295.5,
+                              "translation1" : 369.2,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 355,
+                            "duration" : 28,
+                            "mediaStart" : -10,
+                            "mediaDuration" : 28,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "AppliedThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "default-text" : "{\\rtf1\\ansi\\ansicpg1252\\cocoartf2639\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl\\f0\\fnil\\fcharset0 Montserrat-Regular;}\n{\\colortbl;\\red255\\green255\\blue255;\\red36\\green45\\blue52;}\n{\\*\\expandedcolortbl;;\\cssrgb\\c18431\\c23137\\c26667;}\n\\pard\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\tx6720\\pardirnatural\\qc\\partightenfactor0\n\n\\f0\\fs128 \\cf2 \\expnd0\\expndtw0\\kerning0\n\\ulnone from turtle import *}",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 38,
+                            "_type" : "Callout",
+                            "def" : {
+                              "kind" : "remix",
+                              "shape" : "speech-bubble2",
+                              "style" : "basic",
+                              "fill-color-blue" : 0.556862745098039,
+                              "fill-color-green" : 0.113725490196078,
+                              "fill-color-opacity" : 1.0,
+                              "fill-color-red" : 0.129411764705882,
+                              "height" : 33.5485788863076,
+                              "line-spacing" : 0.0,
+                              "stroke-color-blue" : 0.56078431372549,
+                              "stroke-color-green" : 0.686274509803922,
+                              "stroke-color-opacity" : 1.0,
+                              "stroke-color-red" : 0.0196078431372549,
+                              "stroke-width" : 2.0,
+                              "tail-x" : -23.6652407192562,
+                              "tail-y" : -85.2101943155471,
+                              "width" : 283.090342227382,
+                              "word-wrap" : 1.0,
+                              "fill-style" : "solid",
+                              "horizontal-alignment" : "left",
+                              "resize-behavior" : "resizeText",
+                              "stroke-style" : "solid",
+                              "text" : "tim.right(144)",
+                              "vertical-alignment" : "center",
+                              "font" : {
+                                "color-blue" : 0.266666666666667,
+                                "color-green" : 0.231372549019608,
+                                "color-opacity" : 1.0,
+                                "color-red" : 0.184313725490196,
+                                "size" : 64.0,
+                                "tracking" : 0.0,
+                                "name" : "Montserrat",
+                                "weight" : "Regular"
+                              },
+                              "textAttributes" : {
+                                "type" : "textAttributeList",
+                                "keyframes" : [
+                                  {
+                                    "endTime" : 0,
+                                    "time" : 0,
+                                    "value" : [{"name":"strikethrough","rangeEnd":14,"rangeStart":0,"value":0,"valueType":"int"},{"name":"kerning","rangeEnd":14,"rangeStart":0,"value":0,"valueType":"double"},{"name":"fontItalic","rangeEnd":14,"rangeStart":0,"value":0,"valueType":"int"},{"name":"underline","rangeEnd":14,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":14,"rangeStart":0,"value":700,"valueType":"int"},{"name":"fontSize","rangeEnd":14,"rangeStart":0,"value":29,"valueType":"double"},{"name":"fgColor","rangeEnd":14,"rangeStart":0,"value":"(216,222,227,255)","valueType":"color"},{"name":"fontName","rangeEnd":14,"rangeStart":0,"value":"Courier New","valueType":"string"}],
+                                    "duration" : 0
+                                  }
+                                ]
+                              }
+                            },
+                            "attributes" : {
+                              "autoRotateText" : true
+                            },
+                            "parameters" : {
+                              "translation0" : 295.5,
+                              "translation1" : 369.2,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 383,
+                            "duration" : 25,
+                            "mediaStart" : -10,
+                            "mediaDuration" : 25,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "AppliedThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "default-text" : "{\\rtf1\\ansi\\ansicpg1252\\cocoartf2639\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl\\f0\\fnil\\fcharset0 Montserrat-Regular;}\n{\\colortbl;\\red255\\green255\\blue255;\\red36\\green45\\blue52;}\n{\\*\\expandedcolortbl;;\\cssrgb\\c18431\\c23137\\c26667;}\n\\pard\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\tx6720\\pardirnatural\\qc\\partightenfactor0\n\n\\f0\\fs128 \\cf2 \\expnd0\\expndtw0\\kerning0\n\\ulnone from turtle import *}",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 39,
+                            "_type" : "Callout",
+                            "def" : {
+                              "kind" : "remix",
+                              "shape" : "speech-bubble2",
+                              "style" : "basic",
+                              "fill-color-blue" : 0.556862745098039,
+                              "fill-color-green" : 0.113725490196078,
+                              "fill-color-opacity" : 1.0,
+                              "fill-color-red" : 0.129411764705882,
+                              "height" : 33.5485788863076,
+                              "line-spacing" : 0.0,
+                              "stroke-color-blue" : 0.56078431372549,
+                              "stroke-color-green" : 0.686274509803922,
+                              "stroke-color-opacity" : 1.0,
+                              "stroke-color-red" : 0.0196078431372549,
+                              "stroke-width" : 2.0,
+                              "tail-x" : -23.6652407192562,
+                              "tail-y" : -85.2101943155471,
+                              "width" : 283.090342227382,
+                              "word-wrap" : 1.0,
+                              "fill-style" : "solid",
+                              "horizontal-alignment" : "left",
+                              "resize-behavior" : "resizeText",
+                              "stroke-style" : "solid",
+                              "text" : "tim.forward(400)",
+                              "vertical-alignment" : "center",
+                              "font" : {
+                                "color-blue" : 0.266666666666667,
+                                "color-green" : 0.231372549019608,
+                                "color-opacity" : 1.0,
+                                "color-red" : 0.184313725490196,
+                                "size" : 64.0,
+                                "tracking" : 0.0,
+                                "name" : "Montserrat",
+                                "weight" : "Regular"
+                              },
+                              "textAttributes" : {
+                                "type" : "textAttributeList",
+                                "keyframes" : [
+                                  {
+                                    "endTime" : 0,
+                                    "time" : 0,
+                                    "value" : [{"name":"fontItalic","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":16,"rangeStart":0,"value":700,"valueType":"int"},{"name":"kerning","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"double"},{"name":"underline","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontSize","rangeEnd":16,"rangeStart":0,"value":29,"valueType":"double"},{"name":"strikethrough","rangeEnd":16,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fgColor","rangeEnd":16,"rangeStart":0,"value":"(216,222,227,255)","valueType":"color"},{"name":"fontName","rangeEnd":16,"rangeStart":0,"value":"Courier New","valueType":"string"}],
+                                    "duration" : 0
+                                  }
+                                ]
+                              }
+                            },
+                            "attributes" : {
+                              "autoRotateText" : true
+                            },
+                            "parameters" : {
+                              "translation0" : 295.5,
+                              "translation1" : 369.2,
+                              "sourceCrop0" : 0.0,
+                              "sourceCrop1" : 0.0,
+                              "sourceCrop2" : 0.0,
+                              "sourceCrop3" : 0.0,
+                              "geometryCrop0" : 0.0,
+                              "geometryCrop1" : 0.0,
+                              "geometryCrop2" : 0.0,
+                              "geometryCrop3" : 0.0
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 408,
+                            "duration" : 29,
+                            "mediaStart" : -10,
+                            "mediaDuration" : 29,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "AppliedThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
+                              "clipSpeedAttribute" : false,
+                              "default-scale" : "1",
+                              "default-text" : "{\\rtf1\\ansi\\ansicpg1252\\cocoartf2639\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl\\f0\\fnil\\fcharset0 Montserrat-Regular;}\n{\\colortbl;\\red255\\green255\\blue255;\\red36\\green45\\blue52;}\n{\\*\\expandedcolortbl;;\\cssrgb\\c18431\\c23137\\c26667;}\n\\pard\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\tx6720\\pardirnatural\\qc\\partightenfactor0\n\n\\f0\\fs128 \\cf2 \\expnd0\\expndtw0\\kerning0\n\\ulnone from turtle import *}",
+                              "effectApplied" : "none",
+                              "lockAspectRatio" : true
+                            },
+                            "animationTracks" : {
+
+                            }
+                          }
+                        ],
+                          "ident" : "",
+                          "audioMuted" : false,
+                          "videoHidden" : false,
+                          "magnetic" : false,
+                          "matte" : 0,
+                          "solo" : false
+                      }
+                    ],
+                    "attributes" : {
+                      "ident" : "Group 1",
+                      "widthAttr" : 1920.0,
+                      "heightAttr" : 1080.0,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 0,
+                    "duration" : 516,
+                    "mediaStart" : 0.0,
+                    "mediaDuration" : 516.0,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "effectApplied" : "none",
+                      "isOpen" : false,
+                      "lockAspectRatio" : true
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 2,
+                "medias" : [
+                ]
+              },
+              {
+                "trackIndex" : 3,
+                "medias" : [
+                ]
+              }            ]
+          }
+        }
+      ]
+    },
+    "trackAttributes" : [
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "trackHeight" : "54"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "trackHeight" : "54"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "trackHeight" : "54"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "trackHeight" : "54"
+        }
+      }
+    ],
+    "captionAttributes" : {
+      "enabled" : true,
+      "fontName" : "Arial",
+      "fontSize" : 32,
+      "backgroundColor" : [ 0, 0, 0, 204],
+      "foregroundColor" : [ 255, 255, 255, 255],
+      "lang" : "en",
+      "alignment" : 0,
+      "defaultFontSize" : true,
+      "opacity" : 0.5,
+      "backgroundEnabled" : true,
+      "backgroundOnlyAroundText" : true
+    },
+    "gain" : 1.0,
+    "legacyAttenuateAudioMix" : false,
+    "backgroundColor" : [ 0, 0, 0, 255]
+  },
+  "metadata" : {
+    "audiateSessionId" : "",
+    "firstMedia" : true,
+    "hasNotifiedAboutHFRMedia" : true
+  }
+}
