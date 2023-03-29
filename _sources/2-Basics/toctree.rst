@@ -13,9 +13,8 @@ Turtles & Python Basics
    :caption: Week 2 Table of Contents
    :maxdepth: 3
 
-   attendance.rst
-   icebreaker.rst
-   spotlight.rst
+
+   why-turtle.rst
    code-along.rst
    exercises.rst
    standup.rst

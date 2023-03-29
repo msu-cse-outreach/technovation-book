@@ -15,7 +15,6 @@ Instead of using words and gestures
 to teach it to roll over or sit, you write computer programs containing instructions
 that tell it how to draw pictures on a *screen*.
 
-For example, the code in the box below instructs the ``turtle`` to draw a square.
 
 .. activecode:: turtle_square
     :language: python

@@ -20,7 +20,180 @@ Instead of using words and gestures
 to teach it to roll over or sit, you write computer programs containing instructions
 that tell it how to draw pictures on a *screen*.
 
-For example, the code in the box below instructs the ``turtle`` to draw a square.
+
+.. figure:: /img/five-pointed-star-animation.gif
+    :width: 600
+    :align: center
+    :alt: Animated gif of a Turtle following instructions to draw a 5-pointed star.
+    
+    Animation of a Turtle following a series of instructions
+
+
+You'll be learning coding using *Python Turtle Graphics*, a library
+of code that is written in the Python Programming Language.
+
+
+To whet your appetite, here's an example program in a Runestone *active code* widget.
+
+.. activecode:: ac-example-sierpinski-triangle
+  :nocodelens:
+  :above:
+  :enabledownload:
+  :caption: Sierpinski Triangle
+  :chatcodes:
+
+  Don't worry about understanding this code
+  just yet.
+  But notice what it looks like --- the code has odd-looking words, punctuation, numbers,
+  and math-like symbols. They all mean something to the computer.
+  So does the indentation.
+  We'll learn the rules for writing code like this in the weeks ahead.
+
+  The white area in the active code widget is an *editor*. You can scroll through
+  the code if you place your cursor into editor. You can change the size of the
+  editor by dragging the bottom-left corner up and down.
+  You can also modify the code.
+  But don't do that just yet!
+
+  For now, just scroll the contents in the window and resize the editor so
+  the ``Run`` button is at the top of the window and you can see a
+  good four inches or more below the editor. (To scroll the window contents,
+  place your cursor outside the editor.)
+
+  Then click the ``Run`` button to see what running the code produces.
+  After pressing ``Run``, you need to scroll down below the code editor to see
+  what the program draws.
+  ~~~~
+  import turtle
+
+  def drawTriangle(points,color,myTurtle):
+      myTurtle.fillcolor(color)
+      myTurtle.up()
+      myTurtle.goto(points[0][0],points[0][1])
+      myTurtle.down()
+      myTurtle.begin_fill()
+      myTurtle.goto(points[1][0],points[1][1])
+      myTurtle.goto(points[2][0],points[2][1])
+      myTurtle.goto(points[0][0],points[0][1])
+      myTurtle.end_fill()
+
+  def getMid(p1,p2):
+      return ( (p1[0]+p2[0]) / 2, (p1[1] + p2[1]) / 2)
+
+  def sierpinski(points,degree,myTurtle):
+      colormap = ['blue','red','green','white','yellow',
+                  'violet','orange']
+      drawTriangle(points,colormap[degree],myTurtle)
+      if degree > 0:
+          sierpinski([points[0],
+                          getMid(points[0], points[1]),
+                          getMid(points[0], points[2])],
+                     degree-1, myTurtle)
+          sierpinski([points[1],
+                          getMid(points[0], points[1]),
+                          getMid(points[1], points[2])],
+                     degree-1, myTurtle)
+          sierpinski([points[2],
+                          getMid(points[2], points[1]),
+                          getMid(points[0], points[2])],
+                     degree-1, myTurtle)
+
+  def main():
+    p1 = [-100,-50]
+    p2 = [0,100]
+    p3 = [100,-50]
+    bisect_num = 3
+
+    myWin = turtle.Screen()
+    myPoints = [p1,p2,p3]
+    sierpinski(myPoints,bisect_num,turtle)
+    myWin.exitonclick()
+
+  main()
+
+To get practice running code and see what you can learn by doing so, perform
+the following experiments.
+
+Experiment #1
+
+- Scroll down in the editor (white area containing the program) to line 39.
+  Then change the ``3`` in this line to ``4``.
+
+- Run the code again.
+
+- Notice the differences between the what the first program draws and what the
+  modified program draws. (Use the slider at the top of the active code editor
+  to go back and forth between the two programs and re-run them as needed. This
+  slider keeps a *history* of all the code you execute so you can always go back
+  to an earlier version if you make a mistake or just want to remember what
+  it looks like.)
+
+Experiment #2
+
+- Change the ``4`` that you entered in line 39 to ``2`` and run the code another time.
+
+- Notice the differences between the three versions of the program. (Again, you
+  can use the slider to go back and re-run any of the versions that you'd like.)
+
+.. shortanswer:: sa-reflect-sierpinski1
+    :optional:
+
+    Based on these experiments,
+    what do you think the computer uses the number in line 39 for?
+
+Experiment #3
+
+- If the number in line 39 isn't still ``2``, change it to be ``2``
+
+- In line 37, change the ``0`` to ``-100``.  (This will make the instruction be ``p2 = [-100,100]``.)
+
+- Run the program again.
+
+- Notice how this modification changes what the program draws.
+
+Experiment #4
+
+- In line 37, change the ``-100`` to ``150``.  (This will make the instruction be ``p2 = [150,100]``.)
+
+- Run the program again.
+
+- Notice how this modification changes what the program draws.
+
+.. shortanswer:: sa-reflect-sierpinski2
+    :optional:
+
+    Based on these experiments,
+    what do you think the computer uses
+    the pair of numbers in line 37 for?
+    (Suggestion: Use the slider above the editor and re-run the earlier
+    versions of the code to remind yourself what each version does.)
+
+Other Experiment suggestions:
+
+- Experiment with changing the pairs of numbers in lines 36 and 38.
+
+- Experiment with changing the names of the colors in lines 18 and 19.
+
+.. shortanswer:: sa-reflect-sierpinski3
+    :optional:
+
+    What did you learn from your additional experiments?
+
+Isn't it amazing how much you can learn about code just by playing around with it?
+
+By the end of club, you will be able to design and code diagrams like this yourself!  |smiley-heart-eyes|
+
+.. |smiley-heart-eyes| image:: ../img/smiley-heart-eyes.png
+    :width: 50
+    :alt: clipart of a smiley face with hearts for eyes
+
+
+
+
+The code in the box below instructs the ``turtle`` to draw a square.
+
+
+The code in the box below instructs the ``turtle`` to draw a square.
 
 .. activecode:: turtle_square
     :language: python

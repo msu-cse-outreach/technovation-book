@@ -19,9 +19,7 @@ Stand Up
 ------------
 
 Reflect on what you've learned.
-In your breakout room, you will be given 6 minutes to discuss the questions below
-and *select someone in your group* to report back your responses upon
-return to the main room.
+Discuss the questions below with your classmates and instructor.
 
 1. What's a challenge you overcame today?
 2. What's something you succeeded with today?
@@ -37,14 +35,15 @@ Feedback
 ----------
 
 Last but not least, we need your feedback on today's meeting in order to improve Virtual Technovation!
-Let us know what you liked, disliked, or would change.
+Let us know what you liked, disliked, or would change. Discuss the questions below with your classmates and instructor.
 
-.. raw:: html
 
-    <div align="middle">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2_9bter71L1JC2ss-epeaTnlRC0SAxfzJDkZqNc8t0wh6Eg/viewform?embedded=true"
-      width="640" height="1620" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </div>
+1. How was today?
+2. How difficult was today?
+3. Where did you spend most of your day? In the comfort zone? In the learning zone? In the panic zone?
+4. What was the BEST part of today?
+5. What's one part of the day that you'd rather see done differently?
+6. What else do you need? What else would be helpful? (For example, is there something that you would like us to explain again or in a different way? Would you like to suggest a favorite song for the start of a future meeting?)
 
 
 Goodbye!

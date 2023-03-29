@@ -10,5 +10,4 @@ Introduction
    :maxdepth: 3
    
    code-along.rst
-   exercises.rst
    standup.rst
