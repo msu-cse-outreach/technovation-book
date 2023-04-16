@@ -12,6 +12,5 @@ Review: Loops and Functions
 
    attendance.rst
    icebreaker.rst
-   spotlight.rst
    exercises.rst
    standup.rst

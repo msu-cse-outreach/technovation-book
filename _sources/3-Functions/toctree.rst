@@ -12,7 +12,6 @@ Functions
 
    attendance.rst
    icebreaker.rst
-   spotlight.rst
    code-along.rst
    exercises.rst
    standup.rst

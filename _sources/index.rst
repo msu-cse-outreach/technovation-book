@@ -28,6 +28,7 @@ Table of Contents
    4-Review1/toctree.rst
    5-TypesUI/toctree.rst
    6-WrapUp/toctree.rst
+   7-Spotlights/toctree.rst
 
 
 
