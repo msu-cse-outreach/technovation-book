@@ -18,6 +18,12 @@ Linda Liukas found herself interested in coding when she was 13. She played arou
 
 Inspired by the drawings Liukas created while learning a coding language, she wrote the childrens book, "Hello Ruby". This children's book is one of the only children's book that is focused on code! The goal of this novel is to promote the learning of code to every child and make it a fun expereince!
 
+Think about the questions below:
+
+1. What do you do when you run into a challenge while coding?
+2. What methods help you figure out a coding problem?
+3. How do you handle a stressful coding problem?
+
 
 .. image:: img/helloruby.png
     :width: 400px

@@ -18,6 +18,12 @@ Watch the video below where Greenwood talks about his expereince with coding and
         <iframe width="700" height="350" src= "https://www.youtube.com/embed/m47dDaqnWG0"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </div>
 
+Think about the questions below:
+
+1. Why does Greenwood use coding for music?
+2. Can you tell that Greenwood uses coding in his music?
+3. Did you know that you could make music with code?
+
 
 
 

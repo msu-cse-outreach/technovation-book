@@ -21,5 +21,8 @@ Spotlights
    spotlight8.rst
    spotlight9.rst
    spotlight10.rst
+   spotlight11.rst
+   spotlight12.rst
+   spotlight13.rst
 
 

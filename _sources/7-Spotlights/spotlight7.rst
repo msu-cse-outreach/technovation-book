@@ -13,7 +13,11 @@ Most of PH5's products are produced with the help of programmers, who write the 
 
 Watch the video below to learn more about PH5:
 
+Think about the questions below:
 
+1. What were your thoughts on this video?
+2. Have you thought about combining fashion with code?
+3. How many companies do you think use code?
 
 .. raw:: html
 

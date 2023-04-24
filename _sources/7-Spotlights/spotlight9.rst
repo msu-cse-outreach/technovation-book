@@ -11,7 +11,11 @@ There are many coders that didn't think about learning how to code until later o
 
 From here, Chillisauce was born. Chillisauce is an UK event agencey that provides a unique itinerary to help users book events! Baddiley built this website and never once thought it would blow up this big!
 
+Think about the questions below:
 
+1. When did you learn about coding?
+2. When did you know you wanted to code?
+3. What parts of your life do you think could be improved with code?
 
 .. image:: img/JamesBaddiley.png
     :width: 300px

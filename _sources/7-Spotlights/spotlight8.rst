@@ -19,6 +19,11 @@ Charlene Hunter realized she was interested in coding at a young age. During sch
 
 "Coding Black Females" is a nonprofit organization founded in 2017. This organization provides the oportunity for black female deveolpers to network, receive support, and support relationships with regular meetups.
 
+Think about the questions below:
+
+1. Did you know about this organization?
+2. What coding organizations do you know about?
+3. What kind of coding organizations would you like to be apart of?
 
 .. image:: img/codingblackfemales.png
     :width: 400px

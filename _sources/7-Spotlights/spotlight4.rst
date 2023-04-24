@@ -13,6 +13,13 @@ Sara Chipps has spent many years teaching teenage girls to code and to really sh
 
 One thing about that age is you’re not too keen on things that adults simply tell you are important. I got into software when I was 12 because i wanted to make friends, and I learned that—through my computer—I could do it, and that’s why I learned how to code…It had nothing to do with the fact that someone thought engineering was a good career for me.”
 
+Think about the questions below:
+
+1. Why do you think girls lose interest in STEM jobs?
+2. What coding activities would have gotten you interested in coding?
+3. How would you try to make teenage girls interested in code?
+
+
 .. image:: img/sara-chipps.png
     :width: 600px
     :align: center

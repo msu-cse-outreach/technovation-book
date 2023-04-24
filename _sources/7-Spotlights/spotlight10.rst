@@ -17,6 +17,12 @@ Like many people around the world, software deveolper Tracy Chou was obsessed wi
 
 In 2021, Chou launched "Block Party". "Block Party" is an application that allows users to implent filters on Twitter to filter out abuse. Chou plans to expand her application to all social media platforms to create safe a safe online enviornment everywhere.
 
+Think abou the questions below:
+
+1. Do you use social media?
+2. What do you think of Chou's app?
+3. What else do you think could be done to make social media a safer place for everyone?
+
 .. image:: img/blockparty.png
     :width: 300px
     :align: center
