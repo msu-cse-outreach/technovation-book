@@ -241,7 +241,7 @@ See if you can guess what each does. Then press the button to check if you guess
 
 .. |trinket| raw:: html
 
-    <a href="https://trinket.io/docs/colors" target="_blank">trinket.io/docs/colors</a>
+    <a href="https://coddy.tech/tools/color-converter#named-colors" target="_blank">coddy.tech/tools/color-converter</a>
 
 ..
 

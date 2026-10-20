@@ -22,7 +22,7 @@ Practice Makes Perfect
    ``goto( x, y )``            Move straight to the position with coordinates (x, y). *Note: the center is (0, 0)*
    ``up()``                    Stop leaving a trail
    ``down()``                  Start drawing a trail
-   ``color( c )``              Set the color to *c* (https://trinket.io/docs/colors)
+   ``color( c )``              Set the color to *c* (https://coddy.tech/tools/color-converter#named-colors)
    ``begin_fill()``            Starts filling in drawn shapes
    ``end_fill()``              Stops filling in drawn shapes
    ``speed(number 0-10)``      Determines how quickly the turtle will move through commands

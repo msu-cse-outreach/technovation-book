@@ -25,7 +25,7 @@ pressing the button below.
         
     ``turtle.color(C)``
    
-        Set the pen color to be ``C``, a color string (https://trinket.io/docs/colors).
+        Set the pen color to be ``C``, a color string (https://coddy.tech/tools/color-converter#named-colors).
         
     ``turtle.setheading(A)``
     

@@ -30,7 +30,7 @@ Attendance
    ``goto( x, y )``            Move straight to the position with coordinates (x, y). *Note: the center is (0, 0)*
    ``up()``                    Stop leaving a trail
    ``down()``                  Start drawing a trail
-   ``color( c )``              Set the color to *c* (https://trinket.io/docs/colors)
+   ``color( c )``              Set the color to *c* (https://coddy.tech/tools/color-converter#named-colors)
    ``for i in range( n ):``    Repeat *n* times
    ==========================  =========================
 

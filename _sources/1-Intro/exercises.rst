@@ -135,7 +135,7 @@ value ``"white"``.
 
 
 Run some experiments in which you change the color strings in lines 11 and 12.
-(They need to be legal `Turtle Graphics color strings <https://trinket.io/docs/colors>`_,
+(They need to be legal `Turtle Graphics color strings <https://coddy.tech/tools/color-converter#named-colors>`_,
 for example, ``"red"``, ``"green"``,
 ``"blue"``, ``"yellow"``.
 In Python, strings are characters that are surrounded by quotes.)
